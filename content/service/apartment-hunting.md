@@ -8,7 +8,7 @@ excerpt: Relocating to Paraguay? We help foreigners find the perfect apartment i
 cta_text: Start My Search
 itinerary_label: The Process
 hook: |
-  ## The "Wild West" of Paraguayan Real Estate
+  ## Apartment Hunting in Paraguay's "Wild West" Real Estate Market
 
   If you have tried searching for apartments online in Paraguay, you already know the problem. Listings are scattered across Facebook Marketplace, local classifieds, and unresponsive agency sites. Prices for the same building vary wildly depending on who you ask.
 
@@ -19,6 +19,8 @@ solution: |
   We work for you, not the landlord. We act as your filter. You tell us your budget, your preferred neighborhood (Villa Morra, Carmelitas, Ycua Sati, Las Lomas), and your needs (Pet-friendly? Gym? Pool?).
 
   We scour the market, verify the listings, schedule the viewings in a logical route, and drive you to each one. We ask the hard questions about water pressure, "Expensas" (HOA fees), and internet speed that you might not think to ask.
+
+  Most of our clients are searching the same handful of [Asunción](https://en.wikipedia.org/wiki/Asunci%C3%B3n) neighborhoods — Villa Morra, Carmelitas, Recoleta — and knowing which buildings actually deliver on their listing photos is most of the job.
 itinerary:
   - title: The Consultation
     body: We hop on a call (or meet for coffee) to define your "Must-Haves" vs "Nice-to-Haves." We explain the realistic price ranges for each neighborhood.

@@ -3,76 +3,111 @@ type: page
 title: Frequently Asked Questions
 status: published
 published_at: 2025-07-24T00:00:00Z
-excerpt: ""
-meta_title: ""
-meta_description: ""
+excerpt: Straight answers to the questions we get most — safety, language, money, water, the residency process and what actually makes us different.
+meta_title: Paraguay Travel FAQ — Safety, Money & More
+meta_description: Honest answers to the questions travelers ask most about Paraguay — safety, language, cash vs card, tap water, residency and Uber.
+focus_keyword: paraguay travel faq
 source: wp-scan
 ---
 
-## Frequently Asked Question
+## You have questions, we have answers
 
-## You Have Questions. We Have Answers.
+Paraguay is still an off-the-beaten-path destination, so it's normal to have doubts.
+Whether you're coming for a 3-day trip or a lifetime move, clarity is the first step to a
+good one — here's what people actually ask us before they book.
 
-Paraguay is an "off-the-beaten-path" destination, so it is normal to have doubts. Whether you are coming for a 3-day adventure or a lifetime move, we believe clarity is the first step to a great trip.
+### Is Paraguay safe for tourists?
 
-Is Paraguay safe for tourists?
+Compared with its neighbours, Paraguay is statistically calmer on violent crime, though
+petty crime exists in the bigger cities the way it does anywhere. Our honest advice: skip
+walking alone at night through downtown Asunción or Ciudad del Este. When you book a
+[private driver](/private-driver/) or one of our [tours](/tours/), you're in a bubble of
+local knowledge — we know which streets are fine and which aren't, and route around the
+ones that aren't. For a broader read on the topic, see our post on
+[whether Paraguay is safe](/is-paraguay-safe/).
 
-The Honest Answer: Compared to its neighbors (Brazil/Argentina), Paraguay is statistically safer regarding violent crime. However, petty crime exists in major cities. Our Advice: We advise clients to avoid walking alone at night in downtown Asunción or Ciudad del Este. When you book our private drivers or tours, you are in a "bubble" of safety. We know exactly which streets are safe and which to avoid.
+### Do I need to speak Spanish?
 
-Do I need to speak Spanish?
+In Asunción's better hotels and restaurants you'll find some English. In the interior,
+almost none — Guaraní and Spanish are the norm there. That's a large part of why our
+service exists: Anton, Yanina and the team speak fluent English and act as translators
+and fixers, so a language gap never turns into a lost afternoon.
 
-In Asunción: At high-end hotels and restaurants, you will find some English speakers. In the Interior: English is almost non-existent. Guaraní and Spanish are the norm. How We Help: This is why our service is essential. Anton, Yanina and our team speak fluent English. We act as your translators and fixers so you never feel lost or misunderstood.
+### When is the best time to visit?
 
-When is the best time to visit?
+The sweet spot is roughly March–May and September–November, when temperatures are
+pleasant rather than extreme. Summer (December–February) runs hot, often well past
+30°C, and if you visit then we schedule outdoor time for the morning and lean on
+air-conditioned vehicles. Exact seasonal averages shift year to year, so check a current
+forecast close to your travel dates rather than planning around a fixed number.
 
-The Sweet Spot: March to May (Autumn) and September to November (Spring). The temperatures are pleasant (20°C - 30°C). The Extreme: Summer (Dec-Feb) is very hot (often 40°C+). If you visit then, we schedule tours early in the morning and prioritize air-conditioned vehicles and pools.
+### Cash or card — how do payments work?
 
-Cash or Card? How do payments work?
+Major cards are accepted in malls, supermarkets and the nicer restaurants in Asunción.
+For taxis, street food, small crafts or anywhere outside the capital, you'll want cash in
+guaraníes. We recommend bringing clean, undamaged USD bills to exchange on arrival — worn
+or marked notes get rejected more often than travelers expect. ATMs are widely available
+but foreign cards usually pay a withdrawal fee, so check current rates with your bank
+before you rely on them.
 
-The Mix: Major credit cards are accepted in malls, supermarkets, and nice restaurants in Asunción. The Reality: For taxis, street food, small crafts, or rural towns, you need cash (Guaranies - PYG). Tip: We recommend bringing USD (clean, new bills) to exchange here. ATMs are widely available but charge high withdrawal fees for foreign cards.
+### Can I drink the tap water?
 
-Can I drink the tap water?
+In Asunción the tap water is treated and technically potable, but the mineral balance
+differs enough from what most visitors are used to that it can upset a sensitive stomach.
+We suggest sticking to bottled water for the length of a short trip so a stomach bug
+doesn't cost you a day of it.
 
-In Asunción: The tap water is treated and technically potable, but the mineral content is different and can upset sensitive stomachs. Our Recommendation: We strongly advise all our international clients to stick to bottled water to ensure your trip isn't ruined by a stomach bug.
+### How does the residency process work?
 
-How does the Residency Process work?
+Most applicants start with temporary residency before converting to permanent status
+later. You'll generally need several working days in the country to file the paperwork
+in person, and processing the card itself takes some months — during which you're free
+to leave and re-enter. Requirements and timelines change, so treat this as a starting
+orientation rather than the final word, and see our
+[residency service](/paraguay-residency-service/) page for how we help with it, or
+[cost of living in Paraguay](/cost-of-living-paraguay/) if you're still deciding whether
+to move at all.
 
-The New Law: As of late 2022, most applicants start with a Temporary Residency (valid for 2 years) before converting to Permanent. The Timeline: You generally need to be in Paraguay for about 3-5 working days to file the paperwork with us. The card takes a few months to process, but you can leave the country while you wait.
+### Is Uber reliable in Paraguay?
 
-Is Uber reliable in Paraguay?
+Uber and Bolt both operate and are inexpensive, but the cars can be small, not always
+well maintained, and drivers occasionally cancel longer trips. For airport runs, business
+meetings or anything time-sensitive, our [private driver service](/private-driver/) uses
+a fixed, professional vehicle and driver who won't leave you stranded.
 
-Yes and No: Uber and Bolt exist and are cheap. However, the cars are often very small, sometimes in poor condition, and drivers may cancel if the trip is too long. Why Book Us: For airport transfers, business meetings, or long trips, our Private Driver service guarantees a safe, modern vehicle and a professional driver who won't cancel on you.
+### What makes your agency different?
 
-What makes your agency different?
+Most agencies are either fully local — and miss what international travelers expect — or
+fully foreign-run, and miss the local knowledge that makes a trip worthwhile. We're the
+hybrid: Anton runs the logistics with Scandinavian precision, Yanina curates the
+experience and the visuals with a photographer's eye for the country she grew up in. Read
+more about how we work on the [about page](/about/).
 
-The Blend: Most agencies are either 100% local (and don't understand international expectations) or 100% foreign (and don't know the local secrets). Anton & Yanina: We are the hybrid. Anton ensures the logistics are Swiss-watch precise. Yanina ensures the experience is visually beautiful and culturally deep. You get the best of both worlds.
+## Still have a question?
 
-Your trip is unique, and you might have a specific question that isn't listed here. Don't rely on outdated blogs or Reddit threads. Ask the locals who are on the ground right now.
+If your situation isn't covered above, ask us directly — we'd rather give you a specific
+answer than have you guess from a blog post. Our current guidance follows the general
+framework in the
+[U.S. State Department's Paraguay travel advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/paraguay-travel-advisory.html),
+adjusted for what we actually see on the ground.
 
-[Ask Question]
+[Ask us on the contact page](/contact/)
 
-## Message us today!
+## What past clients say
 
-Whether you need a quick tip about the weather or a quote for a 10-day expedition, Anton or Yanina will get back to you personally.
+> "I came to Asunción to scout investment properties and was worried about 'Latin time.'
+> Anton had the itinerary planned down to the minute. The driver was professional, the
+> car was pristine, and I got more done in two days than I expected in a week." —
+> Thomas W., investor, USA
 
-[Send message]
+> "We didn't want a boring history tour, and Yanina understood that. She took us to a
+> hidden ceramic workshop in Areguá where we drank tereré with the artisan — it felt like
+> visiting a friend, not a tour." — Sarah & Mark, family trip, UK
 
-Visit Asunción — View More
+> "I'd read horror stories about the immigration office. This team handled everything —
+> picked me up, walked me to the front of the line, translated every document. Worth it
+> for the peace of mind alone." — Jonas B., digital nomad, Sweden
 
-visit Encarnación — View More
-
-visit Ciudad del Este — View More
-
-visit Chaco — View More
-
-visit San Bernardino — View More
-
-[Testimonials]
-
-"I came to Asunción to scout investment properties and was worried about 'Latin time.' Anton had the itinerary planned down to the minute. The driver was professional, the car was pristine, and I got more done in 2 days than I expected to do in a week. Highly recommended for business travelers." — Thomas W. (Investor, USA)
-
-"We didn't want a boring history tour. Yanina understood that. She took us to a hidden ceramic workshop in Areguá where we drank Tereré with the artisan. It felt like visiting a friend, not a tour. Her eye for photography also meant we went home with incredible family photos." — Sarah & Mark (Family Trip, UK)
-
-"I had read horror stories about the immigration office. This team handled everything. They picked me up, walked me to the front of the line, translated every document, and bought me coffee while we waited. I felt completely protected. Worth every penny for the peace of mind." — Jonas B. (Digital Nomad, Sweden)
-
-"I was nervous to explore the Chaco alone. Yanina designed a custom itinerary that balanced adventure with safety. I never felt unsafe, and the guides they chose were respectful and knowledgeable. A boutique service that actually cares." — Elena G. (Photographer, Germany)
+> "I was nervous about exploring the Chaco alone. Yanina designed a custom itinerary that
+> balanced adventure with safety, and the guides she chose were respectful and
+> knowledgeable." — Elena G., photographer, Germany

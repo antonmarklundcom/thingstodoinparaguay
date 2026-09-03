@@ -3,108 +3,91 @@ type: page
 title: Paraguay Tourism Guide
 status: published
 published_at: 2025-07-24T00:00:00Z
-excerpt: ""
-meta_title: ""
-meta_description: ""
+excerpt: A digital travel guide to Paraguay covering logistics, destinations and culture — written by locals, for readers planning a trip or a move.
+meta_title: Paraguay Tourism Guide — Digital Travel Guide
+meta_description: A digital Paraguay travel guide covering logistics, destinations and culture, written by locals who live here — ask us for current details.
+focus_keyword: paraguay tourism guide
 source: wp-scan
 ---
 
-## The Ultimate Paraguay Travel Guide (2025 Edition)
+## The Paraguay travel guide most sites don't bother writing
 
-Download the essential digital guidebook for Paraguay. 150+ pages of local tips, hidden gems, safety advice, and itineraries. Written by locals, updated for 2025. PDF Download.
+If you've tried researching a trip here, you've probably hit the problem already: the
+big travel blogs are years out of date, official tourism sites are often only in Spanish,
+and the mainstream guidebooks give Paraguay a page or two at most. You're left piecing
+things together from old forum threads and vague Instagram captions, unsure whether the
+bus schedule you found is even still accurate.
 
-## The Guidebook That Google Can't Replace
+## Why we put this together
 
-Most travel books give Paraguay 5 pages. We gave it a whole book. Discover the real Paraguay with the most comprehensive, up-to-date, and visually stunning digital guide on the market. Written by locals, designed for travelers.
+We got tired of watching travelers arrive confused about things that should have been
+easy to check in advance. This guide combines practical logistics — visas, currency
+exchange, SIM cards, safety by neighbourhood — with the local knowledge that only comes
+from actually living here.
 
-DOWNLOAD NOW
+## What's inside
 
-## "Why is it so hard to find info on Paraguay?"
+**Logistics** — visa requirements, where not to get ripped off exchanging currency, SIM
+cards, and safety notes by area. Ask us for the current edition rather than relying on a
+cached copy, since entry requirements and prices change.
 
-If you are planning a trip here, you have probably noticed the problem:
+**Destinations** — orientation for Asunción, Encarnación, the [Jesuit missions](/jesuit-ruins-tour/),
+the Chaco, and the [waterfalls of the interior](/waterfalls-paraguay/).
 
-The big travel blogs are 5 years outdated.
+**Culture** — how to drink tereré without causing offence, the Triple Alliance War
+explained simply, and everyday etiquette around tipping and greetings.
 
-The government websites are broken or only in Spanish.
+**Itineraries** — suggested routes for short, medium and longer stays, so you're not
+starting the planning from a blank page.
 
-"Lonely Planet" barely mentions the country.
+## Format
 
-You are left scrolling through Reddit threads and vague Instagram posts, unsure if the bus schedules are real or if the hotels still exist.
+Delivered as a digital, high-resolution PDF with clickable links, readable on a phone,
+tablet or laptop — no shipping, no waiting. Since we update it as things change on the
+ground rather than on a fixed schedule, ask us for the current version and price when
+you're ready rather than assuming an old figure still applies.
 
-## The Missing Manual
+## Frequently asked questions
 
-We got tired of seeing travelers lost and confused. So, we wrote the guide we wish we had.
+### Is this a physical book?
 
-This isn't just a list of hotels. It is a curated cultural compass. We combine the practical logistics (bus routes, safety, costs) with the local secrets that only residents know. It is designed to be read on your phone while you are on the road.
+No — it's a digital PDF. That keeps the price down and lets us update it as things
+change, though you're welcome to print it if you prefer paper.
 
-## What's Inside?
+### How do I get the file?
 
-## The Logistics
+You'll receive a download link by email after asking us for the current edition — see
+our [contact page](/contact/) to request it.
 
-Visa requirements, currency exchange (where not to get ripped off), SIM cards, and safety tips for every neighborhood.
+### Is it up to date?
 
-## The Destinations
+We update it as things change on the ground rather than on a fixed yearly cycle, so ask
+us for the current revision date if that matters for your trip.
 
-Detailed guides for Asunción, Encarnación, The Jesuit Ruins, The Chaco, and the hidden waterfalls of the interior.
+### I'm moving to Paraguay — is this for me?
 
-## The Culture Code
+Partly. It leans toward visitors rather than relocation logistics — for moving here, see
+our [residency service](/paraguay-residency-service/) and our post on
+[cost of living in Paraguay](/cost-of-living-paraguay/) instead.
 
-How to drink Tereré without offending anyone. The history of the Triple Alliance War explained simply. How to tip and how to greet locals.
+### Can I read it offline?
 
-## Curated Itineraries
+Yes. Once downloaded, the PDF lives on your device — no wifi needed, which matters if
+you're reading it on a long bus ride through the Chaco.
 
-Pre-planned routes for 3 days, 7 days, and 14 days. We did the planning so you don't have to.
+### Do you offer refunds?
 
-## Why Buy This Guide?
+Ask us directly if something isn't right — we'd rather sort it out than have you feel
+stuck with a purchase that didn't work for you.
 
-## Visual & Beautiful
+Still have a question the list above didn't cover? [Ask us directly](/contact/) — Anton
+or Yanina will answer personally rather than pointing you back to this page.
 
-## Always Up-to-Date
+## Carry a local in your pocket
 
-## Instant Access
-
-As photographers and designers, we hate ugly guidebooks. This guide is filled with stunning full-color photography and clear, custom-designed maps. It's a joy to read.
-
-Printed books are obsolete the moment they are published. Our digital guide is updated quarterly. When a restaurant closes or a bus route changes, we update the file.
-
-No shipping. No waiting. Download the PDF immediately to your phone, tablet, or laptop and start planning tonight.
-
-## Practical Information
-
-Format: High-Resolution PDF (Interactive Links).
-
-Pages: 150+ (Example).
-
-Language: English (Spanish version available separately).
-
-Device: Compatible with iPhone, Android, Kindle, iPad, Laptop.
-
-[Note: the "Format / Pages / Language / Device" block above appears TWICE, back to back, verbatim, in the raw page text — a render duplication bug, see Issues below.]
-
-## FAQ
-
-Is this a physical book?
-
-No, this is a Digital Product (PDF). This allows us to keep the price low and the information current. You can print it if you prefer paper!
-
-How do I get the file?
-
-Is it current for 2025?
-
-I'm moving to Paraguay. Is this for me?
-
-Can I read it offline?
-
-Yes. Once downloaded, the PDF lives on your device. You don't need WiFi to read it—perfect for when you are exploring the Chaco or on a long bus ride.
-
-Do you offer refunds?
-
-[... standard "Still have a question" block ...]
-
-ASK QUESTION
-
-## Carry a Local in Your Pocket.
-
-For the price of a single airport lunch, get the knowledge that will save you hundreds of dollars and hours of frustration.
-
-BUY & DOWNLOAD
+For less than the cost of a single meal out, get the kind of knowledge that saves you
+real time and a few wrong turns. [Get in touch](/contact/) to ask about the current guide,
+or start with our free posts on [what to do in Asunción](/what-to-do-in-asuncion/) and
+[Paraguay's national parks](/paraguay-national-parks/) if you want a taste first. For a
+broader reference on the country, see
+[Wikipedia's overview of Paraguay](https://en.wikipedia.org/wiki/Paraguay).
