@@ -92,7 +92,7 @@ phases never alter it except via a new numbered migration in an O-phase.
 
 ## 3. Feature scope
 
-Core (O1): routing, templates, SEO layer, redirects, seed import, WP export tool, verify script, CI.
+Core (O1): routing, templates, SEO layer, redirects, seed import, scan importer, verify script, CI.
 Core (O2): admin panel, media pipeline, SEO score, cache invalidation, backup export.
 Design (S3): visual system, all public templates, forms, WhatsApp, performance, imagery.
 Content (S4): 33 real posts, tour FAQ gaps, bug-fixed page copy, hub pages, metadata, alt text, links.
