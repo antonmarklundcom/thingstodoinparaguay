@@ -4,9 +4,8 @@ declare(strict_types=1);
 /**
  * Builds content/ from docs/wp-scan.md + docs/url-map.csv.
  *
- * This is the fallback path required by plan §5.1 when the live WordPress REST
- * API cannot be reached. bin/wp-export.php calls it with --from-scan; it is also
- * runnable on its own. Re-runnable: existing files are overwritten only when
+ * `docs/wp-scan.md` is the only source of old content (plan §1.13) — there is no
+ * WordPress export tooling. Re-runnable: existing files are overwritten only when
  * --force is given, so hand edits by later phases survive.
  *
  * Usage: php bin/scan-import.php [--force] [--quiet]
@@ -196,7 +195,9 @@ foreach ($rows as $row) {
         if ($type === 'post') {
             if ($lorem === null) {
                 $lorem = '';
-                if (preg_match('/## Common Placeholder Body Copy.*?\n\n((?:> .*\n|>\n)+)/s', file_get_contents($scanPath) ?: '', $m)) {
+                // `[^\n]*`, not `.*`: with the /s modifier a dot would swallow the
+                // rest of the scan and paste it into all 32 post bodies.
+                if (preg_match('/## Common Placeholder Body Copy[^\n]*\n\n((?:>[^\n]*\n)+)/', file_get_contents($scanPath) ?: '', $m)) {
                     $lorem = trim((string) preg_replace('/^> ?/m', '', $m[1]));
                 }
             }

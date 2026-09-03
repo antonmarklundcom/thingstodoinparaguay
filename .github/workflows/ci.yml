@@ -11,7 +11,7 @@ jobs:
       - uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
-          extensions: pdo_sqlite, sqlite3, gd, mbstring
+          extensions: pdo_sqlite, sqlite3, gd, mbstring, curl, simplexml
       - name: Lint PHP
         run: |
           set -e

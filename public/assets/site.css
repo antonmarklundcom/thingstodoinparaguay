@@ -1,0 +1,85 @@
+/*
+ * Phase O1 base stylesheet — legibility only, no visual design.
+ * Phase S3 replaces this file wholesale (plan §6.1); nothing here is precious.
+ */
+
+:root {
+    color-scheme: light;
+    --measure: 68ch;
+    --ink: #1b1b1b;
+    --muted: #5a5a5a;
+    --rule: #d8d8d8;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    padding: 0 1.25rem 4rem;
+    font: 400 1rem/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: #fff;
+}
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+}
+.skip-link:focus {
+    position: static;
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.site-header, .breadcrumbs, main, .site-footer {
+    max-width: var(--measure);
+    margin-inline: auto;
+}
+
+.site-header { padding: 1.5rem 0 0.5rem; }
+.brand { margin: 0 0 0.5rem; font-size: 1.125rem; font-weight: 700; }
+.brand a { text-decoration: none; }
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.breadcrumbs { padding: 0.5rem 0; font-size: 0.875rem; color: var(--muted); }
+.breadcrumbs ol { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0; padding: 0; list-style: none; }
+.breadcrumbs li + li::before { content: "/"; margin-right: 0.5rem; color: var(--rule); }
+
+h1 { font-size: 1.875rem; line-height: 1.2; margin: 1rem 0; }
+h2 { font-size: 1.375rem; line-height: 1.3; margin: 2rem 0 0.75rem; }
+h3 { font-size: 1.125rem; margin: 1.25rem 0 0.5rem; }
+
+img { max-width: 100%; height: auto; }
+
+.grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); }
+.card { border: 1px solid var(--rule); border-radius: 4px; padding: 0.75rem 1rem; }
+.card h3 { margin-top: 0; }
+.card-meta, .post-meta { font-size: 0.875rem; color: var(--muted); }
+
+.facts dl, .practical dl, .faq dl { margin: 0; }
+.facts dt, .practical dt, .faq dt { font-weight: 700; margin-top: 0.75rem; }
+.facts dd, .practical dd, .faq dd { margin: 0.25rem 0 0; }
+
+.pagination ul { justify-content: center; }
+.link-list { columns: 2 14rem; }
+
+.site-footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    font-size: 0.9375rem;
+}
+.copyright { color: var(--muted); }
+
+@media (prefers-color-scheme: dark) {
+    :root { color-scheme: dark; --ink: #ececec; --muted: #a6a6a6; --rule: #3a3a3a; }
+    body { background: #141414; }
+}
