@@ -285,6 +285,28 @@ reason is logged); PR merged; final closing report per the prompt file.
 - 2026-09-03 — Planning session (Fable). Repo was empty. Added `plan.md`, `prompts/`, `docs/`
   (scan, brief, url-map.csv), CI skeleton, README, KNOWN-ISSUES.md. Next: O1 branches from `main`
   once the plan PR is merged. Look first at `docs/url-map.csv` and §5.1.
+- 2026-09-03 — **O1 part 1 (Opus)**, PR `phase/o1-foundation`. **Phase O1 is NOT complete** — the
+  session was stopped early on Anton's instruction (usage budget); this PR is a reviewed, green,
+  self-contained slice, not the O1 exit. What now exists: `db/schema.sql` (the COMPLETE §2 object
+  model, idempotent) + `bin/migrate.php`; `config/config.php` + `.env.example`; `src/` core
+  (`Db`, `Yaml`, `FrontMatter`, `Markdown`, `Str`, `UrlMap`, `HtmlToMarkdown`, `ScanImport`,
+  `TourParser`, `Repo/{Content,Category,Redirect,Settings,Media}Repo`); Parsedown 1.7.4 vendored
+  with its MIT licence; `bin/wp-export.php`, `bin/scan-import.php`; and `content/` — 69 seed files
+  (32 posts, 5 pages, 18 tours, 7 services, 6 categories) covering every `keep` row of the URL map.
+  Decisions: (1) **the live WP REST API is unreachable from this environment** — the egress proxy
+  denies `thingstodoinparaguay.com` (403 on CONNECT, confirmed via curl and WebFetch), so the plan's
+  documented fallback was taken and `content/` is built from `docs/wp-scan.md`; `bin/wp-export.php`
+  is written, tested against the real endpoint, and auto-falls back, so Anton can re-run it from an
+  unrestricted network to pull real bodies and images. (2) Legacy images could not be downloaded;
+  the old filename is recorded as `legacy_cover` and no template will point at a missing file.
+  (3) Seed front matter is YAML-lite (JSON also accepted) so S4 can hand-write posts comfortably.
+  (4) A few additive columns beyond §2 (`content_items.source/content_hash`,
+  `tour_details.tagline/itinerary_label/closing_md`, `categories.sort_order`, `redirects.created_at`)
+  — needed for idempotent seeding and to hold the real tour template. (5) Post titles use the
+  verbatim WP `<title>` from the scan, which is richer than `url-map.csv`'s label column.
+  **Next session starts here:** `docs/o1-status.md` lists the remaining O1 work in order —
+  router + front controller, SEO layer, templates, `bin/seed.php`, `bin/verify.php`, CI wiring,
+  README. Read that file first, then `docs/content-gaps.md`.
 
 ## 10. Backlog
 
