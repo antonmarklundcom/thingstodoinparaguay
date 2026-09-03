@@ -13,7 +13,7 @@ focus_keyword: "asuncion bus terminal"
 
 The Asunción bus terminal, officially the Terminal de Ómnibus de Asunción and known locally simply as "la Terminal", is the hub almost every overland trip in Paraguay eventually passes through. It sits on Avenida Fernando de la Mora in the Sajonia area, a short taxi or rideshare ride from the city centre, and it's where dozens of bus companies run everything from local city routes to long-distance coaches to Encarnación, Ciudad del Este, the Chaco, and international services to Buenos Aires and São Paulo. For a country without passenger rail, the bus terminal is genuinely the backbone of getting around.
 
-## What to expect inside
+## What to expect inside the Asunción bus terminal
 
 The terminal is a large, functional building organised around ticket counters (boleterías) for the different bus companies, each with its own window and its own schedules and prices posted. It can feel a little overwhelming on a first visit, since there's no single unified timetable board the way some European or North American stations have it, so you generally walk the row of counters and compare. Company names to look out for include the larger long-distance operators that run the Asunción–Ciudad del Este and Asunción–Encarnación corridors frequently throughout the day, as well as smaller regional companies serving specific towns.
 

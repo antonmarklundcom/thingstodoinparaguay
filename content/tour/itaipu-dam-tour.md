@@ -8,7 +8,7 @@ excerpt: Visit the Itaipu Hydroelectric Dam, one of the Seven Modern Wonders of 
 cta_text: See The Giant
 itinerary_label: The Treasures
 hook: |
-  ## A Structure You Have to See to Believe
+  ## Why Our Itaipu Dam Tour Is the Easiest Way to See It
 
   You can read the statistics—7.9 million cubic meters of concrete, enough to build 210 football stadiums—but numbers don't capture the feeling. Standing at the base of the Itaipu Dam makes you feel small. It is a humbling reminder of the power of the Paraná River.
 
