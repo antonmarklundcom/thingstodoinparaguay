@@ -72,12 +72,13 @@ closing: |
 duration: Full Day (approx. 7-8 hours).
 transport: Private SUV/Truck.
 price_usd: null
-meta_title: ""
-meta_description: ""
+meta_title: "Salto Cristal Tour: Paraguay's Hidden Waterfall"
+meta_description: "Join a guided Salto Cristal tour to a 45-meter waterfall near Paraguarí — 4x4 transport, a guided hike, and a swim in the natural pool."
+focus_keyword: salto cristal tour
 source: wp-scan
 ---
 
-Explore Salto Cristal, a breathtaking 45-meter waterfall hidden in the forest. Adventure tour with 4x4 transport and guide. Hike, swim, and disconnect from the world.
+This Salto Cristal tour takes you to a breathtaking 45-meter waterfall hidden in the forest. Adventure travel with 4x4 transport and a guide — hike, swim, and disconnect from the world.
 
 Deep in the green heart of Paraguarí lies Salto Cristal; a massive 45-meter veil of water crashing into a natural crystal-clear pool. It is wild, remote, and the ultimate escape for those who want to touch real nature.
 

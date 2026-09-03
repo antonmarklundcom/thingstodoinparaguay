@@ -15,7 +15,19 @@ solution: |
   ## The Hidden Garden Dinner
 
   Some of Asunción's best restaurants are hidden behind walls of jasmine and ivy in the residential districts like Villa Morra. We guide you to these atmospheric sanctuaries where the setting is as memorable as the food.
-itinerary: []
+
+  Want a broader taste of the country beyond a single dinner? Pair this with our [Paraguayan food tour](/food-paraguay-tour/), or stop by [Villa Morra's food park](/villa-morra-food-park/) for something more casual between fine-dining nights.
+itinerary:
+  - title: The Consultation
+    body: Tell us your taste, budget, and the occasion — a business dinner, a romantic night out, or a group celebration — plus any dietary restrictions we should pass along to the kitchen.
+  - title: The Reservation
+    body: We secure your table at the right restaurant for the occasion, from a hidden garden restaurant in Villa Morra to a classic parrilla, working around the long wait times these places often have.
+  - title: The Pickup
+    body: We collect you from your hotel or Airbnb in a private, air-conditioned vehicle so you arrive relaxed instead of navigating unfamiliar streets or a rideshare app.
+  - title: The Dinner
+    body: Your guide translates the menu, explains the cuts and preparations, and helps settle the bill if you'd like, while you focus on the food and the company.
+  - title: The Return
+    body: We're waiting outside when you're ready to leave — no standing on a curb trying to explain your hotel's address in Spanish at the end of the night.
 why:
   - title: Access & Exclusivity
     body: Top-tier restaurants in Asunción often have long wait times or difficult reservation systems. We leverage our local contacts to secure your spot, ensuring you don't spend your evening waiting in a lobby.
@@ -44,9 +56,9 @@ faq:
   - q: Is the "Parrilla" (Grill) suitable for children?
     a: Yes, Paraguayans love children and restaurants are very family-friendly. Many larger steakhouses even have dedicated "Kids Zones" with nannies. If you are traveling with family, let us know, and we will select a venue that keeps the kids entertained while you enjoy your wine.
 closing: |
-  ## Don't Eat Like a Tourist. Eat Like a King.
+  ## Your Restaurants Asuncion Guide, Ready When You Are
 
-  Your table is waiting. Let us handle the details while you prepare your palate.
+  Your table is waiting. Let us handle the details while you prepare your palate. Curious about the roots of what's on the menu? [Paraguayan cuisine](https://en.wikipedia.org/wiki/Paraguayan_cuisine) blends indigenous Guaraní ingredients with Spanish, German, and Italian influences, and it shows in almost everything we'll recommend.
 
   [Book My Dining Experience]
 duration: "Flexible (typically 3 hours). Pickup/Drop-off: Included for all major hotels and Airbnbs in Asunción. Group Size: Perfect for couples, business groups, or solo foodies. What is Included: Private transportation, Concierge/Translator service, Table Reservation management. Not Included: The cost of the meal. You pay the restaurant directly. This gives you total freedom to order a $20 meal or a $200 meal depending on your appetite and budget."

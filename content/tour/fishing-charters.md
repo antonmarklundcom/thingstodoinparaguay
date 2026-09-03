@@ -8,7 +8,7 @@ excerpt: World-class sport fishing on the Paraná and Paraguay Rivers. Catch the
 cta_text: Book My Fishing Trip
 itinerary_label: The Targets (What We Catch)
 hook: |
-  ## A River of Giants
+  ## Fishing Charters on a River of Giants
 
   Paraguay is a bucket-list destination for serious anglers. The massive river systems here are teeming with life. We aren't talking about small panfish; we are talking about the Surubí (a catfish that can weigh 50kg+) and the Dorado (famous for its acrobatic jumps and steel-trap jaws).
 

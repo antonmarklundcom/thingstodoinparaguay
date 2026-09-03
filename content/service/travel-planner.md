@@ -79,7 +79,7 @@ focus_keyword: travel planner
 source: wp-scan
 ---
 
-Let local experts design your perfect Paraguay itinerary. We build custom day-by-day plans, route maps, and hotel recommendations based on your interests and budget.
+Let a local travel planner design your perfect Paraguay itinerary. We build custom day-by-day plans, route maps, and hotel recommendations based on your interests and budget.
 
 Planning a trip to Paraguay can be frustrating. Information online is scarce, bus schedules are a mystery, and "Google Maps" doesn't tell you which roads are safe. We design a hyper-detailed, custom itinerary just for you, so you can travel with the confidence of a local.
 
