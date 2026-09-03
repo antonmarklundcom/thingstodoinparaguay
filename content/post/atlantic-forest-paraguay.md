@@ -19,7 +19,7 @@ The Atlantic Forest is consistently ranked among the world's biodiversity hotspo
 
 Deforestation for soy and cattle expansion through the twentieth century hit this region especially hard, and what's left is largely protected in a patchwork of national parks, private reserves and indigenous territories. Conservation efforts here (reforestation corridors, anti-poaching patrols, ecotourism income for local communities) are a genuine, ongoing story, not a finished one, and visitors who come with realistic expectations tend to leave more impressed than those expecting a manicured nature park.
 
-## Where to actually see it
+## Where to see the Atlantic Forest Paraguay protects
 
 The most accessible entry points are protected areas in Paraguay's eastern departments. San Rafael National Park and the Mbaracayú Forest Nature Reserve are among the best-known remnants, both requiring some planning and often a local guide, since trails aren't as developed as in more touristed countries. Closer to the triple-border area, smaller private reserves and eco-lodges built around Atlantic Forest fragments offer shorter, more guided visits, a good option if you're short on time or new to jungle hiking. If you're already headed toward [Ciudad del Este](/exploring-ciudad-del-este/) for the falls or Itaipu Dam, building in a day at one of these forest fragments is a manageable add-on rather than a separate expedition.
 

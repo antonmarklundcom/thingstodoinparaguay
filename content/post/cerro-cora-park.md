@@ -10,12 +10,12 @@ legacy_cover_alt: cerro cora
 excerpt: "Cerro Corá National Park mixes dramatic rock outcrops, Cerrado wildlife and the site of Paraguay's most significant historical battle in one remote park."
 meta_title: "Cerro Corá National Park: Hiking & History Guide"
 meta_description: "Plan a visit to Cerro Corá National Park: rock formations, Cerrado wildlife, and the site of the Triple Alliance War's final battle in Paraguay."
-focus_keyword: "cerro cora national park"
+focus_keyword: "cerro cora"
 ---
 
 Tucked in Paraguay's far north, close to the Brazilian border in Amambay department, Cerro Corá National Park is one of the country's most striking protected areas and also one of its least visited by international tourists, which is exactly why it rewards the trip. It combines dramatic granite outcrops rising out of Cerrado grassland, genuinely good wildlife-watching, and a weight of national history that makes it feel different from a purely scenic park.
 
-## A landscape unlike the rest of Paraguay
+## The Cerro Corá landscape
 
 Where much of eastern Paraguay is rolling farmland and the Chaco is flat thornscrub, Cerro Corá sits in a transition zone with striking isolated rock formations (inselbergs) jutting out of open grassland and patches of forest. The terrain makes for genuinely rewarding hiking, with several trails leading up to viewpoints over the surrounding plains. Wildlife here reflects the Cerrado biome that dominates this part of the park, distinct from the wetter forest further south, and patient visitors have a real chance of spotting armadillos, a wide range of birds, and, with considerable luck, larger mammals that use the park's more remote corners.
 

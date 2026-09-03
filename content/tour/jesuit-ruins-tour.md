@@ -8,7 +8,7 @@ excerpt: Visit the UNESCO Jesuit Missions of Trinidad and Jesús de Tavarangue. 
 cta_text: Book My Expedition
 itinerary_label: The Treasures
 hook: |
-  ## The "Lost Cities" of South America
+  ## Our Jesuit Ruins Tour to South America's "Lost Cities"
 
   You have seen the movie "The Mission." You know the history. But nothing prepares you for the scale of seeing these massive red sandstone cities in person.
 
