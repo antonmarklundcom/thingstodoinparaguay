@@ -22,14 +22,31 @@ Requires PHP 8.2+ with `pdo_sqlite`, `gd`, `mbstring` and `curl`. Nothing else �
 cp .env.example .env          # every value already has a safe default
 php bin/migrate.php           # create data/site.sqlite from db/schema.sql
 php bin/seed.php              # import content/ and docs/url-map.csv
+php bin/create-admin.php      # the account /admin/ signs in with
 php -S localhost:8080 -t public public/index.php
 ```
 
-Then open <http://localhost:8080/>. `public/index.php` doubles as the router script for the built-in
-server, so real files under `public/` (CSS, images) are still served directly.
+Then open <http://localhost:8080/>, and <http://localhost:8080/admin/> for the panel.
+`public/index.php` doubles as the router script for the built-in server, so real files under
+`public/` (CSS, images) are still served directly.
 
 The HTML page cache is off when `APP_ENV=dev`, so template edits show up on reload. Set `CACHE_TTL`
-explicitly to exercise it locally.
+explicitly to exercise it locally. Nothing under `/admin/` is ever cached.
+
+### The admin panel
+
+`/admin/` is the publishing panel (plan §5.2): session login with bcrypt passwords, a CSRF token on
+every mutating request and a five-attempt lockout. `docs/admin-guide.md` is the guide for whoever
+publishes; the short version for developers:
+
+- `src/Admin/App.php` routes and controls it; `src/Admin/ContentWriter.php` owns every write to
+  `content_items`, including the 301 a slug change leaves behind and the cache paths it clears.
+- `src/SeoScore.php` is the one implementation of the score — the editor and `bin/seo-audit.php`
+  both call it, so they can never disagree.
+- `src/Uploader.php` validates an upload by its real mime type and writes 400/800/1600 px WebP plus
+  the original format into `public/media/YYYY/MM/`.
+- `public/assets/admin/` holds the panel's CSS and its editor JavaScript. Both are written for this
+  project and vendored here: no CDN, no build step.
 
 ## Scripts
 
@@ -42,6 +59,9 @@ explicitly to exercise it locally.
 | `php bin/test.php [filter]` | Unit and integration tests from `tests/*.test.php`. |
 | `php bin/cache-clear.php [paths…]` | Empties the HTML page cache, or just the paths you name. |
 | `php bin/scan-import.php --force` | Rebuilds `content/` from `docs/wp-scan.md` — the only source of old content (plan §1.13). |
+| `php bin/create-admin.php` | Creates the `/admin/` account, or resets its password. `--list` shows who has one. |
+| `php bin/seo-audit.php [--details] [--strict]` | The SEO score (`src/SeoScore.php`) for every published item. `--strict` is phase S4's gate: ≥ 80 everywhere and no Lorem Ipsum. |
+| `php bin/publish-due.php` | Publishes anything whose scheduled time has passed. Put it on cron — see `docs/admin-guide.md`. |
 
 All database scripts take `--db=path` so they can run against a throwaway file.
 
@@ -66,8 +86,10 @@ content/     seed content as Markdown + front matter, one file per URL
 db/          schema.sql (the complete object model) + numbered migrations
 docs/        the WordPress scan, the URL map, content gaps
 public/      document root — front controller, .htaccess, assets
-src/         Router, Seo, Cache, View, Db, Repo/*, Markdown, vendored Parsedown
-templates/   layout + one template per content type (unstyled until phase S3)
+src/         Router, Seo, Cache, View, Db, Repo/*, Markdown, SeoScore, Uploader,
+             Exporter, Admin/* (the panel), vendored Parsedown
+templates/   layout + one template per content type (unstyled until phase S3),
+             admin/ — the panel's own shell and screens
 tests/       *.test.php, run by bin/test.php
 ```
 
@@ -75,4 +97,5 @@ tests/       *.test.php, run by bin/test.php
 - `docs/wp-scan-brief.md` — facts about the old site
 - `docs/url-map.csv` — old URL → new URL contract (tested by `bin/verify.php`)
 - `docs/content-gaps.md` — placeholder copy and missing answers, per URL, for phase S4
+- `docs/admin-guide.md` — how to publish a post in five steps, written for a non-technical author
 - `KNOWN-ISSUES.md` — running list of minor issues

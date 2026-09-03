@@ -86,7 +86,8 @@ CREATE TABLE IF NOT EXISTS content_items (
     word_count         INTEGER NOT NULL DEFAULT 0,
     sort_order         INTEGER NOT NULL DEFAULT 0,
     source             TEXT NOT NULL DEFAULT 'seed',  -- seed | admin
-    content_hash       TEXT NOT NULL DEFAULT ''       -- hash of the seed file last imported
+    content_hash       TEXT NOT NULL DEFAULT '',      -- hash of the seed file last imported
+    focus_keyword      TEXT NOT NULL DEFAULT ''       -- what src/SeoScore.php grades against
 );
 
 CREATE INDEX IF NOT EXISTS idx_items_type_status ON content_items(type, status);
@@ -154,6 +155,22 @@ CREATE TABLE IF NOT EXISTS subscribers (
     created_at TEXT NOT NULL,
     source     TEXT NOT NULL DEFAULT ''
 );
+
+-- ---------------------------------------------------------------------------
+-- Admin panel
+-- ---------------------------------------------------------------------------
+-- Login throttling for /admin/ (plan §5.2). One row per attempt; src/Admin/Auth.php
+-- counts the recent failures for an IP or an email address before checking a password.
+CREATE TABLE IF NOT EXISTS login_attempts (
+    id         INTEGER PRIMARY KEY AUTOINCREMENT,
+    ip         TEXT NOT NULL DEFAULT '',
+    email      TEXT NOT NULL DEFAULT '',
+    successful INTEGER NOT NULL DEFAULT 0,
+    created_at TEXT NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_login_attempts_ip ON login_attempts(ip, created_at);
+CREATE INDEX IF NOT EXISTS idx_login_attempts_email ON login_attempts(email, created_at);
 
 -- ---------------------------------------------------------------------------
 -- Settings

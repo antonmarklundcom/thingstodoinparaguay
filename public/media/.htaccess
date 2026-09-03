@@ -1,0 +1,13 @@
+# Uploads only (src/Uploader.php writes here). Nothing in this tree is ever executed.
+<IfModule mod_php.c>
+    php_flag engine off
+</IfModule>
+<IfModule mod_php7.c>
+    php_flag engine off
+</IfModule>
+<IfModule mod_php8.c>
+    php_flag engine off
+</IfModule>
+<FilesMatch "\.(php|phtml|phar|php[0-9]|cgi|pl|py|sh)$">
+    Require all denied
+</FilesMatch>

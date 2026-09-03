@@ -24,6 +24,39 @@ $say = static function (string $m) use ($quiet): void {
     }
 };
 
+/**
+ * Runs a schema file statement by statement.
+ *
+ * SQLite has no `ADD COLUMN IF NOT EXISTS`, and db/README.md asks every O-phase to
+ * put the same change in schema.sql *and* in a numbered migration — so on a fresh
+ * install the migration's ALTER TABLE would hit a column schema.sql just created.
+ * Such a statement is skipped instead of aborting the run. Everything else is
+ * executed as written, so a genuine error still fails the migration.
+ *
+ * The splitter is deliberately simple: `--` comments are stripped and statements
+ * end at `;`. Our schema has no triggers, no `BEGIN … END` blocks and no semicolons
+ * inside string literals; anything of that shape needs a different runner.
+ */
+function apply_sql(PDO $pdo, string $sql): void
+{
+    $sql = (string) preg_replace('/^\s*--[^\n]*$/m', '', $sql);
+    foreach (explode(';', $sql) as $statement) {
+        $statement = trim($statement);
+        if ($statement === '') {
+            continue;
+        }
+        try {
+            $pdo->exec($statement);
+        } catch (PDOException $e) {
+            $duplicate = str_contains($e->getMessage(), 'duplicate column name');
+            if ($duplicate && preg_match('/^\s*ALTER\s+TABLE\b/i', $statement) === 1) {
+                continue;
+            }
+            throw $e;
+        }
+    }
+}
+
 $root = ttp_root();
 $pdo  = Db::conn();
 
@@ -47,7 +80,7 @@ foreach ($files as $file) {
         continue;
     }
 
-    $pdo->exec($sql);
+    apply_sql($pdo, $sql);
     Db::run(
         'INSERT INTO schema_migrations (name, checksum, applied_at) VALUES (?, ?, ?)
          ON CONFLICT(name) DO UPDATE SET checksum = excluded.checksum, applied_at = excluded.applied_at',
