@@ -8,7 +8,7 @@ excerpt: Discover over 700 bird species in Paraguay. From the Bare-throated Bell
 cta_text: Start My Birding List
 itinerary_label: The Ecosystems (Where We Go)
 hook: |
-  ## The Crossroads of South America
+  ## Bird Watching at the Crossroads of South America
 
   Paraguay sits at the convergence of major biomes. This means diversity. In a single trip, you can experience the cacophony of the Atlantic Forest in the east and the silence of the Dry Chaco in the west.
 
