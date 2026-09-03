@@ -193,3 +193,45 @@ Other formats observed:
 
 - Repo `/home/user/thingstodoinparaguay` is on branch `claude/wordpress-to-html-php-migration-yqi5ze` with **zero commits** (`git log` reports "does not have any commits yet").
 - `ls -la` shows only `.git/` — the working tree is completely empty; no README, no PLAN file, no source files of any kind exist yet.
+
+## Scan 2 additions (2026-09-03)
+
+A second scan file was supplied (`docs/wp-scan-2.md`, 4979 lines) and is **byte-identical** to the
+already-committed `docs/wp-scan.md` ("full scan" referenced by plan.md line 4). No new URLs and no
+count/inventory contradictions were found — the 121-URL map, the 33/42/46 breakdown, and every
+keep/301/410 decision already in `docs/url-map.csv` stand unchanged. The facts below were present in
+the full scan but not previously pulled into this brief; nothing here contradicts the brief.
+
+- **Root homepage (`/`) full IA, not previously summarized**: four service groups, each with a
+  "START YOUR JOURNEY" CTA and a link row — "Experience Asunción" (Asuncion City Tour, Food Paraguay
+  Tour, Bars Asuncion Tour, Restaurants Asuncion Guide, Shopping Asuncion, Paraguay Souvenirs);
+  "Explore Paraguay (Day Trips & Nature)" (Paraguay Culture Tour, Jesuit Ruins Tour, Itaipu Dam Tour,
+  Salto Cristal Tour, San Bernardino Trip, Yerba Mate Tour, Bird Watching, Fishing Charters, Iguazu
+  Falls from Asuncion); "Relocation & Living" (Apartment Hunting, School Placement, Paraguay Residency
+  Service, Paraguay Real Estate Tour); "Logistics & Concierge" (Private Driver, Airport Transfer,
+  Healthcare Paraguay, Travel Planner, Paraguay Tourism Guide). Plus 4 destination highlight cards
+  (Canindeyú — Karapã Waterfall; Areguá — the Strawberry City; Encarnación — The pearl of the South;
+  San Bernardino — The Summer City) and a 4-post blog teaser strip. Useful reference IA for the new
+  `/` template (docs/wp-scan-2.md lines 1584–1668).
+- **GoHighLevel iframe, exact src** (brief §1 only had the domain): `src="https://api.leadconnectorhq.com/widget/form/MWvMNaR0Vm0AZOGnf10N"` plus a loader script `https://link.msgsndr.com/js/form_embed.js` (docs/wp-scan-2.md line ~4921). Confirms it's fully opaque/cross-origin — nothing to port, matches §1.3 decision to replace with a self-hosted form.
+- **Real WP `<title>` tags are longer/more specific than the short labels in this brief and in
+  `url-map.csv`'s title column** for most of the 33 posts (e.g. `/cost-of-living-paraguay/` is actually
+  "Cost of Living in Paraguay: What It's Really Like for Foreigners in 2025", not "(2025)" —
+  **corrected in `url-map.csv`**). Full verbatim titles for all 33 posts: docs/wp-scan-2.md lines
+  163–843 (one `**Title:**` line per post).
+- **Full verbatim page/tour body copy** (hero, hook, solution, itinerary, FAQ intro + whichever Q&As
+  were expanded, practical info, closing CTA) is captured for every one of the 18 tour/service pages
+  and the richer standalone pages, addressing part of the §7 content gap — this is real S4 source
+  material, not just an inventory. Line ranges in `docs/wp-scan-2.md`: Home 898–1035, root `/`
+  1584–1668, About2 1669–1751, FAQ2 1850–1920, Day Trips 1476–1584, Restaurants/Bars/Shopping/
+  Souvenirs/Food-tour 2004–2396, the 18 Tour/Service pages 2469–4746 (one `## N. /slug/` section
+  each, e.g. Jesuit Ruins Tour 2590–2711). Some pages have 2 FAQ answers expanded instead of 1
+  (e.g. Jesuit Ruins Tour: "Is it possible to do this in one day?" and "Is the Light and Sound show
+  available every night?") but most FAQ answers (6–8 per page) are still collapsed/uncaptured — §7's
+  "need a DB export or manual click-through" gap stands.
+- **No design tokens were captured in scan 2 either** — no hex colors, no font-family names, no CSS
+  values anywhere in the file; §4/§7's "design/CSS gap" is confirmed still open, not closed.
+- **No RSS/Atom feed URLs and no `/wp-json/` references appear in scan 2** — §7's feed gap is
+  confirmed still open (not contradicted, just unresolved by either scan).
+- Homepage FAQ (both `/` and `/home/`) lists the same 10 questions; only "Is Paraguay safe for
+  travelers?" has its answer expanded in both scans — no new FAQ answers surfaced here.
