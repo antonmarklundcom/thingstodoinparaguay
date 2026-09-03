@@ -8,7 +8,7 @@ excerpt: The ultimate day trip or overnight adventure to Iguazu Falls from Asunc
 cta_text: Book My Private Transfer
 itinerary_label: The Journey (Narrative Walkthrough)
 hook: |
-  ## A Wonder of the World, Just a Drive Away
+  ## Iguazu Falls from Asuncion: A Wonder Just a Drive Away
 
   You cannot visit this part of South America without seeing Iguazu. Eleanor Roosevelt famously said "Poor Niagara" when she saw it. It is an overwhelming display of nature's power.
 
@@ -39,8 +39,8 @@ why:
     body: On a bus, this trip takes 2 days minimum. With our private service, we can execute a "Blitz Day Trip" (Leave 4 AM, Return 10 PM) for those on a tight schedule, or a relaxed overnight trip. You set the pace.
   - title: Navigation & Language
     body: The Triple Frontier (Paraguay/Brazil/Argentina) is a mix of languages and currencies. Your guide handles the tickets, speaks with the border agents, and finds the best restaurants, so you don't have to stress about being in the wrong country.
-  - title: Luggage Security
-    body: Want a leather bag with your initials? Want a specific color of lace? We know which artisans accept custom commissions and can help you place an order on the spot.
+  - title: One Bag, No Hassle
+    body: Long drives and border stops mean less shuffling of luggage than flying. Pack a day bag for the falls themselves — you'll get wet — and leave the rest in the vehicle while we handle parking and border formalities.
 practical:
   - label: ""
     value: Duration:

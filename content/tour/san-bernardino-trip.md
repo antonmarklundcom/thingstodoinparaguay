@@ -71,12 +71,13 @@ duration: Half Day or Full Day (5 to 7 hours).
 departure: Flexible (Afternoon departure recommended for sunset).
 transport: Private Car/SUV.
 price_usd: null
-meta_title: ""
-meta_description: ""
+meta_title: "San Bernardino Trip: Lake Ypacaraí Day Tour"
+meta_description: "Take a private San Bernardino trip from Asunción for German colonial history, fresh Bollos, and sunset views over Lake Ypacaraí."
+focus_keyword: san bernardino trip
 source: wp-scan
 ---
 
-Visit San Bernardino, Paraguay's historic summer town. Explore German colonial history, taste the famous "Bollos," and enjoy a sunset over Lake Ypacaraí.
+This San Bernardino trip visits Paraguay's historic summer town — German colonial history, the famous "Bollos," and a sunset over Lake Ypacaraí.
 
 For over a century, "San Ber" has been the retreat for dreamers and poets. Founded by German immigrants and embraced by Paraguayans, this lakeside town offers colonial charm, legendary sunsets, and a pace of life that invites you to slow down.
 

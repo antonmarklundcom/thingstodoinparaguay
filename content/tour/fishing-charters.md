@@ -70,7 +70,7 @@ faq:
 closing: |
   ## The River is Calling.
 
-  There is a monster waiting in the dark water, and it wants to test your strength. Don't sit in your hotel room imagining what it's like — grab a rod and go after the golden dorado on the Paraná, one of [Paraguay's](https://en.wikipedia.org/wiki/Paraguay) two great river systems. If you'd rather mix fishing with sightseeing, ask about combining this with our [Jesuit ruins tour](/jesuit-ruins-tour/), since both routes head south toward the same region.
+  There is a monster waiting in the dark water, and it wants to test your strength. Don't sit in your hotel room imagining what it's like — grab a rod and go after the golden dorado on the Paraná, one of [Paraguay's](https://en.wikipedia.org/wiki/Paraguay) two great river systems. If you'd rather mix fishing with sightseeing, ask about combining this with our [Jesuit ruins tour](/jesuit-ruins-tour/), since both routes head south toward the same region, or browse our full [Paraguay tour](/paraguay-tour/) lineup for other ways to fill out the trip.
 price_usd: null
 meta_title: "Fishing Charters in Paraguay: Chase the Golden Dorado"
 meta_description: "Full-service fishing charters on the Paraná River for golden dorado and surubí, with boats, guides, tackle, and license paperwork all arranged."
