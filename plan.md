@@ -306,7 +306,7 @@ reason is logged); PR merged; final closing report per the prompt file.
   verbatim WP `<title>` from the scan, which is richer than `url-map.csv`'s label column.
   **Superseded by the O1 part 2 entry below.**
 
-- 2026-09-03 — **Phase O1 part 2 — COMPLETE** (PR #4, branch `phase/o1-foundation`). O1 part 1
+- 2026-09-03 — **Phase O1 part 2 — COMPLETE** (PR #5, branch `phase/o1-foundation`). O1 part 1
   (PR #3) was merged first, then the rest of §5.1 was built on top. What now exists: `src/Router.php`
   + `public/index.php` + `public/.htaccess` (trailing-slash **and** lower-case canonicalisation →
   redirects table → machine routes → fixed routes → content by slug → 404/410); `src/Seo.php`
