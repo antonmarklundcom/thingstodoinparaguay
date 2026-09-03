@@ -60,29 +60,28 @@ faq:
   - q: Is it really possible to do this in one day?
     a: Yes, but it is an "Ironman" day. We leave at 4:00 AM and return around 10:00 PM. You will have about 4-5 hours inside the park. It is perfect for business travelers with only one free day. If you have time, please book the 2-Day option.
   - q: "Which side is better: Brazil or Argentina?"
-    a: ""
+    a: They're genuinely different experiences. Brazil gives you the wide panoramic view of the whole falls system and is faster to visit, which is why we recommend it for day trips. Argentina puts you up close on catwalks over and around the falls, with more walking and more time needed, so it suits the overnight option better.
   - q: Do I need a Visa?
-    a: ""
+    a: It depends on your nationality and which side you visit — you must check current visa requirements for Brazil and/or Argentina before booking, since we cannot cross the border with you if you don't have the correct documentation.
   - q: Will I get wet?
-    a: ""
+    a: On the Brazilian side, yes — the catwalk at the end walks you right into the spray of the Garganta del Diablo. Bring a light rain jacket or just plan to dry off in the sun afterward; most people consider it part of the fun.
   - q: Are there animals?
     a: Yes! You will see Coatis (look like raccoons). They are cute but aggressive thieves. Do not feed them. You might also see monkeys, toucans, and butterflies.
   - q: Is the border crossing slow?
-    a: ""
+    a: It varies with traffic and time of day, which is exactly why we handle it for you — knowing which lane to use and having documents ready in advance is what keeps a potentially slow crossing quick.
   - q: Can we stop at the Bird Park (Parque das Aves)?
-    a: ""
+    a: Yes, it's right next to the entrance on the Brazilian side and pairs naturally with the falls if you have the time — let us know when you book and we'll build it into the day.
   - q: Is lunch included?
-    a: "[... standard \"Still have a question\" block ...]"
+    a: No, lunch isn't included in the transfer, but there are good options near both entrances and we're happy to point you to them or build in a stop.
 closing: |
-  ## Don't Leave South America without seeing This. It's a long road, but the destination is Eternal.
+  ## Don't Leave South America Without Seeing This.
 
-  The sound of the water stays with you forever. Don't let the logistics scare you away from one of the greatest sights on Earth.
-
-  Relax in our car. Let us handle the borders. You just get your camera ready.
+  The sound of the water at [Iguazu Falls](https://en.wikipedia.org/wiki/Iguazu_Falls) stays with you forever, and the long road from Asunción is far easier in a private vehicle than on a public bus. Relax in the car, let us handle the borders, and get your camera ready. If you'd rather stop along the way, ask about combining this with our [Itaipu Dam tour](/itaipu-dam-tour/), which sits on the same route east.
 transport: Large SUV or Van.
 price_usd: null
-meta_title: ""
-meta_description: ""
+meta_title: "Iguazu Falls from Asuncion: Private Day Trip or Overnight"
+meta_description: "Skip the 7-hour bus. Our private Iguazu Falls from Asuncion service handles the drive, the border crossing, and the falls, in one day or over two."
+focus_keyword: "iguazu falls from asuncion"
 source: wp-scan
 ---
 

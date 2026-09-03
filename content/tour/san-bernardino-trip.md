@@ -19,6 +19,8 @@ solution: |
   In the summer season, San Bernardino can be chaotic with traffic and parking. We take the stress out of the equation.
 
   We provide door-to-door transport from Asunción, so you don't have to fight for a parking spot. We act as your historical guide, showing you the hidden corners of the "Historic Center" that most tourists miss while rushing to the beach. We know where the best pastries are hidden and where to find the best view of the sunset.
+
+  For more on the town's German colonial roots, see our [San Bernardino guide](/san-bernardino/), and if you want to see more of the interior's artisan towns, pair this trip with our [Paraguay culture tour](/paraguay-culture-tour/).
 itinerary:
   - title: The German Legacy
     body: We start by walking through history. We visit the legendary Hotel del Lago, a place full of myths and stories (and guests ranging from Presidents to controversial historical figures). We explore the "Colonist's Square" to understand how German families built this town from the jungle in 1881.
@@ -48,11 +50,11 @@ faq:
   - q: Can we swim in the lake?
     a: The water quality of Lake Ypacaraí changes constantly due to algae. In recent years, swimming has often been restricted. We treat this as a "sightseeing and boating" lake rather than a "swimming" lake. If swimming is your priority, we can add a stop at a local pool club or visit Salto Cristal instead.
   - q: Is this tour available year-round?
-    a: ""
+    a: Yes, though the feel changes with the season. December to February is "High Season" with a lively, busy atmosphere; March to November is quieter, which some visitors prefer for a more relaxed sunset.
   - q: Is it wheelchair accessible?
-    a: ""
+    a: Parts of the historic center and waterfront are manageable, but some areas, like the lookout point and older sidewalks, aren't fully accessible. Tell us about specific mobility needs when you book so we can plan a route around the difficult spots.
   - q: Can we take a boat ride?
-    a: ""
+    a: It depends on the season and current lake conditions — boat rentals operate at some points along the waterfront when conditions allow. We can check availability for your date, but treat it as a bonus rather than a guaranteed part of the day.
   - q: How far is it from Asunción?
     a: It is about 45km. Without traffic, it takes 1 hour. On summer weekends, traffic can double that time, which is why we recommend traveling with a driver who knows the alternative routes.
   - q: Is lunch included?
