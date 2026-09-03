@@ -60,6 +60,9 @@ Fable (the planning model) never executes a phase. See §4.8.
     over the main domain by pointing the domain's document root to `public/`. WordPress is kept as a
     zipped backup, never deleted by a build session. DNS does not change.
 12. **Models:** O-phases run on Opus, S-phases on Sonnet. Fable only in Anton's own planning window.
+13. **Source of old content is `docs/wp-scan.md` only.** No WordPress API/export tooling. Whatever
+    the scan lacks (FAQ answers, images, body copy) is written fresh in S4 — the old site was not
+    authoritative anyway.
 
 ## 2. Object model
 
@@ -144,13 +147,9 @@ Deliverables:
 - SEO layer per §1.9, implemented in `src/Seo.php` and emitted by the layout for every route.
   Default meta description = excerpt, truncated at 155 chars; default title = `{title} | Things to
   do in Paraguay` ≤ 60 chars where possible.
-- WP export tool `bin/wp-export.php`: pulls posts, pages, categories, tags and featured media from
-  the live site's REST API (`/wp-json/wp/v2/...`) into `content/<type>/<slug>.md` with front matter,
-  converts HTML → Markdown, downloads images to `public/media/legacy/`. Run it in this phase while WP
-  is still live and commit the output. If the API is closed, fall back to the scan (`docs/wp-scan.md`)
-  for titles/slugs/categories/tags and record that in the build log. Lorem-Ipsum bodies are kept for
-  now (S4 replaces them); the 18 real tour/service pages are converted into structured front matter
-  matching `tour_details` as far as the source allows.
+- Scan importer `bin/scan-import.php`: parses `docs/wp-scan.md` into `content/<type>/<slug>.md` with
+  front matter (titles, slugs, categories, tags, captured body copy, captured FAQ). No network access
+  to the old site. Lorem-Ipsum bodies are kept for now (S4 replaces them).
 - Seed importer: front matter → SQLite, idempotent by slug, never overwrites an item edited in the
   admin (compare `updated_at`, admin wins).
 - HTML page cache in `cache/` keyed by path, bypassed for admin/forms, cleared by `bin/cache-clear.php`.
@@ -232,6 +231,8 @@ Hard limits: §4.7. Content goes into `content/` Markdown (then `bin/seed.php`),
 - Metadata: unique meta title + description for every kept URL including categories; category
   descriptions; OG image per item; alt text for every media row.
 - Internal linking pass: every post links to ≥ 2 others; every tour is linked from ≥ 2 posts.
+- Images: the old site's images are not migrated. S3/S4 use Higgsfield-generated or placeholder
+  imagery per the `higgsfield-web-imagery` skill.
 
 Exit: CI green; `bin/seo-audit.php` reports ≥ 80 for every published item and zero Lorem Ipsum;
 verify passes; PR merged; build log lists any facts flagged "unverified" for Anton to check.
@@ -259,7 +260,6 @@ reason is logged); PR merged; final closing report per the prompt file.
 
 | Input | First needed | Fallback |
 |---|---|---|
-| Live WP REST API reachable (default on) | O1 | scan file fallback |
 | Admin email + initial password | O2 | `bin/create-admin.php` prompts; documented |
 | SMTP host/user/pass for lead emails | S3 | `mail()` + leads stored in SQLite anyway |
 | WhatsApp number (default +595 995 628 862) | S3 | default used |
@@ -307,6 +307,8 @@ reason is logged); PR merged; final closing report per the prompt file.
   **Next session starts here:** `docs/o1-status.md` lists the remaining O1 work in order —
   router + front controller, SEO layer, templates, `bin/seed.php`, `bin/verify.php`, CI wiring,
   README. Read that file first, then `docs/content-gaps.md`.
+- 2026-09-03 — Planning session: decision 13 added — WP export tool dropped; `bin/wp-export.php` to
+  be deleted by the O1 session if present; content comes from `bin/scan-import.php`.
 
 ## 10. Backlog
 
