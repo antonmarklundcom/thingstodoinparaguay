@@ -8,7 +8,7 @@ excerpt: Visit the UNESCO Jesuit Missions of Trinidad and Jesús de Tavarangue. 
 cta_text: Book My Expedition
 itinerary_label: The Treasures
 hook: |
-  ## The "Lost Cities" of South America
+  ## Our Jesuit Ruins Tour to South America's "Lost Cities"
 
   You have seen the movie "The Mission." You know the history. But nothing prepares you for the scale of seeing these massive red sandstone cities in person.
 
@@ -48,33 +48,34 @@ faq:
   - q: Is it possible to do this in one day?
     a: Yes, it is possible, but it is a long day (about 10-11 hours of driving total). We leave early (6 AM) and return late (8 PM). If you prefer a more relaxed pace, we highly recommend our 2-Day Overnight Option, which includes a stay in the city of Encarnación.
   - q: What is the difference between Trinidad and Jesús?
-    a: ""
+    a: "La Santísima Trinidad is the larger, more complete mission — a full central plaza, detailed stone carvings, and a bell tower you can still climb. Jesús de Tavarangue is smaller and was never finished, so its unfinished Moorish-style arches give it a different, more open feeling — less \"ruined church,\" more frozen construction site."
   - q: Is there a lot of walking?
-    a: ""
+    a: Yes, both sites are large and mostly outdoors with uneven stone ground, so comfortable closed shoes matter more than fitness level. We move at your pace and there's no rush.
   - q: Can we visit Encarnación (The Pearl of the South)?
-    a: ""
+    a: Yes — Encarnación is close to both missions and is the natural base for the overnight option. We can build in time in the city, including its riverside costanera, if you choose the 2-day trip.
   - q: Is the "Light and Sound" show available every night?
     a: No, it runs on a specific schedule (usually Thursday through Sunday evenings) and depends on weather conditions. If seeing the night show is a priority, let us know so we can schedule your trip accordingly.
   - q: What should I wear?
-    a: ""
+    a: Light, breathable clothing, a hat, and sunscreen — there's little shade at either site. Closed, comfortable shoes are important for the uneven stone paths.
   - q: Is this tour suitable for kids?
-    a: ""
+    a: Yes, most families manage it well, especially with the overnight option that breaks up the long drive. The open plazas and dramatic ruins tend to hold kids' attention better than a typical museum.
   - q: Do we cross the border to Argentina?
-    a: ""
+    a: Not as part of this tour — both missions are on the Paraguayan side. If you'd like to add [Argentina or the Iguazu Falls area](/iguazu-falls-from-asuncion/) to your trip, ask us and we can help plan the logistics separately.
 closing: |
   ## Witness the Legacy.
 
-  The Jesuits are gone, but their stones remain. Come see why this is Paraguay's most visited cultural destination.
+  The Jesuits are gone, but their stones remain. This is one of only two [UNESCO World Heritage sites](https://en.wikipedia.org/wiki/Jesuit_Reductions) in Paraguay, and it rewards the long drive south. Combine it with a stop in [Encarnación](https://en.wikipedia.org/wiki/Encarnaci%C3%B3n,_Paraguay) on the overnight option, or pair it with our [day trips from Asunción](/day-trips-asuncion/) if you want to see the interior on both ends of your visit.
 duration: Full Day (approx. 12-13 hours) OR Overnight (Recommended).
 departure: 6:00 AM (Early start required for day trips).
 transport: Private Premium SUV.
 price_usd: null
-meta_title: ""
-meta_description: ""
+meta_title: "Jesuit Ruins Tour: Trinidad & Jesús de Tavarangue"
+meta_description: "A private jesuit ruins tour to the UNESCO missions of Trinidad and Jesús de Tavarangue, with an English guide who explains 150 years of shared history."
+focus_keyword: "jesuit ruins tour"
 source: wp-scan
 ---
 
-Visit the UNESCO Jesuit Missions of Trinidad and Jesús de Tavarangue. A private historical tour through the heart of Paraguay's "Red South." English guide and transport included.
+Our jesuit ruins tour visits the UNESCO Jesuit Missions of Trinidad and Jesús de Tavarangue. A private historical tour through the heart of Paraguay's "Red South." English guide and transport included.
 
 Deep in the southern red lands of Paraguay stand the remnants of a utopia. Explore the Jesuit Missions of La Santísima Trinidad and Jesús de Tavarangue—the only UNESCO World Heritage sites in the country. This is not just a tour; it is a time-travel expedition to the 18th Century.
 

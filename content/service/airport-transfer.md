@@ -8,7 +8,7 @@ excerpt: Private airport transfer from Silvio Pettirossi (ASU) to your hotel in 
 cta_text: Book My Pickup
 itinerary_label: Vehicle Options
 hook: |
-  ## The Chaos of Arrival
+  ## Your Airport Transfer Shouldn't Start With Chaos
 
   Arriving at Silvio Pettirossi International Airport (ASU) can be overwhelming. As soon as you step out of customs, you are often surrounded by taxi drivers and currency changers competing for your attention.
 
@@ -23,6 +23,8 @@ solution: |
   We Meet You Inside: Our driver will be waiting at the designated meeting point in the Arrivals Hall holding a clear sign with your name.
 
   We Help with Luggage: From the moment we meet, you don't lift a bag. We escort you to the vehicle parked in the VIP/Short-term lot, not miles away.
+
+  Silvio Pettirossi sits in Luque, part of Greater [Asunción](https://en.wikipedia.org/wiki/Asunci%C3%B3n), so the drive into the city is short compared to many South American capitals.
 itinerary:
   - title: Standard Sedan
     body: Ideal for 1-2 passengers + 2 suitcases. (Toyota Corolla / Kia Cerato or similar)
@@ -51,26 +53,29 @@ faq:
   - q: What if my flight is delayed?
     a: We track your flight using the flight number you provide. If you are delayed, we adjust the pickup time automatically. You do not need to pay extra for flight delays.
   - q: Where do I meet the driver?
-    a: ""
+    a: Your driver waits inside the Arrivals Hall, past customs, holding a clear sign with your name so you can spot them as soon as you clear the doors. If the hall is unusually busy they'll move somewhere visible and reach you on the WhatsApp number you gave us at booking.
   - q: Do I need local cash (Guaranies) to pay?
-    a: ""
+    a: No. You can pay online in advance, or in cash on arrival in either US dollars or Guaraníes — check current pricing and accepted payment methods when you book.
   - q: How long does it take to get to the city?
-    a: ""
+    a: It depends on traffic, time of day, and exactly where you're staying, but Luque to central Asunción is a fairly short, direct drive compared to most South American capitals. Your driver will give you a realistic estimate once you're on the road.
   - q: Do you provide child seats?
     a: Yes. Please request them during booking and tell us the age/weight of the child. We provide them free of charge.
   - q: Can I stop at a grocery store on the way?
-    a: ""
+    a: Usually, yes — mention it when you book or tell your driver as soon as you meet, since a quick stop adds a little time to the trip and it helps to plan for it.
   - q: Can you take me to other cities (like Encarnación)?
-    a: ""
+    a: Yes, we also handle transfers beyond Asunción to cities like Encarnación and Ciudad del Este. For longer trips and multi-day travel around the country, our [private driver](/private-driver/) service is the better fit — check current pricing when you book since inter-city routes are priced differently from the airport run.
   - q: What if I can't find the driver?
-    a: "[... standard \"Still have a question\" block ...]"
+    a: Message us on WhatsApp the moment you land — we track your flight and know roughly
+      when to expect you, and can point you to the exact meeting spot or send the
+      driver's name and description if it isn't obvious in a crowded arrivals hall.
 closing: |
   ## Start Your Trip the Right Way. Welcome to Paraguay.
 
-  Don't leave your arrival to chance. Secure your safe, private transport now and enjoy the peace of mind knowing we will be there when you land.
+  Don't leave your arrival to chance. Secure your safe, private transport now and enjoy the peace of mind knowing we will be there when you land. If you're mapping out the rest of the visit, our [travel planner](/travel-planner/) service can help you build the days that follow, and it's worth a quick read of [Paraguay travel advice](/paraguay-travel-advice/) before you fly.
 price_usd: null
-meta_title: ""
-meta_description: ""
+meta_title: "Private Airport Transfer in Asunción, Paraguay"
+meta_description: "Book a private airport transfer from Asunción's Silvio Pettirossi Airport with flight tracking, an inside meet & greet, and fixed prices agreed upfront."
+focus_keyword: airport transfer
 source: wp-scan
 ---
 

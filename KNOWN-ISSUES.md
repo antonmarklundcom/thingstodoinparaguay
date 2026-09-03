@@ -79,3 +79,20 @@ Build sessions append here (plan §4.3). Format: `- [phase] short description �
   unconditionally and silently broke light-mode contrast (footer links, ghost buttons) — caught by
   the Lighthouse accessibility pass, not by `bin/verify.php` or `bin/test.php`, since neither renders
   CSS. Fix: none needed now; a note for whoever adds a theme toggle later.
+- [s4] **No real imagery still.** All 62 published items still render the CSS placeholder cover
+  (`templates/partials/card.php` / `templates/tour.php`) and every SEO score is capped at 96/100 by
+  the "cover image set" check (4 pts) — that ceiling is expected and doesn't block the phase's
+  `--min=80` gate. `public/media/` is still empty; S4 was content-only by design given the volume of
+  copy work (32 posts + 25 tour/service files + 5 pages), so imagery generation through the O2 admin
+  media pipeline (`src/Uploader.php`, already resizes to 400/800/1600 + WebP) is still open. Fix:
+  a dedicated imagery pass — S5 or a follow-up phase — using the `higgsfield-web-imagery` skill.
+- [s4] Several scan-imported tour/service FAQ rows held a literal, non-empty scanner artifact string
+  (`"[... standard \"Still have a question\" block ...]"`) instead of real or empty content, so an
+  earlier gap-filling pass scoped to `a: ""` entries only skipped them — they read as filled but
+  weren't. All found instances were rewritten with real answers in this phase. Fix: none needed now;
+  a note in case `bin/scan-import.php` produces the same artifact again from a future scan — grep
+  content/ for the literal string before trusting an "empty answers only" gap list.
+- [s4] `content_items.word_count` (used by `bin/seed.php`/admin, computed by `Markdown::wordCount()`
+  over the raw front-matter text) and `SeoScore`'s own word count (computed from the rendered
+  document) can differ by a small margin — both stayed comfortably inside the 900-1600 word band for
+  every post in this phase, but don't assume they're interchangeable when writing tooling against them.

@@ -10,7 +10,7 @@ excerpt: Explore the best of Paraguay in a single day. Private day tours from As
 cta_text: "[Choose Your Adventure]"
 itinerary_label: The Itineraries
 hook: |
-  ## Don't Get Stuck in the Concrete Jungle.
+  ## Day Trips Asuncion: Don't Get Stuck in the Concrete Jungle
 
   Asunción is a vibrant capital, but it can be hot, chaotic, and loud. Many travelers fly all the way to Paraguay and never see the green hills or the artisan villages because renting a car feels risky and public buses eat up half the day.
 
@@ -78,15 +78,16 @@ faq:
 closing: |
   ## Escape the City for a Day.
 
-  See the red earth, buy the crafts directly from the artisans, and breathe the fresh air of the Cordillera.
+  See the red earth, buy the crafts directly from the artisans, and breathe the fresh air of the [Cordillera](https://en.wikipedia.org/wiki/San_Bernardino,_Paraguay). If waterfalls and canopy walks sound better than colonial churches, ask about upgrading to our [Salto Cristal route](/salto-cristal-tour/), or stay in the capital and pair this with our [Asunción city tour](/asuncion-city-tour/) the next day.
 duration: 7 to 9 hours (approx).
 price_usd: null
-meta_title: ""
-meta_description: ""
+meta_title: "Day Trips Asuncion: The Golden Circuit & Beyond"
+meta_description: "Private day trips from Asuncion to the Golden Circuit, Yaguaron, and waterfall country, door to door, back at your hotel by dinner."
+focus_keyword: "day trips asuncion"
 source: wp-scan
 ---
 
-Explore the best of Paraguay in a single day. Private day tours from Asunción to the Golden Circuit, San Bernardino, Yaguarón and other cities. Return to your hotel by dinner.
+Explore the best of Paraguay in a single day. These day trips Asuncion visitors book most often run to the Golden Circuit, San Bernardino, Yaguarón and other cities, with a return to your hotel by dinner.
 
 The real magic of Paraguay lies just beyond the city limits. Red earth roads, colonial towns, and tropical waterfalls are only an hour away. Let us drive you through the countryside and have you back in time for dinner.
 

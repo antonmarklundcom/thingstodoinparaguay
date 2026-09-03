@@ -3,86 +3,69 @@ type: page
 title: Services
 status: published
 published_at: 2025-07-24T00:00:00Z
-excerpt: ""
-meta_title: ""
-meta_description: ""
+excerpt: Airport pickups, private drivers, real estate tours, residency guidance and other practical services for visiting or moving to Paraguay.
+meta_title: Paraguay Travel & Relocation Services
+meta_description: Practical, foreigner-friendly services in Paraguay — airport transfers, private drivers, real estate tours, residency help and more.
+focus_keyword: services
 source: wp-scan
 ---
 
-Practical Help. Personal Touch. Paraguay, Made Simple.
+Our services: practical help, a personal touch, Paraguay made simple.
 
-Travel smarter. Settle easier. Live better in Paraguay.
+Travel smarter, settle easier, and get more out of your time here — whether that's four
+days or a new life.
 
-## Get the Help You Need, from Arrival to Adventure
+## Our services, from arrival to adventure
 
-Whether you're just visiting or planning to stay long-term, we offer reliable, foreigner-friendly services that make your time in Paraguay easier, smoother, and more enjoyable. From airport pickups and local SIM cards to residency guidance and real estate tours — we've got you covered every step of the way.
+Whether you're visiting or planning to stay long-term, we offer reliable,
+foreigner-friendly services that make your time in Paraguay easier and more enjoyable —
+from airport pickups to residency guidance and real estate tours. Every service below
+links through to the details, including who it's for and what to expect.
 
-[Discover more]
+### What sets it apart
 
-Comprehensive Travel Solutions
+- **Comprehensive support** — we handle the details, from itineraries to transport, so
+  you can focus on actually being here.
+- **A trusted local network** — years of relationships with drivers, guides and agents
+  who we'd use ourselves.
+- **Straight answers** — if something isn't worth paying for, we'll tell you, even if
+  it costs us the sale.
+- **One point of contact** — you deal with Anton or Yanina directly, not a rotating
+  support queue.
 
-We handle every detail—from personalized itineraries to transportation and accommodations—so you can focus on exploring Paraguay stress-free.
+## What we offer
 
-Exclusive Deals and Discounts
+**[Airport transfers](/airport-transfer/)** — start your trip stress-free with flight
+tracking and a driver waiting inside the terminal, not fighting the crowd at arrivals.
 
-Enjoy access to special rates and curated experiences you won't find anywhere else, thanks to our trusted network of local partners.
+**[Private driver](/private-driver/)** — a dedicated vehicle and driver for business
+travel, day trips, or anyone who'd rather not negotiate every ride in a second language.
 
-Innovative Travel Features
+**[Real estate tours](/paraguay-real-estate-tour/)** — considering buying or renting?
+Visit real neighbourhoods with an English-speaking guide before you commit to anything.
 
-Discover smarter ways to travel with our cutting-edge tools and insider insights that help you get the most out of your adventure.
+**[Residency guidance](/paraguay-residency-service/)** — the paperwork side of moving
+here, explained plainly and handled with you rather than for you in the dark.
 
-Commitment to Quality
+**[Apartment hunting](/apartment-hunting/)** — viewings, lease terms and neighbourhood
+advice for anyone relocating, from someone who has actually rented here.
 
-Every experience we offer meets our high standards of authenticity, safety, and excellence—because your journey deserves nothing less.
+**[School placement](/school-placement/)** — for families moving with kids, help finding
+and enrolling in a school that fits.
 
-What we offer
+**[Healthcare guidance](/healthcare-paraguay/)** — how the local and private healthcare
+systems work, and what to set up before you need them.
 
-## Explore Our Travel Services Tailored to Your Journey
+**[Travel planning](/travel-planner/)** — a custom itinerary mixing culture, nature and
+food, sized to however many days you actually have.
 
-Spanish Language Lessons
+## Ready to make Paraguay easier?
 
-Learn practical Spanish with friendly teachers — perfect for daily conversations, shopping, and exploring with more confidence.
+Whether you're here for a few days or moving for good, we handle the parts that usually
+go wrong so you don't have to. [Get in touch](/contact/) and tell us what you need —
+we'll tell you honestly what we can help with and what we can't.
 
-Real Estate Tours
-
-Interested in buying property or moving here? Visit residential areas and meet trusted agents who speak your language and understand your needs.
-
-Airport Pickup & Transfers
-
-Start your trip stress-free with a trusted driver waiting for you. Comfortable, safe, and punctual transport to your hotel, Airbnb, or new home.
-
-Custom Itinerary Planning
-
-Want to mix culture, nature, and food in one day? We'll design the perfect plan based on your interests and time — solo, family, or group.
-
-Bilingual Tour Guides
-
-English or Portuguese-speaking options. Enjoy Paraguay with knowledgeable locals who speak your language. Ideal for sightseeing, business visits, or first-time travelers.
-
-Local SIM Card & Internet Setup
-
-We help you get a local number, activate a plan, and set up reliable mobile or home internet. No confusion, no language barrier.
-
-Start Exploring Now
-
-Ready to Make Paraguay Easy?
-
-Whether you're here for a few days or forever, we make your life in Paraguay smoother and more enjoyable. Let us handle the details while you focus on the adventure.
-
-[Get in Touch Today!]
-
-[Testimonials — Yanina Alvarez / Anton Marklund, same quotes as home page, shown twice]
-
-## Experience Paraguay Without the Hassle
-
-Focus on the journey — we'll take care of the rest. From the moment you land to every moment you explore, we're here to support you. Whether you're visiting for a few days, staying longer, or starting a new chapter as a digital nomad, our services are built to make your experience in Paraguay smooth, safe, and unforgettable.
-
-[Stat counters, all showing "0" — likely a JS counter animation that didn't render in static extraction]
-
-Happy Traveler 0 K+
-
-Country Destinations 0 +
-
-Member Active 0 K+
-
-Client Ratings 0
+For a general sense of the country before you dive into logistics, see
+[Wikipedia's overview of Paraguay](https://en.wikipedia.org/wiki/Paraguay) and, if you're
+still deciding whether to relocate, our post on the
+[cost of living here](/cost-of-living-paraguay/).

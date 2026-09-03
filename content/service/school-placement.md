@@ -8,7 +8,7 @@ excerpt: Expert assistance for expat families finding schools in Paraguay. We gu
 cta_text: Find The Perfect School
 itinerary_label: How We Help
 hook: |
-  ## Navigating the Paraguayan School System
+  ## School Placement: Navigating the Paraguayan School System
 
   As a parent, you have a million questions. Which schools offer an International Baccalaureate (IB)? Which ones follow the US or Northern Hemisphere calendar? Will my child face a language barrier if they don't speak Spanish yet?
 
@@ -18,7 +18,7 @@ solution: |
 
   We act as your bridge to the academic community. We don't just give you a list of names; we analyze your family's needs to recommend the cultural and academic fit.
 
-  Whether you need a rigorous German education, a creative American environment, or a traditional Catholic institution, we have the contacts and the knowledge to get your foot in the door.
+  Whether you need a rigorous German education, a creative American environment, or a traditional Catholic institution, we have the contacts and the knowledge to get your foot in the door. Many local and bilingual schools also teach some [Guaraní](https://en.wikipedia.org/wiki/Guaran%C3%AD_language), Paraguay's co-official language alongside Spanish — worth knowing if language exposure matters to your family.
 itinerary:
   - title: Needs Assessment
     body: We discuss your children's ages, current language skills, hobbies (sports/arts), and your budget. Do you need a school that starts in August (US Calendar) or February (Paraguayan Calendar)? This is the most critical decision.
@@ -50,30 +50,33 @@ faq:
   - q: Do my children need to speak Spanish?
     a: For the top International Schools (like ASA or Pan American), the primary language of instruction is English, so Spanish is not required initially (they will learn it there). For local bilingual schools, a basic level of Spanish might be necessary, or the school may require a tutor.
   - q: What is the "Cuota de Ingreso"?
-    a: ""
+    a: It's a one-time enrollment fee many private schools charge on admission, separate from monthly tuition. It varies by school — check current pricing directly with the school before you commit, and we'll help you get an accurate figure during the process.
   - q: Is there a waiting list?
-    a: ""
+    a: Some of the most popular international schools do run waiting lists, especially for the most requested grade levels and mid-year starts. We'll tell you honestly if a school you like is oversubscribed and help you line up a strong backup.
   - q: How does the school bus ("Transporte Escolar") work?
-    a: ""
+    a: Transporte Escolar is typically a private minibus service, run separately from the school itself, that picks students up from home and drops them off at school. Routes and coverage vary by neighborhood and provider — once you know your address and target school, we can point you to the right options.
   - q: Are uniforms mandatory?
     a: Yes. Almost every school in Paraguay, public or private, requires a specific uniform. We will tell you exactly where to buy them.
   - q: Do schools offer the IB (International Baccalaureate)?
-    a: ""
+    a: A number of the top international schools offer the IB Diploma Programme or parts of the IB framework, alongside other schools that follow US, British, or German curricula. We match schools to your priorities during the needs assessment.
   - q: Can we join in the middle of the school year?
-    a: ""
+    a: Yes, many schools accept students mid-year, though it depends on space in that specific grade and the school's own calendar — some run on a US August-start year, others on the local February-start year. We check current openings before you settle on a target start date.
   - q: What documents do I need from my home country?
-    a: "[... standard \"Still have a question\" block ...]"
+    a: Typically recent report cards or transcripts, proof of any vaccinations the school
+      requires, and your child's passport — schools vary on the exact list, so we confirm
+      the specifics with your target school before you travel rather than guessing.
 closing: |
   ## Happy Kids Make a Successful Move.
 
-  Don't gamble with their education. Let us guide you to the school community where your children will make friends, learn fast, and fall in love with their new home.
+  Don't gamble with their education. Let us guide you to the school community where your children will make friends, learn fast, and fall in love with their new home. Pair this with our [apartment hunting](/apartment-hunting/) service to pick a home near the right school, and see our guide to the [best neighborhoods to live in Asunción](/best-neighborhoods-to-live-in-asuncion-where-should-you-settle-down-in-2025/) for how schools factor into that decision.
 price_usd: null
-meta_title: ""
-meta_description: ""
+meta_title: "School Placement Service for Expat Families"
+meta_description: "Find the right international school in Asunción with a school placement service that shortlists, arranges tours, and handles the admissions paperwork."
+focus_keyword: school placement
 source: wp-scan
 ---
 
-Expert assistance for expat families finding schools in Paraguay. We guide you through the best international schools (American, British, German), admissions, and enrollment.
+Our school placement service gives expert assistance for expat families finding schools in Paraguay. We guide you through the best international schools (American, British, German), admissions, and enrollment.
 
 Moving to a new country is a big adjustment for children. Don't let the stress of finding a school add to the burden. From American curriculums to top-tier bilingual institutions, we help you find the environment where your child will thrive, not just study.
 

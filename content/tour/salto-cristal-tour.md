@@ -21,6 +21,8 @@ solution: |
   Don't risk getting your rental car stuck in the mud or lost in the sugarcane fields. We provide a rugged, capable vehicle driven by a professional who knows every bump in the road.
 
   We are your safety net. We guide you down the steep trails, help carry your gear, and ensure you have the right advice to enjoy the water safely. We take the stress out of the "adventure" so you can focus on the fun.
+
+  If waterfalls are your thing, this pairs well with a trip to [Iguazú Falls](/iguazu-falls-from-asuncion/), or browse more of [Paraguay's waterfalls](/waterfalls-paraguay/) if you want to see beyond Salto Cristal.
 itinerary:
   - title: The Rural Drive
     body: The adventure begins before we see the water. We drive through the scenic landscapes of Paraguarí. It's a bumpy ride, but the views of rural Paraguay—red earth and endless green fields—are authentic and raw.
@@ -50,34 +52,35 @@ faq:
   - q: Do I need to be fit to do this tour?
     a: You don't need to be an athlete, but you need reasonable mobility. The staircase down to the falls is steep, and the climb back up is a workout. If you are traveling with very young children or elderly family members, please consult with us first so we can advise you honestly.
   - q: Is the water cold?
-    a: ""
+    a: It's cool and refreshing rather than icy — a welcome contrast to the heat after the hike down. Expect it to feel brisk when you first get in and pleasant once you're swimming.
   - q: Is it safe for children?
-    a: ""
+    a: It can work for older, confident kids, but the staircase down is steep and the rocks near the water get slippery, so it isn't ideal for very young children or anyone unsteady on their feet. Tell us your kids' ages before booking so we can advise you honestly.
   - q: Can I jump from the rocks?
-    a: ""
+    a: We don't encourage it. Water levels and submerged rocks change with the season, so we can't guarantee a spot is safe to jump into on any given day. Swimming in the pool itself is the safer way to enjoy the falls.
   - q: Are there bathrooms/changing rooms?
     a: "There are basic rustic facilities at the entrance (top of the hill) where you can change clothes and use the restroom. Note: There are no facilities at the bottom of the falls."
   - q: What if it rains?
-    a: ""
+    a: Light rain doesn't usually cancel the tour, but heavy rain makes the dirt road genuinely risky and the stairs slippery, so we may reschedule for safety. We check conditions with you the day before and stay in touch the morning of.
   - q: Is lunch included?
-    a: ""
+    a: Not in the base tour price. We can stop at a local rustic restaurant (quincho) near the falls or arrange a picnic — either way, you pay for your own food directly.
   - q: Can I fly my drone?
-    a: ""
+    a: Generally yes for personal photos, but check current rules with us before you go, since access and drone regulations at natural sites can change. Be considerate of other visitors and avoid flying over the pool while people are swimming.
 closing: |
-  ## Ready to Disconnect and Dive In? Don't Let the Map Intimidate You.
+  ## Ready for the Salto Cristal Tour? Don't Let the Map Intimidate You.
 
-  Salto Cristal is one of those places that rewards the effort. It is wild, loud, and incredibly beautiful. But the journey shouldn't be a struggle.
+  Salto Cristal is one of those places that rewards the effort. It is wild, loud, and incredibly beautiful. But the journey shouldn't be a struggle. It's the kind of scenery [Paraguay](https://en.wikipedia.org/wiki/Paraguay) rarely gets credit for internationally.
 
   Don't worry about the mud, the map, or the parking. Let us drive. Let us guide. You just bring your towel and your sense of adventure.
 duration: Full Day (approx. 7-8 hours).
 transport: Private SUV/Truck.
 price_usd: null
-meta_title: ""
-meta_description: ""
+meta_title: "Salto Cristal Tour: Paraguay's Hidden Waterfall"
+meta_description: "Join a guided Salto Cristal tour to a 45-meter waterfall near Paraguarí — 4x4 transport, a guided hike, and a swim in the natural pool."
+focus_keyword: salto cristal tour
 source: wp-scan
 ---
 
-Explore Salto Cristal, a breathtaking 45-meter waterfall hidden in the forest. Adventure tour with 4x4 transport and guide. Hike, swim, and disconnect from the world.
+This Salto Cristal tour takes you to a breathtaking 45-meter waterfall hidden in the forest. Adventure travel with 4x4 transport and a guide — hike, swim, and disconnect from the world.
 
 Deep in the green heart of Paraguarí lies Salto Cristal; a massive 45-meter veil of water crashing into a natural crystal-clear pool. It is wild, remote, and the ultimate escape for those who want to touch real nature.
 

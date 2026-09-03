@@ -3,104 +3,134 @@ type: page
 title: About
 status: published
 published_at: 2025-07-24T00:00:00Z
-excerpt: ""
-meta_title: ""
-meta_description: ""
+excerpt: Meet Anton and Yanina — a Swedish marketing strategist and a Paraguayan photographer who built a small, hands-on travel and relocation service in Asunción.
+meta_title: About Things to Do in Paraguay
+meta_description: Meet Anton and Yanina, the Swedish-Paraguayan team behind Things to Do in Paraguay — how we work, and who we're best suited to help.
+focus_keyword: about
 source: wp-scan
 ---
 
-## Welcome to the Heart of South America
+## About Things to Do in Paraguay
 
-## Discover Paraguay with Us
+Meet Anton and Yanina — a small travel and relocation agency founded by a Swedish
+marketing strategist and a Paraguayan photographer. We combine Scandinavian organization
+with Latin soul to show you the Paraguay that doesn't make it into the guidebooks. This
+page is about how we work and who we're best suited to help.
 
-Meet Anton and Yanina. A unique travel agency founded by a Swedish marketing strategist and a Paraguayan photographer. We combine Scandinavian organization with Latin soul to show you the real Paraguay.
+## Two worlds, one country
 
-## Two Worlds. One Passion for Paraguay.
+What happens when a Swedish marketing strategist falls for the "heart of South America"
+and teams up with a local photographer? You get an agency that understands what
+international travelers need while still knowing exactly where the local magic hides.
 
-What happens when a Swedish marketing strategist falls in love with the "Heart of South America" and teams up with a passionate local artist? You get a travel agency that understands what international travelers need, but knows exactly where the local magic hides.
+## Structure meets soul
 
-## Structure Meets Soul
+It started with a shared realization: Paraguay is South America's best-kept secret, but
+it's genuinely hard to unlock on your own.
 
-It started with a shared realization: Paraguay is South America's best-kept secret, but it's hard to unlock.
+Anton came from Sweden with a background in marketing and strategy. He saw a country full
+of raw potential and warm people, but also the everyday chaos — unreliable information
+that keeps international travelers away — and wanted to build a bridge across it.
 
-Anton (The Founder) came from Sweden with a background in marketing and strategy. He saw a country full of raw potential and incredible people, but he also saw the chaos—the lack of reliable information that kept international travelers away. He wanted to build a bridge.
+Yanina had spent years capturing her country through a lens as a photographer and graphic
+designer. She knew where the best sunsets were, where the chipa was worth stopping for,
+and the stories behind the ruins most tours rush past. She wanted to share what she saw
+every day.
 
-Yanina (The Creative Heart) had spent 7 years capturing her country through a lens. As a photographer and graphic designer, she knew where the hidden sunsets were, where the best Chipa was baked, and the stories behind the ruins. She wanted to share the beauty she saw every day.
+We joined forces to solve that puzzle together: Anton builds the logistics and the
+standard, Yanina curates the experience and the visuals. Together we try to make Paraguay
+accessible, safe and genuinely worth photographing.
 
-We joined forces to solve the puzzle. Anton builds the Logistics and the Standard. Yanina curates the Experience and the Visuals.
+## Meet the team
 
-Together, we make Paraguay accessible, safe, and stunning.
+We're a duo representing two worlds. Anton ensures your trip meets the standards of
+safety and organization international guests expect; Yanina ensures you connect with the
+authentic culture and beauty of the country.
 
-[stat counters — Travel Destination / Tour Partner / Hotel & Accomodation, values show "0 +"]
+### Anton M. — Founder & Strategy Director
 
-Meet The Team
+Anton brings a Scandinavian mindset to Paraguayan tourism — the details that matter most
+to international guests: reliability, punctuality and clear communication. He fell for
+Paraguay not just for the landscapes but for the warmth of the people, and works to put
+the country on the map as a destination worth taking seriously, not an afterthought
+between Argentina and Brazil.
 
-Bridging the Gap — We are a duo representing two worlds. Anton ensures your trip meets international standards of safety and organization, while Yanina ensures you connect deeply with the authentic culture and beauty of Paraguay.
+### Yanina A. — Creative Director & Lead Curator
 
-Anton M. — Founder & Strategy Director
+Yanina is a photographer and graphic designer who treats travel as an art form — she
+scouts locations for the light as much as the history. She designs itineraries as
+journeys rather than checklists, and is your connection to a culture that's easy to
+misread from the outside.
 
-The Visionary from the North.
+## Frequently asked questions
 
-Anton brings the Scandinavian mindset to Paraguayan tourism. He is obsessed with the details that matter to international guests: reliability, punctuality, and clear communication.
+### Why a Swedish-Paraguayan team?
 
-He fell in love with Paraguay not just for its landscapes, but for its warmth. His mission is to put Paraguay on the global map as a top-tier destination, ensuring that every service we offer meets a world-class standard.
+Because most agencies are one or the other — fully local, and unfamiliar with what
+international travelers expect, or fully foreign-run, and missing the local knowledge
+that makes a trip worthwhile. We built the hybrid on purpose.
 
-Yanina A. — Creative Director & Lead Curator
+### Do you speak English?
 
-The Artist with the Local Eye.
+Yes — fluently, on every tour and every booking. You won't need to rely on translation
+apps or hope a driver understands your hotel's address.
 
-Yanina is a sentimental soul, a photographer with 7 years of experience, and a graphic designer. For her, travel is an art form. She is the one who scouts the locations to ensure the lighting is perfect.
+### Are you a traditional travel agency?
 
-She designs the itineraries not just as routes, but as emotional journeys. She is your connection to the culture, ensuring that what you see is authentic, photogenic, and deeply Paraguayan.
+Not really. We're a small, hands-on operation — you deal with Anton or Yanina directly,
+not a call centre, and every itinerary is built for the specific people taking it rather
+than pulled off a shelf.
 
-[LEARN MORE]
+### Is Paraguay safe for tourists?
 
-## Frequently Asked Questions
+Broadly yes, with the same common-sense precautions you'd use in any unfamiliar city —
+see our [FAQ page](/faq/) and our post on
+[whether Paraguay is safe](/is-paraguay-safe/) for the honest, detailed answer.
 
-Get to Know Us Better
+### Can you help me with photography?
 
-Why a Swedish-Paraguayan team? [accordion closed]
+Yes — Yanina's background is in photography and design, and several of our tours are
+built with photographers and content creators specifically in mind, from timing routes
+around good light to knowing which angles actually work.
 
-Do you speak English? [accordion closed]
+### Can we meet you in person when we arrive?
 
-Are you a traditional travel agency? [accordion closed]
+Often, yes, depending on schedules — many clients meet Anton or Yanina directly during
+their [airport transfer](/airport-transfer/) or first tour rather than dealing with staff
+they've never spoken to.
 
-Is Paraguay safe for tourists? [accordion closed]
+## Our philosophy
 
-Can you help me with photography? [accordion closed]
+We believe the best travel experiences sit at the intersection of careful planning and
+spontaneous beauty.
 
-Can we meet you in person when we arrive? [accordion closed]
+**Organized adventure.** You want the wild experience of the Chaco or the forest, but
+also a driver who's on time and a booking you can trust. We provide the safety net so you
+can actually enjoy the adventure.
 
-Our Philosophy
+**Visual storytelling.** Because of our background in photography and design, we obsess
+over details most agencies skip — we scout locations for lighting and composition, not
+just convenience.
 
-We believe that the best travel experiences happen at the intersection of perfect planning and spontaneous beauty.
+**Two perspectives at once.** We know what confuses foreigners (the currency, the
+customs, the heat) and what locals love (the slow pace, tereré, the social connection),
+and we translate between the two so you feel oriented fast.
 
-Organized Adventure
+## Who we serve
 
-We know you want the "wild" experience of the Chaco or the jungle, but you also want a driver who is on time and a booking that is secure. We provide the safety net so you can enjoy the adventure.
+- **The explorer** — wants the waterfalls and ruins, but needs a plan that actually holds
+  together. Start with our [tours](/tours/).
+- **The newcomer** — moving to Paraguay and needs a team that speaks the language,
+  literally and culturally. See our [relocation services](/services/).
+- **The creator** — photographers and content-makers who want Yanina's eye on where to
+  point the camera.
 
-## Visual Storytelling
+For background on the country itself before you dive into planning, see
+[Wikipedia's overview of Paraguay](https://en.wikipedia.org/wiki/Paraguay).
 
-Because of our background in photography and design, we obsess over the details. We scout locations based on lighting and aesthetics. Your trip isn't just a vacation; it's a visual journey.
+## Sharing Paraguay's soul with the world
 
-## The "Gringo" & The Local Perspective
-
-We understand both sides. We know what confuses foreigners (the currency, the customs, the heat). We know what locals love (the slow pace, the Tereré, the social connection). We translate the culture for you, making you feel at home instantly.
-
-## Who We Serve
-
-The Explorer: Who wants to see the waterfalls and ruins but needs a plan that actually works.
-
-The Newcomer: Who is moving to Paraguay and needs a team that speaks their language (literally and culturally).
-
-The Creator: Photographers and influencers who need Yanina's eye to find the best locations.
-
-[CONTACT US!]
-
-## Sharing Paraguay's Soul With the World
-
-At Things to Do in Paraguay, we believe travel isn't just about places—it's about people, culture, and moments that stay with you forever. Our mission is to open the doors of Paraguay to travelers seeking authenticity, beauty, and adventure.
-
-Whether you dream of exploring hidden waterfalls, sipping tereré under the sun, or dancing in vibrant local festivals, we're here to guide you every step of the way.
-
-[CONTACT US]
+At Things to Do in Paraguay, we believe travel isn't just about places — it's about
+people, culture and the moments that stay with you. Whether you're dreaming of hidden
+waterfalls, tereré under the sun, or a new life here altogether, [get in touch](/contact/)
+and we'll help you plan it properly.

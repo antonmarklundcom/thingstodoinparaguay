@@ -8,7 +8,7 @@ excerpt: Let local experts design your perfect Paraguay itinerary. We build cust
 cta_text: Design My Trip
 itinerary_label: How It Works
 hook: |
-  ## The "Information Void"
+  ## Why You Need a Travel Planner for Paraguay's "Information Void"
 
   You want to visit Paraguay, but you don't know where to start. Tripadvisor has 5 reviews from 2018. The bus websites don't work. The blog posts are all in Spanish.
 
@@ -55,30 +55,33 @@ faq:
   - q: Do you book the hotels for me?
     a: In our "Planning Only" package, we provide the direct booking links so you maintain control of your credit card and points. In our "Full Concierge" package, we handle all bookings and payments for you.
   - q: Is this service for backpackers or luxury travelers?
-    a: ""
+    a: Both — the itinerary is built around your actual budget and travel style, whether that's hostels and buses or private drivers and boutique hotels. Tell us your range during the questionnaire and we design around it rather than handing you a one-size-fits-all template.
   - q: What if I want to change the plan during the trip?
-    a: ""
+    a: Plans can shift once you're on the road — weather, energy levels, or a place you fall in love with can all change the schedule. Message us and we'll help you adjust the remaining days; exactly how much support is included depends on which package you book.
   - q: Can you help with rental cars?
-    a: ""
+    a: Yes, we can point you to rental car agencies and advise on which routes are realistic to self-drive versus better handled by bus or a [private driver](/private-driver/), especially for longer stretches out to the interior or the Chaco.
   - q: I only have 3 days. Is it worth it?
     a: Absolutely. With limited time, efficiency is even more important. We ensure you don't waste half a day getting lost.
   - q: Do you include public transport info?
-    a: ""
+    a: Yes, where it's relevant to your route we include bus schedules, terminals, and practical notes. Paraguay's long-distance bus network covers most of the country, though timings and comfort levels vary by company.
   - q: Can you plan trips to the Chaco?
-    a: ""
+    a: Yes — the [Gran Chaco](https://en.wikipedia.org/wiki/Gran_Chaco) is one of our favorite regions to plan for. It needs more logistics thought than the Asunción area (distances, road conditions, where to fuel up), which is exactly the kind of planning we specialize in.
   - q: What language will the itinerary be in?
-    a: "[... standard \"Still have a question\" block ...]"
+    a: English, with local names and addresses included as they'd appear to a driver or
+      host on the ground, so you can hand it to someone locally without translating it
+      yourself.
 closing: |
   ## Your Adventure. Our Blueprint. Don't Travel Blind.
 
-  Paraguay is a country that rewards those who know where to look. Let us hand you the key to the best experiences in the country.
+  Paraguay is a country that rewards those who know where to look. Let us hand you the key to the best experiences in the country. Browse our [Paraguay tour](/paraguay-tour/) options and the broader [Paraguay sightseeing](/paraguay-sightseeing/) guide for inspiration before your questionnaire call.
 price_usd: null
-meta_title: ""
-meta_description: ""
+meta_title: "Custom Travel Planner for Your Paraguay Trip"
+meta_description: "A local travel planner builds your custom Paraguay itinerary — day-by-day routes, hotel picks, and honest logistics advice you won't find online."
+focus_keyword: travel planner
 source: wp-scan
 ---
 
-Let local experts design your perfect Paraguay itinerary. We build custom day-by-day plans, route maps, and hotel recommendations based on your interests and budget.
+Let a local travel planner design your perfect Paraguay itinerary. We build custom day-by-day plans, route maps, and hotel recommendations based on your interests and budget.
 
 Planning a trip to Paraguay can be frustrating. Information online is scarce, bus schedules are a mystery, and "Google Maps" doesn't tell you which roads are safe. We design a hyper-detailed, custom itinerary just for you, so you can travel with the confidence of a local.
 
