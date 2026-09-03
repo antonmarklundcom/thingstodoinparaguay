@@ -17,7 +17,7 @@ source: wp-scan
 
 San Luis National Park is one of the least-visited protected areas in Paraguay, and that is exactly why it's worth knowing about if you care about wildlife over crowds. Formally Parque Nacional Serranía San Luis, it sits in the department of Concepción, in the districts of San Carlos del Apa and San Alfredo, roughly 480 kilometers north of Asunción between the Apa and Aquidabán rivers. It protects one of the country's few remaining stretches of Cerrado — the savanna-woodland mosaic more associated with central Brazil than with Paraguay — and it gets a fraction of the visitors that [Cerro Corá](https://en.wikipedia.org/wiki/Cerro_Cor%C3%A1_National_Park) or the Jesuit missions do.
 
-## What makes the Cerrado here different
+## What Makes San Luis National Park's Cerrado Different
 
 Most of what visitors picture when they think of Paraguay is either the humid Atlantic Forest in the east or the dry Chaco scrubland in the west. Serranía San Luis is neither — it's a patch of Cerrado, a biome of rocky hills, sandy soils, scattered woodland, and open grassland that barely survives elsewhere in the country. The terrain itself is the park's signature: low serranías (hill ranges) rising out of the plain, cut through by clear-running streams over rock and sand rather than the murky rivers more typical of Paraguay's lowlands.
 

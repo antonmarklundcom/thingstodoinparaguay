@@ -51,12 +51,13 @@ closing: |
   [Book My Dining Experience]
 duration: "Flexible (typically 3 hours). Pickup/Drop-off: Included for all major hotels and Airbnbs in Asunción. Group Size: Perfect for couples, business groups, or solo foodies. What is Included: Private transportation, Concierge/Translator service, Table Reservation management. Not Included: The cost of the meal. You pay the restaurant directly. This gives you total freedom to order a $20 meal or a $200 meal depending on your appetite and budget."
 price_usd: null
-meta_title: ""
-meta_description: ""
+meta_title: "Restaurants Asuncion Guide: Dining Concierge Service"
+meta_description: "This restaurants Asuncion guide gets you into the city's best tables — reservations, translation, and private transport for every dinner."
+focus_keyword: restaurants asuncion guide
 source: wp-scan
 ---
 
-Discover the best restaurants in Asunción with a personal dining concierge. From world-class Paraguayan steakhouses to high-end fusion cuisine. Reservations, transport, and translation included.
+This restaurants Asuncion guide comes with a personal dining concierge. Discover the best restaurants in Asunción, from world-class Paraguayan steakhouses to high-end fusion cuisine. Reservations, transport, and translation included.
 
 Paraguayan beef is legendary. The fusion cuisine is world-class. But finding the perfect table in a city of hidden gems requires local knowledge. Let us be your personal Maître D', your driver, and your guide to an unforgettable dinner.
 

@@ -34,8 +34,8 @@ itinerary:
     body: Thinking of investing? We can take you on a tour of potential farmlands in the interior or investment properties in emerging cities, acting as your neutral guide and translator.
   - title: The "Grand Tour"
     body: Combine it all. Asunción -> Chaco -> Falls -> Ruins. A 7-day cross-country road trip hitting every major highlight in one epic loop.
-  - title: How it Works?
-    body: ""
+  - title: How It Works
+    body: A simple four-step process from first message to pickup.
   - title: The Consultation
     body: You send us a message with your ideas, dates, and budget.
   - title: The Proposal

@@ -30,7 +30,7 @@ Encarnación is a different city entirely — calmer, more polished, and built a
 
 Encarnación earned the nickname "the Pearl of the South," and it has its own shopping scene too, if lower-key than Ciudad del Este's — modern malls alongside more traditional markets. The city also makes a convenient base for visiting the nearby Jesuit mission ruins, one of Paraguay's most significant historical sites, if you want to add a cultural stop to a beach-focused visit.
 
-## How to combine the two
+## Shopping, Beaches, and How to Combine the Two Cities
 
 Ciudad del Este and Encarnación aren't next door to each other — they sit at opposite ends of Paraguay's eastern border region, roughly a few hours apart by road along Ruta 6 or a similar southern route. A realistic itinerary treats them as two separate stops on a longer eastern Paraguay loop rather than a single day trip: a couple of days around Ciudad del Este for shopping and the Itaipu Dam or Iguazu Falls, then a drive or bus south to Encarnación for the Costanera beaches and the Jesuit ruins nearby. Travelers short on time more often pick one or the other based on whether shopping or beach time matters more to their trip.
 
