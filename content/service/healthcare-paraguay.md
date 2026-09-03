@@ -58,7 +58,10 @@ faq:
   - q: Can I buy local health insurance?
     a: Yes, we can help you compare and sign up with local providers like Santa Clara or Asismed if you'd rather have ongoing local coverage instead of relying on international insurance.
   - q: Is the water safe to drink?
-    a: "[... standard \"Still have a question\" block ...]"
+    a: In Asunción tap water is treated and technically potable, but the mineral balance
+      differs enough from what most newcomers are used to that it can upset a sensitive
+      stomach. Most residents and long-stay visitors stick to bottled or filtered water,
+      especially in the first few weeks.
 closing: |
   ## Your Health is Your Wealth. Don't Navigate the System Alone.
 

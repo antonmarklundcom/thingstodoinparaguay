@@ -67,7 +67,9 @@ faq:
   - q: Can you plan trips to the Chaco?
     a: Yes — the [Gran Chaco](https://en.wikipedia.org/wiki/Gran_Chaco) is one of our favorite regions to plan for. It needs more logistics thought than the Asunción area (distances, road conditions, where to fuel up), which is exactly the kind of planning we specialize in.
   - q: What language will the itinerary be in?
-    a: "[... standard \"Still have a question\" block ...]"
+    a: English, with local names and addresses included as they'd appear to a driver or
+      host on the ground, so you can hand it to someone locally without translating it
+      yourself.
 closing: |
   ## Your Adventure. Our Blueprint. Don't Travel Blind.
 

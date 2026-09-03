@@ -68,7 +68,8 @@ faq:
   - q: Do I tip the driver?
     a: Tipping isn't mandatory and isn't included in the fare, but it's appreciated for good service, especially on longer trips — check current guidance when you book if you'd like a reference point.
   - q: Is there WiFi in the car?
-    a: "[... standard \"Still have a question\" block ...]"
+    a: Not as standard, but a local SIM with data is cheap and easy to set up on arrival
+      — ask us and we can point you to a kiosk or shop near your hotel that sells one.
 closing: |
   ## Arrive on Time and In Style. Your Car is Waiting.
 

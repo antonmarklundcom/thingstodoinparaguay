@@ -62,7 +62,9 @@ faq:
   - q: Can we join in the middle of the school year?
     a: Yes, many schools accept students mid-year, though it depends on space in that specific grade and the school's own calendar — some run on a US August-start year, others on the local February-start year. We check current openings before you settle on a target start date.
   - q: What documents do I need from my home country?
-    a: "[... standard \"Still have a question\" block ...]"
+    a: Typically recent report cards or transcripts, proof of any vaccinations the school
+      requires, and your child's passport — schools vary on the exact list, so we confirm
+      the specifics with your target school before you travel rather than guessing.
 closing: |
   ## Happy Kids Make a Successful Move.
 

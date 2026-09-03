@@ -65,7 +65,9 @@ faq:
   - q: Can you take me to other cities (like Encarnación)?
     a: Yes, we also handle transfers beyond Asunción to cities like Encarnación and Ciudad del Este. For longer trips and multi-day travel around the country, our [private driver](/private-driver/) service is the better fit — check current pricing when you book since inter-city routes are priced differently from the airport run.
   - q: What if I can't find the driver?
-    a: "[... standard \"Still have a question\" block ...]"
+    a: Message us on WhatsApp the moment you land — we track your flight and know roughly
+      when to expect you, and can point you to the exact meeting spot or send the
+      driver's name and description if it isn't obvious in a crowded arrivals hall.
 closing: |
   ## Start Your Trip the Right Way. Welcome to Paraguay.
 

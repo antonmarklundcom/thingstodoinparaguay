@@ -62,7 +62,9 @@ faq:
   - q: How long is a standard lease?
     a: A standard residential lease is typically written for one to two years, though shorter terms can sometimes be negotiated for furnished units aimed at expats. Confirm the exact term with each landlord since it isn't fixed by law.
   - q: Do you help with internet setup?
-    a: "[... standard \"Still have a question\" block ...]"
+    a: Yes — once you've picked a place we can point you to a fibre or mobile-broadband
+      provider that actually covers that address and help you get connected, since
+      coverage varies more by neighbourhood than most new arrivals expect.
 closing: |
   ## Stop Searching. Start Living. Your Keys are Waiting.
 

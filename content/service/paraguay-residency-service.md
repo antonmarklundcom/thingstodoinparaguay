@@ -71,7 +71,9 @@ faq:
   - q: Can I bring my family?
     a: Yes, spouses and dependent children can typically be included in the same residency process. Bring their documentation (birth and marriage certificates, apostilled) along with yours and we'll fold them into the same application.
   - q: Do I need to speak Spanish?
-    a: "[... standard \"Still have a question\" block ...]"
+    a: No — we handle the paperwork, translation and appointments in English throughout
+      the process. Picking up basic Spanish will still make daily life easier once you're
+      settled, but it isn't a requirement for the residency process itself.
 closing: |
   ## Borders are Closing. Keep Your Options Open.
 
