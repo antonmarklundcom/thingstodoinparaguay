@@ -1,6 +1,7 @@
 .env
 data/*.sqlite
 cache/
-public/media/
+public/media/*
+!public/media/.htaccess
 !public/media/legacy/
 node_modules/

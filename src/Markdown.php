@@ -9,13 +9,30 @@ final class Markdown
 {
     private static ?Parsedown $parser = null;
 
+    /**
+     * Parsedown in safe mode: raw HTML in a Markdown body is escaped, not passed
+     * through, and `javascript:`-style URLs are stripped from links and images.
+     *
+     * Bodies come from the admin editor (plan §5.2) and from content/ files, so
+     * this is what keeps a stored cross-site scripting payload out of a rendered
+     * page. Nothing on the site needs raw HTML in a body; a template is the place
+     * for markup.
+     */
+    private static function parser(): Parsedown
+    {
+        if (self::$parser === null) {
+            self::$parser = new Parsedown();
+            self::$parser->setSafeMode(true);
+        }
+        return self::$parser;
+    }
+
     public static function toHtml(string $md): string
     {
         if ($md === '') {
             return '';
         }
-        self::$parser ??= new Parsedown();
-        return self::$parser->text($md);
+        return self::parser()->text($md);
     }
 
     public static function inline(string $md): string
@@ -23,8 +40,7 @@ final class Markdown
         if ($md === '') {
             return '';
         }
-        self::$parser ??= new Parsedown();
-        return self::$parser->line($md);
+        return self::parser()->line($md);
     }
 
     /** Plain text of a Markdown string — for excerpts, word counts and meta descriptions. */

@@ -11,6 +11,7 @@ use Ttp\Repo\RedirectRepo;
 /**
  * The URL contract (plan §1.4), in code. Resolution order:
  *
+ *   0. /admin/* — handed to Ttp\Admin\App verbatim (O2)
  *   1. path normalisation + trailing-slash canonicalisation (301)
  *   2. the `redirects` table (301 / 410) — docs/url-map.csv is seeded into it
  *   3. machine routes: /sitemap.xml, /robots.txt, /feed.xml
@@ -25,11 +26,18 @@ final class Router
     public const TOURS_PATH       = '/tours/';
     public const SERVICES_PATH    = '/services/';
     public const ATTRACTIONS_PATH = '/tourist-attractions-paraguay/';
+    public const ADMIN_PATH       = '/admin';
 
     public static function dispatch(string $method, string $uri): Response
     {
         $path  = self::normalise($uri);
         $query = (string) (parse_url($uri, PHP_URL_QUERY) ?? '');
+
+        // 0. The admin panel, before any canonicalisation — a POST must never be
+        //    answered with a redirect. Nothing under /admin is cached or indexed.
+        if ($path === self::ADMIN_PATH || str_starts_with($path, self::ADMIN_PATH . '/')) {
+            return Admin\App::handle($method, $path);
+        }
 
         // 1. Trailing-slash canonicalisation. Anything that looks like a file
         //    (a dot in the last segment) is left alone: /robots.txt, /wp-login.php.
@@ -319,6 +327,12 @@ final class Router
             'tours'   => $tours,
             'grouped' => $grouped,
         ], $seo));
+    }
+
+    /** Render one item exactly as the public site does — the admin's preview. */
+    public static function renderItem(array $item): Response
+    {
+        return self::item($item);
     }
 
     /** A single post, page, tour or service. */

@@ -30,3 +30,21 @@ Build sessions append here (plan §4.3). Format: `- [phase] short description �
 - [o1] `bin/verify.php` asserts the sitemap equals the kept URLs minus any that return
   `robots: noindex`. If a later phase adds a route that 200s but is deliberately absent from the
   sitemap without being noindexed, verify will flag it — that is the intended behaviour, not a bug.
+- [o2] Scheduled items go live via `bin/publish-due.php`, which needs a cron entry (documented in
+  `docs/admin-guide.md`). Without cron they publish on the next admin page load instead. Impact: a
+  scheduled post can be late on a host with no cron and nobody signed in. Fix: add the cron entry
+  during the S5 deploy; the runbook should list it.
+- [o2] The admin's "Download backup" zips `content/` and a media manifest, not the image files
+  themselves — a full media library would exhaust PHP's memory limit on shared hosting. Impact:
+  restoring needs `public/media/` copied separately (the zip's README says so). Fix: none needed
+  unless the library outgrows an FTP copy.
+- [o2] `bin/migrate.php` splits schema files on `;` after stripping `--` comments. That is fine for
+  the schema we have, but a future migration containing a trigger, a `BEGIN … END` block or a
+  semicolon inside a string literal would be split wrongly. Fix: if such a migration is ever needed,
+  give the runner a real statement splitter first. Documented in `db/README.md`.
+- [o2] The panel shows and stores every timestamp in UTC, including the scheduled publish time, and
+  labels the fields "(UTC)". Asunción is UTC−3/−4. Impact: whoever schedules a post has to do the
+  arithmetic. Fix: a display timezone setting, if it turns out to matter.
+- [o2] `login_attempts` rows are pruned only after a successful sign-in (`Auth::pruneAttempts()`).
+  A site nobody signs into keeps its failure rows for as long as the guessing lasts. Impact: table
+  growth only, a few kB. Fix: prune from `bin/publish-due.php` if it ever matters.

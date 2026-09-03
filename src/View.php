@@ -109,27 +109,85 @@ final class View
         return [$out, $toc];
     }
 
-    /** A media row rendered as a responsive <img>, or '' when there is no image. */
-    public static function image(?array $media, string $class = '', bool $eager = false): string
-    {
+    /**
+     * A media row rendered as a responsive image, or '' when there is no image.
+     *
+     * An upload made through the admin carries the 400/800/1600 variants
+     * src/Uploader.php generated, so it renders as a <picture> that offers WebP
+     * first and falls back to the original format. Anything without variants
+     * (seeded or hand-inserted rows) renders as a plain <img>.
+     */
+    public static function image(
+        ?array $media,
+        string $class = '',
+        bool $eager = false,
+        string $sizes = '(min-width: 60rem) 60rem, 100vw'
+    ): string {
         if ($media === null || empty($media['path'])) {
             return '';
         }
-        $attrs = [
-            'src'   => Str::e((string) $media['path']),
-            'alt'   => Str::e((string) ($media['alt'] ?? '')),
-            'class' => $class,
-        ];
-        $html = '<img src="' . $attrs['src'] . '" alt="' . $attrs['alt'] . '"';
+
+        $img = '<img src="' . Str::e((string) $media['path']) . '"'
+             . ' alt="' . Str::e((string) ($media['alt'] ?? '')) . '"';
         if ($class !== '') {
-            $html .= ' class="' . Str::e($class) . '"';
+            $img .= ' class="' . Str::e($class) . '"';
         }
         if (!empty($media['width']) && !empty($media['height'])) {
-            $html .= ' width="' . (int) $media['width'] . '" height="' . (int) $media['height'] . '"';
+            $img .= ' width="' . (int) $media['width'] . '" height="' . (int) $media['height'] . '"';
         }
-        $html .= $eager
+
+        $variants = self::variants($media);
+        $fallback = self::srcset($variants, 'original');
+        if ($fallback !== '') {
+            $img .= ' srcset="' . Str::e($fallback) . '" sizes="' . Str::e($sizes) . '"';
+        }
+
+        $img .= $eager
             ? ' loading="eager" fetchpriority="high" decoding="async">'
             : ' loading="lazy" decoding="async">';
-        return $html;
+
+        $webp = self::srcset($variants, 'webp');
+        if ($webp === '') {
+            return $img;
+        }
+        return '<picture><source type="image/webp" srcset="' . Str::e($webp) . '"'
+             . ' sizes="' . Str::e($sizes) . '">' . $img . '</picture>';
+    }
+
+    /**
+     * The variants src/Uploader.php stored for a media row, smallest first.
+     *
+     * @return array<int,array{width:int,height:int,webp:string,original:string}>
+     */
+    public static function variants(?array $media): array
+    {
+        if ($media === null) {
+            return [];
+        }
+        $decoded = json_decode((string) ($media['sizes_json'] ?? '[]'), true);
+        if (!is_array($decoded)) {
+            return [];
+        }
+        $out = [];
+        foreach ($decoded as $size) {
+            if (is_array($size) && !empty($size['width']) && !empty($size['original'])) {
+                $out[] = $size;
+            }
+        }
+        usort($out, static fn (array $a, array $b): int => (int) $a['width'] <=> (int) $b['width']);
+        return $out;
+    }
+
+    /** @param array<int,array<string,mixed>> $variants */
+    public static function srcset(array $variants, string $key): string
+    {
+        $parts = [];
+        foreach ($variants as $variant) {
+            $url = (string) ($variant[$key] ?? '');
+            if ($url !== '') {
+                $parts[] = $url . ' ' . (int) $variant['width'] . 'w';
+            }
+        }
+        return count($parts) > 1 ? implode(', ', $parts) : '';
     }
 }

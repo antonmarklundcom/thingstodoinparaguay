@@ -334,6 +334,43 @@ reason is logged); PR merged; final closing report per the prompt file.
   `src/Repo/*` and `bin/seed.php` — the admin writes through the same shapes, and `source='admin'`
   on `content_items` is what stops the seeder overwriting anything edited in the panel.
 
+- 2026-09-03 — **Phase O2 — COMPLETE** (branch `phase/o2-admin`). §5.2 built on top of the merged
+  O1. What now exists: `/admin/` — `src/Admin/{App,Auth,Session,Csrf,Flash,ContentWriter,AdminView,
+  Backup}.php`, `templates/admin/**` and `public/assets/admin/{admin.css,admin.js}`; CRUD for posts,
+  pages, tours, services, categories, tags, redirects, settings and media, read-only leads and
+  subscribers with CSV export, a draft preview through the real public template, and a backup zip.
+  New shared code: `src/SeoScore.php` (the one 0–100 implementation, 13 weighted rules summing to
+  100, used by both the editor and `bin/seo-audit.php`), `src/Uploader.php` (real-mime validation →
+  400/800/1600 px WebP + original into `public/media/YYYY/MM/`), `src/Exporter.php` (extracted from
+  `bin/export.php` so the admin backup and the CLI share one code path). New scripts:
+  `bin/create-admin.php`, `bin/seo-audit.php`, `bin/publish-due.php`. `db/migrations/001_admin.sql`
+  (+ the same change in `schema.sql`) adds `content_items.focus_keyword` and `login_attempts`.
+  `tests/admin.test.php` adds 25 cases; the suite is 56 green and `bin/verify.php` still passes all
+  138 URL-map rows. The `security-review` skill found nothing at reportable confidence; its two
+  sub-threshold notes were closed anyway (a 500 no longer echoes the exception outside dev, and a
+  redirect target can no longer contain a backslash), and CSV exports now neutralise spreadsheet
+  formulas because leads come from a public form in S3.
+  Decisions/deviations: (1) **Parsedown safe mode is now on globally** (`src/Markdown.php`) — the
+  security bar forbids raw HTML from Markdown, no seed file contains any, and verify was unaffected.
+  (2) The Markdown editor is written for this project rather than vendored from a package: the
+  preview round-trips through `/admin/api/preview/` so it renders with the *same* safe-mode
+  Parsedown as the public page, which no client-side parser could guarantee. No CDN, no build step.
+  (3) `Ttp\Router::dispatch` hands `/admin` to the panel *before* canonicalisation, so a POST is
+  never answered with a 301; `Router::renderItem()` was added so the preview uses the real template.
+  (4) Renaming a published slug writes a `slug-change` 301 **and** re-points any older redirect at
+  the new address, so a page renamed twice never leaves a chain; deleting a published item 301s its
+  address to the type index instead of 404ing. A *draft* never removes a `map` redirect — only
+  publishing at that address does, which keeps `docs/url-map.csv` authoritative until someone
+  deliberately takes a URL over. (5) Scheduling needs `bin/publish-due.php` on cron; the panel also
+  runs it on every admin request, so it degrades to "live on next sign-in" (KNOWN-ISSUES).
+  (6) `bin/seed.php` now stores `seo_score` and reads `focus_keyword`, so `bin/seo-audit.php` is
+  meaningful straight after a seed. (7) `View::image()` now emits `<picture>` + `srcset` when a media
+  row has variants — that is the srcset helper §5.2 asked for, not a restyle. Today it reports
+  `seo-audit --strict` failing on 34 Lorem-Ipsum items: that is S4's job, and `--strict` is S4's gate.
+  **Next session (S3) starts here:** read `docs/admin-guide.md` to see what the panel promises the
+  templates will render, then `templates/layout.php` and `src/View.php::image()` — the `<picture>`
+  markup and `Repo/*` are the whole data contract, and `public/assets/admin/*` is off-limits.
+
 ## 10. Backlog
 
 - Tag archive pages (only if tags get real curation).

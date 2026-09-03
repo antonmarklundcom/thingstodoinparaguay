@@ -21,6 +21,7 @@ use Ttp\Db;
 use Ttp\FrontMatter;
 use Ttp\Markdown;
 use Ttp\Repo\RedirectRepo;
+use Ttp\SeoScore;
 use Ttp\Str;
 use Ttp\UrlMap;
 
@@ -174,11 +175,26 @@ foreach (['post', 'page', 'tour', 'service'] as $type) {
             'meta_description'   => (string) ($fm['meta_description'] ?? ''),
             'canonical_override' => (string) ($fm['canonical'] ?? ''),
             'noindex'            => (int) (bool) ($fm['noindex'] ?? false),
+            'focus_keyword'      => (string) ($fm['focus_keyword'] ?? ''),
             'word_count'         => Markdown::wordCount($fullText),
             'sort_order'         => (int) ($fm['sort_order'] ?? 0),
             'source'             => 'seed',
             'content_hash'       => $hash,
         ];
+
+        // The same score the admin editor shows, so `bin/seo-audit.php` is
+        // meaningful straight after a seed without a separate --write pass.
+        $scoreDetails = $isStructured ? [
+            'hook_md'         => (string) ($fm['hook'] ?? ''),
+            'solution_md'     => (string) ($fm['solution'] ?? ''),
+            'closing_md'      => (string) ($fm['closing'] ?? ''),
+            'itinerary_label' => (string) ($fm['itinerary_label'] ?? ''),
+            'itinerary'       => (array) ($fm['itinerary'] ?? []),
+            'why'             => (array) ($fm['why'] ?? []),
+            'practical'       => (array) ($fm['practical'] ?? []),
+            'faq'             => (array) ($fm['faq'] ?? []),
+        ] : null;
+        $fields['seo_score'] = SeoScore::forItem($fields + ['slug' => $slug], $scoreDetails)->score;
 
         if ($existing === null) {
             $cols = implode(', ', array_keys($fields));
