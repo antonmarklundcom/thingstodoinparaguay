@@ -304,9 +304,30 @@ reason is logged); PR merged; final closing report per the prompt file.
   `tour_details.tagline/itinerary_label/closing_md`, `categories.sort_order`, `redirects.created_at`)
   — needed for idempotent seeding and to hold the real tour template. (5) Post titles use the
   verbatim WP `<title>` from the scan, which is richer than `url-map.csv`'s label column.
-  **Next session starts here:** `docs/o1-status.md` lists the remaining O1 work in order —
-  router + front controller, SEO layer, templates, `bin/seed.php`, `bin/verify.php`, CI wiring,
-  README. Read that file first, then `docs/content-gaps.md`.
+  **Superseded by the O1 part 2 entry below.**
+
+- 2026-09-03 — **Phase O1 part 2 — COMPLETE** (PR #4, branch `phase/o1-foundation`). O1 part 1
+  (PR #3) was merged first, then the rest of §5.1 was built on top. What now exists: `src/Router.php`
+  + `public/index.php` + `public/.htaccess` (trailing-slash **and** lower-case canonicalisation →
+  redirects table → machine routes → fixed routes → content by slug → 404/410); `src/Seo.php`
+  (title, description, canonical, robots, OG, Twitter, rel prev/next and a JSON-LD `@graph` with
+  WebSite, Organization, BreadcrumbList, BlogPosting, TouristTrip/Service, FAQPage, CollectionPage);
+  `src/Sitemap.php`, `src/Feed.php`, `src/Cache.php`, `src/View.php`, `src/Response.php`;
+  `templates/` (layout + home, blog, category, post, page, tour, type-index, attractions, 404, 410
+  and partials) — unstyled but final-quality semantic markup, one `<h1>`, landmarks, breadcrumbs;
+  `bin/seed.php`, `bin/export.php`, `bin/cache-clear.php`, `bin/verify.php`, `bin/test.php`;
+  `tests/` (31 cases). `bin/verify.php` passes all 138 URL-map rows with 515 assertions in ~0.6 s.
+  Decisions/deviations: (1) two real defects in part 1's importer were fixed here — a `/s`-modifier
+  regex made every one of the 32 posts swallow the whole of `docs/wp-scan.md` (8.9 MB → 132 KB), and
+  the `## 14 & 15. /faq2/ and /faq/` heading form was not recognised, leaving `/faq/` with an empty
+  body. Both content trees were regenerated. (2) `bin/seed.php` imports only the 301/410 rows of the
+  URL map into `redirects`; `keep` rows are served by the router and must never shadow content.
+  (3) The page cache is off when `APP_ENV=dev` unless `CACHE_TTL` is set, matching `.env.example`.
+  (4) `public/assets/og-default.png` is a generated placeholder so every page has a valid `og:image`;
+  S3 replaces it. (5) `bin/seed.php` gained `--content=dir` so the export → seed round trip is tested.
+  **Next session (O2) starts here:** read `docs/content-gaps.md` and `KNOWN-ISSUES.md`, then
+  `src/Repo/*` and `bin/seed.php` — the admin writes through the same shapes, and `source='admin'`
+  on `content_items` is what stops the seeder overwriting anything edited in the panel.
 
 ## 10. Backlog
 

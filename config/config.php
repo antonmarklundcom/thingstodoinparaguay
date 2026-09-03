@@ -56,13 +56,19 @@ function ttp_config(): array
         return str_starts_with($path, '/') ? $path : $root . '/' . $path;
     };
 
+    // The HTML page cache is off in dev unless CACHE_TTL is set explicitly, so a
+    // template edit shows up on the next reload.
+    $env_name  = $get('APP_ENV', 'dev');
+    $ttl_set   = $get('CACHE_TTL');
+    $cache_ttl = $ttl_set !== '' ? (int) $ttl_set : ($env_name === 'dev' ? 0 : 3600);
+
     $config = [
         'root'        => $root,
         'site_url'    => rtrim($get('SITE_URL', 'http://localhost:8080'), '/'),
-        'env'         => $get('APP_ENV', 'dev'),
+        'env'         => $env_name,
         'db_path'     => $abs($get('DB_PATH', 'data/site.sqlite')),
         'cache_dir'   => $abs($get('CACHE_DIR', 'cache')),
-        'cache_ttl'   => (int) $get('CACHE_TTL', '3600'),
+        'cache_ttl'   => $cache_ttl,
         'content_dir' => $root . '/content',
         'media_dir'   => $root . '/public/media',
         'lead_email'  => $get('LEAD_EMAIL_TO', 'hello@thingstodoinparaguay.com'),

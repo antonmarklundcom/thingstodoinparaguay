@@ -196,7 +196,9 @@ foreach ($rows as $row) {
         if ($type === 'post') {
             if ($lorem === null) {
                 $lorem = '';
-                if (preg_match('/## Common Placeholder Body Copy.*?\n\n((?:> .*\n|>\n)+)/s', file_get_contents($scanPath) ?: '', $m)) {
+                // `[^\n]*`, not `.*`: with the /s modifier a dot would swallow the
+                // rest of the scan and paste it into all 32 post bodies.
+                if (preg_match('/## Common Placeholder Body Copy[^\n]*\n\n((?:>[^\n]*\n)+)/', file_get_contents($scanPath) ?: '', $m)) {
                     $lorem = trim((string) preg_replace('/^> ?/m', '', $m[1]));
                 }
             }

@@ -32,14 +32,25 @@ final class ScanImport
         $out = [];
         $current = null;
         $buf = [];
+        // A heading may cover several paths at once, e.g.
+        // "## 14 & 15. /faq2/ and /faq/ (byte-identical content)". Each path it
+        // names gets the same section text.
+        $aliasOf = [];
         foreach ($this->lines as $line) {
-            if (preg_match('~^##\s+(?:\d+\.\s*)?(/[a-z0-9\-/]*/)~i', $line, $m)) {
+            if (preg_match('~^##\s+(?:\d+(?:\s*&\s*\d+)*\.\s*)?(/[a-z0-9\-/]*/)~i', $line, $m)) {
                 if ($current !== null) {
                     $out[$current] = implode("\n", $buf);
                 }
                 $current = trim($m[1], '/');
                 if ($current === '') {
                     $current = '__root__';
+                }
+                preg_match_all('~(?:^|\s)(/[a-z0-9\-/]*/)~i', $line, $all);
+                foreach ($all[1] as $extra) {
+                    $extra = trim($extra, '/');
+                    if ($extra !== '' && $extra !== $current) {
+                        $aliasOf[$extra] = $current;
+                    }
                 }
                 $buf = [$line];
                 continue;
@@ -59,6 +70,11 @@ final class ScanImport
         }
         if ($current !== null) {
             $out[$current] = implode("\n", $buf);
+        }
+        foreach ($aliasOf as $alias => $target) {
+            if (!isset($out[$alias]) && isset($out[$target])) {
+                $out[$alias] = $out[$target];
+            }
         }
         return $out;
     }
