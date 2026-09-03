@@ -26,7 +26,7 @@ solution: |
 
   Pillar 2: Neoclassical Grandeur & The River Connection
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+  From independence-era history we move a century forward, to the era when Asunción tried to reinvent itself as a European capital on a South American river.
 
   Context: In the late 1800s, Paraguay longed to be the "Paris of South America," resulting in stunning European architecture sitting on the banks of a tropical river.
 

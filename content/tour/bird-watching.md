@@ -78,7 +78,7 @@ focus_keyword: "bird watching"
 source: wp-scan
 ---
 
-Discover over 700 bird species in Paraguay. From the Bare-throated Bellbird in the Atlantic Forest to the Jabiru in the Chaco. Expert guides for serious birders and nature lovers.
+Discover over 700 bird species on a bird watching trip through Paraguay. From the Bare-throated Bellbird in the Atlantic Forest to the Jabiru in the Chaco. Expert guides for serious birders and nature lovers.
 
 While the rest of the world crowds into Costa Rica or Brazil, Paraguay remains the best-kept secret in ornithology. From the humid Atlantic Forest to the dry expanse of the Chaco, discover a land where the birds still rule the sky.
 

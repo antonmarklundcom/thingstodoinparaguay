@@ -70,7 +70,7 @@ faq:
   - q: Is the border crossing slow?
     a: It varies with traffic and time of day, which is exactly why we handle it for you — knowing which lane to use and having documents ready in advance is what keeps a potentially slow crossing quick.
   - q: Can we stop at the Bird Park (Parque das Aves)?
-    a: Yes, it's right next to the entrance on the Brazilian side and pairs naturally with the falls if you have the time — let us know when you book and we'll build it into the day.
+    a: Yes, it's right next to the entrance on the Brazilian side and pairs naturally with the falls if you have the time — let us know when you book and we'll build it into the day. If birds are a highlight of your trip, also see our [bird watching tours](/bird-watching/) back in Paraguay.
   - q: Is lunch included?
     a: No, lunch isn't included in the transfer, but there are good options near both entrances and we're happy to point you to them or build in a stop.
 closing: |

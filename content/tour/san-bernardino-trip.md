@@ -58,15 +58,15 @@ faq:
   - q: How far is it from Asunción?
     a: It is about 45km. Without traffic, it takes 1 hour. On summer weekends, traffic can double that time, which is why we recommend traveling with a driver who knows the alternative routes.
   - q: Is lunch included?
-    a: ""
+    a: Not in the tour price. We're happy to build in a stop at a local restaurant or the bakeries known for their Bollos, but you pay for your own food.
   - q: Are the "Bollos" always available?
-    a: ""
+    a: The traditional bakeries bake fresh through the week, though quantities can run low by late afternoon on busy weekends. We time the stop earlier in the day when we can so you get them fresh.
   - q: Is it safe to walk around?
-    a: "[... standard \"Still have a question\" block ...]"
+    a: Yes, the historic center and waterfront areas we visit are generally safe and popular with locals and visitors during the day. As anywhere, keep an eye on valuables in busier spots, and we'll flag anything worth avoiding on a given day.
 closing: |
-  ## Ready for a Lakeside Escape? Slow Down and Savor the Moment.
+  ## Ready for Your San Bernardino Trip? Slow Down and Savor the Moment.
 
-  You don't need to fly to Europe to feel the charm of a colonial summer. San Bernardino is right here, waiting with open arms and sweet pastries.
+  You don't need to fly to Europe to feel the charm of a colonial summer. [San Bernardino](https://en.wikipedia.org/wiki/San_Bernardino,_Paraguay) is right here, waiting with open arms and sweet pastries.
 
   Whether you want a romantic sunset or a fun family day out, let us drive you to the best view in the country.
 duration: Half Day or Full Day (5 to 7 hours).

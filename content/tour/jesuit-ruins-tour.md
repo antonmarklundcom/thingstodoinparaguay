@@ -75,7 +75,7 @@ focus_keyword: "jesuit ruins tour"
 source: wp-scan
 ---
 
-Visit the UNESCO Jesuit Missions of Trinidad and Jesús de Tavarangue. A private historical tour through the heart of Paraguay's "Red South." English guide and transport included.
+Our jesuit ruins tour visits the UNESCO Jesuit Missions of Trinidad and Jesús de Tavarangue. A private historical tour through the heart of Paraguay's "Red South." English guide and transport included.
 
 Deep in the southern red lands of Paraguay stand the remnants of a utopia. Explore the Jesuit Missions of La Santísima Trinidad and Jesús de Tavarangue—the only UNESCO World Heritage sites in the country. This is not just a tour; it is a time-travel expedition to the 18th Century.
 

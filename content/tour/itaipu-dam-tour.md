@@ -78,7 +78,7 @@ focus_keyword: "itaipu dam tour"
 source: wp-scan
 ---
 
-Visit the Itaipu Hydroelectric Dam, one of the Seven Modern Wonders of the World. A guided tour of the massive structure on the Paraná River. Private transport and tickets included.
+Our Itaipu Dam tour takes you to the Itaipu Hydroelectric Dam, one of the Seven Modern Wonders of the World. A guided tour of the massive structure on the Paraná River. Private transport and tickets included.
 
 Stand before one of the largest hydroelectric dams on Earth. A marvel of engineering that generates enough energy to power the world for 40 days. It's not just concrete and steel; it's a monument to human ambition.
 
