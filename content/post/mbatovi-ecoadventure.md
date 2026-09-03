@@ -10,14 +10,14 @@ tags:
   - day-trip
 excerpt: "Ziplines, canopy trails and forest hiking at Eco‑Reserva Mbatoví — a practical guide to Paraguay's best-known adventure park for an active day out."
 meta_title: "Mbatoví Eco Adventure Park: Visitor Guide"
-meta_description: "Planning a visit to Eco-Reserva Mbatoví? Here's what the ziplines and trails are like, what to bring, and how to plan your day at this Paraguay adventure park."
+meta_description: "Planning a visit to Eco-Reserva Mbatoví? Here's what the ziplines and trails involve, what to bring, and how to plan your day."
 focus_keyword: "mbatovi"
 source: wp-scan
 ---
 
 Most of what draws visitors to [Paraguay](https://en.wikipedia.org/wiki/Paraguay) is quiet: rivers, ruins, small towns. Mbatoví is the exception. Set in forested hill country within reach of Asunción for a day trip, this eco-adventure reserve is built around movement — zipline circuits strung between platforms in the canopy, rope bridges, rappelling walls, and hiking trails through native forest that make it the closest thing the country has to a dedicated adventure park. If your itinerary has been all colonial plazas and mission ruins so far, Mbatoví is where you go to get your heart rate up instead.
 
-## What there is to do
+## What there is to do at Mbatoví
 
 The centrepiece is the zipline network, a series of connected cable runs through and above the tree canopy, generally graded from easier introductory lines to longer, faster runs for visitors who want more of an adrenaline hit. Beyond the ziplines, expect suspended rope bridges, climbing and rappelling elements, and marked hiking trails through the forest reserve itself, which is worth doing slowly if you're at all interested in the birdlife and native vegetation rather than just the adrenaline circuit. It's a place that rewards a full day rather than a quick stop — between the height of the platforms and the shade of the forest canopy, it's noticeably cooler up there than down on the trailhead, which matters on a hot Paraguayan afternoon.
 
@@ -28,6 +28,10 @@ Mbatoví works well for active travellers, families with older children, and any
 ## Planning your visit
 
 Because the reserve sits in hill country outside the city, this is a full day out rather than an afternoon add-on — factor in travel time both ways along with however long you want to spend on the trails and the adventure circuits themselves. Weather matters more here than at most Paraguayan attractions: rain can suspend the zipline and rope activities for safety reasons, so it's worth checking conditions the morning of your visit rather than assuming the itinerary will run exactly as planned. Closed-toe shoes are non-negotiable for anything involving a harness, and loose clothing that lets you move is more useful than anything you'd wear sightseeing in Asunción.
+
+## Combining it with the rest of your trip
+
+Mbatoví sits close enough to Paraguay's lake-country towns that it pairs naturally with a longer weekend away from Asunción rather than standing alone. If you're already planning time around [San Bernardino](/san-bernardino/) or the Cordillera lakes, an adventure day at the reserve slots in well between a morning on the water and an evening back in a quieter town. It's also a good counterpoint if the rest of your Paraguay itinerary has leaned heavily on cities and history — Asunción's colonial core, the Jesuit mission ruins near Encarnación, the shopping strips of Ciudad del Este — and you want at least one day built entirely around being outside and moving.
 
 ## Practical information
 

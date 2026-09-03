@@ -8,7 +8,7 @@ excerpt: Navigate the Paraguayan healthcare system with confidence. We connect e
 cta_text: Find A Doctor
 itinerary_label: Our Services
 hook: |
-  ## Getting Sick Abroad is Scary
+  ## Healthcare Paraguay: Getting Sick Abroad is Scary
 
   When you or your family members feel unwell, the last thing you want to do is fight with a language barrier or sit in a crowded waiting room unsure of the quality of care.
 
@@ -46,26 +46,27 @@ faq:
   - q: Do doctors in Paraguay speak English?
     a: Many specialists in the top private sector have trained abroad and speak excellent English. However, nursing staff and receptionists often only speak Spanish. Our service bridges that gap.
   - q: How much does a doctor's visit cost?
-    a: ""
+    a: Pricing varies by specialist and clinic, and typically runs well below US or European rates for equivalent private care — check current pricing when you book so you have an accurate estimate before the appointment.
   - q: Is Paraguayan dentistry safe?
-    a: ""
+    a: Yes, the private dental sector in Asunción is well regarded regionally, and many implantologists trained abroad and use the same international-brand materials as US or European clinics. We only refer you to practices we've personally vetted.
   - q: Do they accept US health insurance?
-    a: ""
+    a: Some private clinics accept international insurers like Cigna, Bupa, or Allianz directly; others require you to pay upfront and file for reimbursement yourself. We help you confirm which applies before your appointment so there are no surprises at checkout.
   - q: What if I have an emergency?
     a: If you are our client, you call us. We direct you to the nearest private ER (Urgencias) and can meet you there to handle the admission paperwork.
   - q: Are medications available?
-    a: ""
+    a: Yes, pharmacies (farmacias) are widespread in Asunción and generally well stocked for common prescriptions and over-the-counter medication. For specialized or long-term medications, it's worth checking availability with a local pharmacist in advance.
   - q: Can I buy local health insurance?
-    a: ""
+    a: Yes, we can help you compare and sign up with local providers like Santa Clara or Asismed if you'd rather have ongoing local coverage instead of relying on international insurance.
   - q: Is the water safe to drink?
     a: "[... standard \"Still have a question\" block ...]"
 closing: |
   ## Your Health is Your Wealth. Don't Navigate the System Alone.
 
-  Experience the peace of mind that comes with having a local expert on your side. Whether it's a simple checkup or a major procedure, we ensure you are in safe, capable hands.
+  Experience the peace of mind that comes with having a local expert on your side. Whether it's a simple checkup or a major procedure, we ensure you are in safe, capable hands. If you're weighing health considerations against everyday costs, see our notes on [is Paraguay safe](/is-paraguay-safe/) and the general [cost of living in Paraguay](/cost-of-living-paraguay/) — and the [US State Department's travel advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/paraguay-travel-advisory.html) is worth a look before any trip.
 price_usd: null
-meta_title: ""
-meta_description: ""
+meta_title: "Healthcare Paraguay: Doctors, Dentists & Clinics"
+meta_description: "Navigate healthcare in Paraguay with a local concierge who connects you to vetted English-speaking doctors, dentists, and top private clinics in Asunción."
+focus_keyword: healthcare paraguay
 source: wp-scan
 ---
 

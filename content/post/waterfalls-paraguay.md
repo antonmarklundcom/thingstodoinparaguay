@@ -9,17 +9,18 @@ tags:
   - salto-cristal
   - hiking
 excerpt: "A guide to Paraguay's best waterfalls, from Salto Cristal in the Chaco to Monday Falls near Ciudad del Este, with tips on getting there and what to bring."
-meta_title: "Waterfalls in Paraguay: Salto Cristal, Monday Falls & More"
+meta_title: "Waterfalls Paraguay Hides: Salto Cristal & More"
 meta_description: "The best waterfalls in Paraguay worth the trip, including Salto Cristal and the Monday Falls, plus how to get there, what to bring and when to go."
-focus_keyword: "waterfalls in paraguay"
+focus_keyword: "waterfalls paraguay"
 source: wp-scan
 ---
 
 Paraguay lives in the shadow of its neighbours when it comes to waterfalls, mostly because Iguazú
-Falls sits just across the border and understandably dominates the conversation. But Paraguay has
-its own falls worth seeking out, from a hidden crystal-clear cascade in the Chaco's dry forest to a
+Falls sits just across the border and understandably dominates the conversation. But the
+waterfalls Paraguay keeps for itself are worth seeking out too, from a hidden crystal-clear cascade
+in the Chaco's dry forest to a
 smaller, quieter set of falls near Ciudad del Este that most visitors to the region never bother
-to see. None of them compete with Iguazú in scale, and that's fine — they offer something Iguazú
+to see. None of them compete with Iguazú in scale, and that's fine: they offer something Iguazú
 can't, which is a good hike, a swim, and often nobody else around.
 
 ## Salto Cristal, in the Chaco
@@ -47,12 +48,12 @@ and the region around it. Compare them, if you like, to their much larger neighb
 [Iguazu Falls Wikipedia page](https://en.wikipedia.org/wiki/Iguazu_Falls) for the wider geography
 of the area, since the falls straddle the Argentina–Brazil border a short distance from Paraguay.
 
-## Smaller cascades and swimming holes further afield
+## Other waterfalls Paraguay hides further afield
 
 Beyond the two headline falls, Paraguay's national parks and forest reserves hide a scattering of
 smaller cascades and natural pools, particularly in the wetter, more forested east of the country
-near the Atlantic Forest remnants. These rarely have formal infrastructure — a marked trailhead at
-best — and are best visited with a local guide who knows current access and trail conditions,
+near the Atlantic Forest remnants. These rarely have formal infrastructure beyond a marked
+trailhead at best, and are best visited with a local guide who knows current access and trail conditions,
 since routes and water levels can change with the season. Our
 [Paraguay national parks](/paraguay-national-parks/) and
 [Atlantic Forest](/atlantic-forest-paraguay/) guides are good starting points if you want to build a

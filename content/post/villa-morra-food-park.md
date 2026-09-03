@@ -23,13 +23,13 @@ and groups of friends splitting several orders between them. If you want a relax
 introduction to Paraguayan food culture that isn't a sit-down restaurant, a Villa Morra food park
 is a good place to start.
 
-## What a food park in Asunción actually looks like
+## What a Villa Morra food park actually looks like
 
 The format will be familiar if you've been to a food-truck market anywhere in the world, adapted
 to Asunción's climate and pace. A shared outdoor space, usually with some cover and plenty of
 seating, hosts a rotating or semi-permanent set of stalls and trucks selling everything from
 Paraguayan classics to burgers, pizza, Asian-inspired dishes and dessert. People order from several
-stands and bring it all back to a shared table, which makes food parks a naturally social format —
+stands and bring it all back to a shared table, which makes food parks a naturally social format,
 better for a group deciding it can't agree on one restaurant than for a quiet dinner for two.
 Evenings, particularly Thursday through Saturday, are when they're liveliest, often with live
 music or a DJ at the more established spots.
@@ -54,7 +54,10 @@ family-oriented, garden-like feel with more green space between stalls. Villa Mo
 tend to sit closer to the neighbourhood's restaurant and nightlife strip, so they work well as one
 stop on a longer evening out rather than a standalone destination. Neither is objectively better;
 which one suits you depends on whether you want a full evening around the food park itself or a
-casual stop before or after something else in the area.
+casual stop before or after something else in the area. If you're staying in Villa Morra or
+Recoleta and don't want to travel far after dinner, the neighbourhood's own food park is the
+easier choice; if you're building a whole outing around food and have transport sorted, Mburucuyá's
+more spacious layout is worth the extra distance.
 
 ## Practical information
 

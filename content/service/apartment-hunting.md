@@ -50,28 +50,29 @@ faq:
   - q: How much does rent cost in Asunción?
     a: It varies, but generally:
   - q: What are "Expensas"?
-    a: ""
+    a: Expensas are the monthly building fee that covers shared costs — security, common-area cleaning, elevator upkeep, and sometimes water. They're usually billed separately from rent, so always ask what a listing's price does and doesn't include before you compare it to another.
   - q: Can I rent without a Paraguayan Residency (Cedula)?
-    a: ""
+    a: You don't need a Cédula to sign a lease, though many landlords ask for a local co-signer (Garante) or extra deposit months as reassurance instead. We know which landlords are comfortable working with foreigners and can negotiate an alternative when a Garante isn't an option.
   - q: Is it hard to find pet-friendly apartments?
-    a: ""
+    a: It's more limited than in some markets, but far from impossible — plenty of houses and a growing number of apartment buildings do allow pets, especially outside the strictest condominiums. Tell us upfront if a pet is a dealbreaker and we'll filter listings for it from day one.
   - q: How much is the deposit?
     a: "Standard practice is: 1 Month Rent (Guarantee Deposit) + 1 Month Rent (Commission to Real Estate Agent) + 1st Month Rent in advance. So, expect to put down roughly 3 months' worth of cash to move in."
   - q: Do apartments come with appliances?
-    a: ""
+    a: It varies by building and price point. Some furnished units come with a fitted kitchen and appliances ready to go; plenty of unfurnished places are just walls and plumbing. We flag what's included on every listing we send you so there are no surprises on move-in day.
   - q: How long is a standard lease?
-    a: ""
+    a: A standard residential lease is typically written for one to two years, though shorter terms can sometimes be negotiated for furnished units aimed at expats. Confirm the exact term with each landlord since it isn't fixed by law.
   - q: Do you help with internet setup?
     a: "[... standard \"Still have a question\" block ...]"
 closing: |
   ## Stop Searching. Start Living. Your Keys are Waiting.
 
-  Don't waste weeks scrolling through outdated listings or trying to decipher Spanish contracts with Google Translate. Let us fast-track your move so you can enjoy your new life in Paraguay from Day One.
+  Don't waste weeks scrolling through outdated listings or trying to decipher Spanish contracts with Google Translate. Let us fast-track your move so you can enjoy your new life in Paraguay from Day One. For background on what things actually cost once you're settled, see our guide to the [cost of living in Paraguay](/cost-of-living-paraguay/), and browse [renting an apartment in Asunción](/renting-apartment-asuncion/) for a fuller walkthrough of the process.
 duration: Most searches take 3 to 7 days.
 transport: Private car for all viewings included.
 price_usd: null
-meta_title: ""
-meta_description: ""
+meta_title: "Apartment Hunting in Asunción, Paraguay Made Easy"
+meta_description: "Relocating to Asunción? Our apartment hunting service filters listings, negotiates rent, and reviews your contract before you sign."
+focus_keyword: apartment hunting
 source: wp-scan
 ---
 

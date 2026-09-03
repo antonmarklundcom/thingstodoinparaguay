@@ -76,9 +76,10 @@ closing: |
 duration: Totally flexible (From 1 Day to 14 Days).
 transport: We have a fleet ranging from Sedans for couples to Vans for large families.
 price_usd: null
-meta_title: ""
-meta_description: ""
+meta_title: "Custom Paraguay Tour: Build Your Own Itinerary"
+meta_description: "Design a private Paraguay tour around what you actually want to see — ancestry trips, photography, real estate scouting, or a grand cross-country loop."
+focus_keyword: paraguay tour
 source: wp-scan
 ---
 
-Design your perfect trip to Paraguay. Whether you want ancestry research, specific nature expeditions, or business scouting, we build a private itinerary just for you.
+Design your own Paraguay tour and build a private itinerary just for you — ancestry research, specific nature expeditions, or business scouting all included.

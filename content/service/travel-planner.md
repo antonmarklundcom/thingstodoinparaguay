@@ -8,7 +8,7 @@ excerpt: Let local experts design your perfect Paraguay itinerary. We build cust
 cta_text: Design My Trip
 itinerary_label: How It Works
 hook: |
-  ## The "Information Void"
+  ## Why You Need a Travel Planner for Paraguay's "Information Void"
 
   You want to visit Paraguay, but you don't know where to start. Tripadvisor has 5 reviews from 2018. The bus websites don't work. The blog posts are all in Spanish.
 

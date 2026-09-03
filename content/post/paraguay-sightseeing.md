@@ -43,6 +43,14 @@ Once you've covered the city center, several worthwhile sights sit within a coup
   for weekend escapes, with a laid-back café and restaurant scene.
 - The **Jesuit ruins** further south — see below — if you're willing to make it a longer day or an
   overnight trip.
+- **[Cerro Corá National Park](/cerro-cora-park/)** and the wider network of
+  [Paraguay's national parks](/paraguay-national-parks/), if you'd rather trade plazas and ruins for
+  hiking and open landscapes for a day.
+
+Most of these day trips are doable independently by rental car, but Paraguayan intercity buses tend
+to run on their own schedule, so build in flexibility if you're relying on public transport. Renting
+a car for a day or two, or booking a driver, removes a lot of the guesswork and lets you set your
+own pace rather than working around a bus timetable.
 
 ## Further afield: ruins, waterfalls and the Chaco
 

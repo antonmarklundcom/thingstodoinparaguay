@@ -17,7 +17,7 @@ source: wp-scan
 
 Long before Paraguay was a country, Jesuit priests and Guaraní communities built something unusual here: self-governing mission towns, part church, part town, part workshop, that ran for over a century and a half before being violently dismantled. What's left of them — weathered red sandstone arches, roofless naves, carved stone reliefs still holding their detail after three centuries outdoors — sits quietly outside Encarnación, and it's one of the most genuinely moving historical sites in the country. The Jesuit missions of Paraguay don't get the crowds of Machu Picchu, and that's exactly what makes standing among the ruins at sunset feel like something you found rather than something you were sold.
 
-## What the reductions actually were
+## The Jesuit missions of Paraguay: what the reductions actually were
 
 Starting in the early 1600s, Jesuit missionaries established what were called "reductions" — Guaraní settlements organised around a church, workshops, farmland and communal buildings, largely self-sufficient and run with a surprising degree of local Guaraní participation in craft, music and administration. At their peak, dozens of these towns operated across a region spanning parts of modern Paraguay, Argentina and Brazil. They ended abruptly when the Spanish crown expelled the Jesuit order from its American territories in the late 18th century, and the mission towns were largely abandoned and left to the elements soon after — which is a large part of why the ruins look the way they do today: not restored museum pieces, but genuinely old stone left to weather. You can read more background on the broader system at [Wikipedia's entry on the Jesuit Reductions](https://en.wikipedia.org/wiki/Jesuit_Reductions).
 
@@ -28,6 +28,10 @@ If you only see one mission ruin in Paraguay, make it La Santísima Trinidad de 
 ## Jesús de Tavarangüe: the quieter companion site
 
 A short drive further from Trinidad sits Jesús de Tavarangüe, a smaller and less-visited mission that was still under construction when the Jesuits were expelled, which gives it a slightly different character — you can see the unfinished stonework and get a sense of how these buildings were actually put together. It gets a fraction of Trinidad's visitors, which means you'll often have the site close to yourself. Pairing the two makes for a satisfying half-day loop from Encarnación, one polished and monumental, the other raw and unfinished.
+
+## Using Encarnación as your base
+
+[Encarnación](https://en.wikipedia.org/wiki/Encarnaci%C3%B3n,_Paraguay) is the obvious place to stay if you're visiting the missions, and it's worth a night or two in its own right rather than treating it as a pass-through town. It sits on the Paraná River across from Posadas, Argentina, with a rebuilt costanera (riverfront promenade) that gets lively in the evenings, and it makes a sensible base for exploring both Trinidad and Jesús de Tavarangüe without the drive from Asunción eating into your day. Buses run regularly between Asunción and Encarnación if you're not driving yourself, and from Encarnación both mission sites are a short, straightforward hop by car, taxi or tour. If your trip has more time, Encarnación's Carnaval season (during the South American summer) is one of the livelier events in the country and worth timing a visit around if it lines up with your dates.
 
 ## Practical information
 

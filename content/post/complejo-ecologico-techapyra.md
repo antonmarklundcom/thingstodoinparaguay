@@ -22,7 +22,7 @@ Complejo Ecológico Techapyrã is one of those places Paraguayans mention with a
 
 The park sits on private land that has been given over to a mix of conservation and family recreation, which is a common model for smaller eco-parks in Paraguay's interior — a landowner protects a stand of native forest and opens it to visitors instead of clearing it. At Techapyrã that forest is dotted with dinosaur sculptures along the walking paths, which is the detail that gets it shared on social media, but the actual draw for most visitors ends up being simpler: shaded trails, birdsong instead of traffic noise, and enough open grass to let kids run without anyone worrying about the road.
 
-Caaguazú department is Paraguay's agricultural heartland, mostly soy and cattle country these days, so a pocket of standing native forest here reads differently than it would in, say, the Atlantic Forest reserves further east. It's a reminder of what the region looked like before the land was cleared for farming, packaged as a day out rather than a formal reserve.
+Caaguazú department is part of [Paraguay's](https://en.wikipedia.org/wiki/Paraguay) agricultural heartland, mostly soy and cattle country these days, so a pocket of standing native forest here reads differently than it would in, say, the Atlantic Forest reserves further east. It's a reminder of what the region looked like before the land was cleared for farming, packaged as a day out rather than a formal reserve.
 
 ## Getting there
 

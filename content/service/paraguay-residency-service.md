@@ -8,7 +8,7 @@ excerpt: Obtain your Paraguayan Residency and Cedula ID. Expert guidance for exp
 cta_text: Start My Application
 itinerary_label: The Process
 hook: |
-  ## Why Paraguay? And Why is it Complicated?
+  ## Why a Paraguay Residency Service? Why is it Complicated?
 
   Paraguay is famous for being "Expat Friendly." But "Friendly" does not mean "Simple." The immigration process involves multiple government ministries, legalizations, Interpol checks, and strict document formatting.
 
@@ -59,17 +59,17 @@ faq:
   - q: Do I get Permanent Residency immediately?
     a: Under the new Law (6984/2022), most applicants receive Temporary Residency (valid for 2 years) first. Before it expires, you apply to change it to Permanent. Immediate Permanent Residency is now reserved largely for specific investor categories (SUACE).
   - q: Do I need to live in Paraguay to keep my residency?
-    a: ""
+    a: Temporary Residency doesn't require you to live in Paraguay full time, but staying away for very long stretches can complicate a later renewal or the conversion to Permanent Residency. We'll walk you through the practical guidelines that currently apply when you file.
   - q: Can I work in Paraguay with this residency?
-    a: ""
+    a: Yes — once you hold residency you're generally permitted to work or run a business here, which is one of the main reasons digital nomads and investors pursue it. Professions with their own licensing rules, like medicine or law, have separate requirements on top.
   - q: What about taxes?
-    a: ""
+    a: Paraguay runs a territorial tax system, so in general only income earned inside the country is taxed locally, which is a big part of its appeal. Everyone's situation is different, so we recommend confirming your specific case with a local accountant once you're settled.
   - q: Do I need to deposit money in a bank?
     a: For Temporary Residency, you usually need to prove "economic solvency." This is often done by signing an affidavit or showing a specific amount in a bank account. We will guide you on the current requirement as it changes slightly by administration.
   - q: Does this include the government fees?
-    a: ""
+    a: Our service fee and the government's own filing and stamp fees are separate — check current pricing when you book so you know exactly what's covered in your package versus what you'll pay directly to Migraciones.
   - q: Can I bring my family?
-    a: ""
+    a: Yes, spouses and dependent children can typically be included in the same residency process. Bring their documentation (birth and marriage certificates, apostilled) along with yours and we'll fold them into the same application.
   - q: Do I need to speak Spanish?
     a: "[... standard \"Still have a question\" block ...]"
 closing: |
@@ -77,11 +77,12 @@ closing: |
 
   Paraguay remains one of the last bastions of freedom and accessibility in the world. But immigration laws change constantly. Don't wait until the doors close.
 
-  Let us handle the bureaucracy while you plan your new life.
+  Let us handle the bureaucracy while you plan your new life. Once your paperwork is moving, our [apartment hunting](/apartment-hunting/) service and guide to the [cost of living in Paraguay](/cost-of-living-paraguay/) will help you plan the rest of the move — and [Paraguay](https://en.wikipedia.org/wiki/Paraguay) itself is worth reading up on before you land.
 requirements: Clean criminal record, valid passport, and proof of solvency (we explain the options).
 price_usd: null
-meta_title: ""
-meta_description: ""
+meta_title: "Paraguay Residency Service for Expats & Investors"
+meta_description: "Get expert help with your Paraguay residency application — document prep, Migraciones appointments, and Cédula processing handled from start to finish."
+focus_keyword: paraguay residency service
 source: wp-scan
 ---
 

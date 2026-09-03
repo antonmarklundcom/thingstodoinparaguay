@@ -23,15 +23,15 @@ the old government quarter, an evening on the riverside Costanera, a long lunch 
 a morning lost in the noise of Mercado 4. None of it is spectacular in isolation. Together it adds
 up to a genuinely good few days.
 
-## Start in the historic centre
+## What to do in Asunción: start in the historic centre
 
 The old centre, around the Palacio de los López (the presidential palace) and Plaza de la
 Independencia, is where Asunción's history is most visible. The palace itself, an ornate neoclassical
 building overlooking the river, isn't generally open for public tours, but it's worth walking past
 in the late afternoon when the light catches its facade. Nearby, the Panteón Nacional de los Héroes
 holds the remains of several figures from Paraguay's independence and later wars, and functions as a
-kind of national mausoleum in miniature. The surrounding streets have a faded, unhurried grandeur —
-some buildings beautifully kept, others visibly waiting for restoration — that gives the centre more
+kind of national mausoleum in miniature. The surrounding streets have a faded, unhurried grandeur,
+some buildings beautifully kept, others visibly waiting for restoration, that gives the centre more
 character than its size would suggest. For deeper background on the country these buildings sit in,
 see the [Asunción Wikipedia page](https://en.wikipedia.org/wiki/Asunci%C3%B3n) and our broader
 [essential guide to Paraguay](/essential-guide-paraguay/).
@@ -52,7 +52,7 @@ Villa Morra and the neighbouring Recoleta area hold most of Asunción's better r
 food parks, and are worth a dedicated evening or two rather than a rushed stop. Our
 [Villa Morra food park](/villa-morra-food-park/) guide covers the casual food-truck scene there in
 detail. For a more market-driven, less polished side of the city, Mercado 4 is the place to see
-Asunción's everyday commerce up close, from produce to leather goods to yerba mate gear — our
+Asunción's everyday commerce up close, from produce to leather goods to yerba mate gear. Our
 [shopping in Asunción](/shopping-in-asuncion/) guide breaks down both extremes, from the market
 stalls to the malls.
 
@@ -113,5 +113,5 @@ and it has enough of its own character, food and history to be more than a layov
 ### What should I avoid doing in Asunción?
 
 Avoid flashing valuables in crowded market areas like Mercado 4, and don't expect the same tourist
-infrastructure you'd find in Buenos Aires or Rio — signage and English are both more limited, which
+infrastructure you'd find in Buenos Aires or Rio: signage and English are both more limited, which
 is part of what makes the city feel authentic rather than staged.

@@ -8,7 +8,7 @@ excerpt: Buy authentic Paraguayan handicrafts. Guided tour to artisan markets fo
 cta_text: Ask for a quote
 itinerary_label: ""
 hook: |
-  ## The Artisan Route: Curated & Fair
+  ## The Paraguay Souvenirs Route: Curated & Fair
 
   We are your bridge to the culture. We guide you through the historic artisan corridors (like La Recova or specialized stalls in the Old City) where the trade has been passed down for generations. Our goal is twofold: Quality for you, and fair prices for the artist. We help you negotiate a price that respects the work while ensuring you don't pay the "gringo tax." We translate the meaning behind the symbols so you know the story of what you are buying.
 solution: |
@@ -21,7 +21,15 @@ solution: |
   Leather & Tereré Kits: The Termo (Thermos) is the national accessory of Paraguay. We help you design a custom, hand-tooled leather termo and Guampa (cup) set, often personalized with your name or logo on the spot. It is the ultimate functional souvenir.
 
   Pottery & Wood: From the surreal ceramic hens of "La Pote" to the sacred wood carvings of the missions. We find the pieces that fit your suitcase and your home decor.
-itinerary: []
+itinerary:
+  - title: "Stop 1: The Lace and Textile Stalls"
+    body: We start in the historic artisan corridors, like La Recova, where you can see Ñandutí lace and Ao Po'i embroidered cotton up close. We help you tell the hand-woven pieces from machine-made copies and negotiate a fair price with the artisan.
+  - title: "Stop 2: The Filigree Jewelers of Luque"
+    body: A short drive to Luque, the traditional home of Paraguayan silver filigree. We take you to trusted jewelers where threads of silver thinner than hair are spun into earrings, pendants, and bracelets.
+  - title: "Stop 3: Leather and Tereré Kits"
+    body: We visit a leather workshop where you can design a custom, hand-tooled thermos and guampa (cup) set, often personalized with your name or logo while you wait or have lunch.
+  - title: "Stop 4: Pottery and Wood (Optional)"
+    body: If time and interest allow, we add a stop for ceramics and carved wood pieces, from the surreal ceramic hens of "La Pote" to wood carvings inspired by the Jesuit missions.
 why:
   - title: Why Choose This Tour?
     body: |
@@ -55,15 +63,18 @@ closing: |
 
   Your home deserves art that tells a story. Support local artists and find the treasure that will always remind you of the warmth of Paraguay.
 
+  Many of the patterns and legends you'll hear come straight from [Guaraní tradition](https://en.wikipedia.org/wiki/Guaran%C3%AD_language). If you want to see the artisans at work in their own towns rather than at the market stalls, our [Paraguay culture tour](/paraguay-culture-tour/) visits the Itauguá and Areguá workshops directly, and our [Asunción shopping guide](/shopping-asuncion/) covers electronics and fashion if crafts aren't the only thing on your list.
+
   [Book My Artisan Tour]
 duration: "3 hours. Pickup: Hotel or Airbnb in Asunción. Best Time: Mornings (9:00 AM) are best for market activity. Transport: Private Vehicle."
 price_usd: null
-meta_title: ""
-meta_description: ""
+meta_title: "Paraguay Souvenirs Tour: Authentic Artisan Shopping"
+meta_description: "Shop for genuine Paraguay souvenirs — Ñandutí lace, filigree silver, and leather — with a guide who connects you directly to the artisans."
+focus_keyword: paraguay souvenirs
 source: wp-scan
 ---
 
-Buy authentic Paraguayan handicrafts. Guided tour to artisan markets for Ñandutí lace, Filigree jewelry, and Leather goods. Support local artists and avoid tourist traps.
+This Paraguay souvenirs tour buys authentic Paraguayan handicrafts at their source. A guided visit to artisan markets for Ñandutí lace, filigree jewelry, and leather goods — supporting local artists and avoiding tourist traps.
 
 Souvenirs should be stories, not just objects. Skip the airport gift shops and mass-produced magnets. We take you directly to the source—to the markets and workshops where master artisans weave, carve, and forge the soul of the country.
 

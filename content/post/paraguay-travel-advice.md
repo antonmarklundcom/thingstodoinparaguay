@@ -39,7 +39,9 @@ malls, hotels and larger restaurants, cash is still king almost everywhere else 
 markets, local buses and roadside stalls. Withdraw guaraníes from ATMs in bank branches or shopping
 centers rather than isolated street machines, and carry small bills, since vendors outside the
 capital frequently can't break large notes. US dollars are useful as a backup for larger purchases
-or emergencies but aren't a substitute for having local currency day to day.
+or emergencies but aren't a substitute for having local currency day to day. Tipping isn't as
+codified as in North America — rounding up or leaving a modest amount at a sit-down restaurant is
+appreciated but not strictly expected, and it's not customary at all for taxis or informal vendors.
 
 ## Getting around
 
@@ -49,7 +51,9 @@ expect. Within Asunción, ride-hailing apps are a more predictable option than h
 street. If you're planning to cover a lot of ground independently, especially toward the Chaco,
 renting a car with a reliable 4x4 for unpaved stretches is worth the extra cost. For travelers who'd
 rather not navigate logistics themselves, a [private driver](/private-driver/) or a
-[travel planner](/travel-planner/) service can take that entirely off your plate.
+[travel planner](/travel-planner/) service can take that entirely off your plate. Arriving by air,
+Asunción's Silvio Pettirossi International Airport is small enough that an [airport transfer](/airport-transfer/)
+is easy to arrange in advance rather than negotiating with taxi touts after a long flight.
 
 ## Health and safety basics
 

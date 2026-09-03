@@ -17,6 +17,10 @@ source: wp-scan
 
 "Is Paraguay safe?" is one of the first questions anyone researching a trip here types into a search bar, and it deserves a straight answer instead of a brochure one. Paraguay is not a high-risk destination by South American standards, and violent crime against tourists is rare, but that doesn't mean you can switch your street sense off. Like most of the region, the real risks are opportunistic and preventable: petty theft, scams, and a handful of border towns that warrant more caution than the capital.
 
+## So, is Paraguay safe?
+
+The short version: yes, with the same ordinary precautions you'd bring to any unfamiliar country. Read on for the specifics on where and how to stay alert.
+
 ## Asunción: safer than its reputation
 
 Asunción is a manageable, relatively low-key capital, and the neighbourhoods most visitors and expats spend time in — Villa Morra, Recoleta, Carmelitas, the Costanera in daylight — are comfortable to walk around, including at night in the busier stretches. The usual city precautions apply: don't display phones and jewellery carelessly, keep bags zipped and in front of you on buses, and use a radio taxi or ride-hailing app rather than hailing a car off the street after dark. Areas around Mercado 4 and some parts of the historic centre get noticeably quieter and less comfortable after dark, so plan those visits for daytime. None of this is unusual advice for a Latin American capital — Asunción doesn't ask more of you than Buenos Aires or Lima would.

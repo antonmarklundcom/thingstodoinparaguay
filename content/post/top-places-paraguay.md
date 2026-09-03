@@ -9,8 +9,8 @@ tags:
   - top-places
   - road-trip
 excerpt: "The top places in Paraguay worth building a trip around, from Asunción and Encarnación's Jesuit ruins to the Chaco, Iguazú and the Ypacaraí lake towns."
-meta_title: "Top Places in Paraguay: A First-Time Visitor's Shortlist"
-meta_description: "Not sure where to start in Paraguay? Here are the top places to visit, from Asunción and the Jesuit ruins to the Chaco and Iguazú, with routes to link them."
+meta_title: "Top Places Paraguay Offers First-Time Visitors"
+meta_description: "Not sure where to start? Here are the top places Paraguay offers first-time visitors, from Asunción and the Jesuit ruins to the Chaco and Iguazú."
 focus_keyword: "top places paraguay"
 source: wp-scan
 ---
@@ -18,11 +18,11 @@ source: wp-scan
 Paraguay rarely makes anyone's first list of South American destinations, which is exactly why it
 rewards the people who do go. There are no crowds at the ruins, no queues at the falls, and no
 sense that a place has been shaped around tourism rather than around the people who actually live
-there. If you are trying to figure out the top places in Paraguay for a first visit, this is a
-practical shortlist built around how the country actually connects geographically, not just a list
-of pretty photos.
+there. If you are trying to work out the top places Paraguay has to offer for a first visit, this
+is a practical shortlist built around how the country actually connects geographically, not just a
+list of pretty photos.
 
-## Asunción: start here, even briefly
+## Top places Paraguay offers: Asunción first
 
 Almost every trip starts in Asunción, the capital, and it deserves more than a layover. The
 historic centre still has its neoclassical government palace and a scattering of older buildings
@@ -85,7 +85,7 @@ Asunción or can be strung together into a longer loop through the interior.
 - **Best time to go:** April to October (Paraguay's dry season and cooler months) for comfortable
   travel; December to February is intensely hot and humid, especially in the Chaco.
 - **Getting around:** long-distance buses connect all the main towns cheaply, but distances are
-  real — Asunción to Ciudad del Este or to Filadelfia is a full day on the road, so plan accordingly
+  real: Asunción to Ciudad del Este or to Filadelfia is a full day on the road, so plan accordingly
   or arrange a private driver for tighter itineraries.
 - **What to bring:** light, breathable clothing, a hat and sunscreen, insect repellent for rural
   and forest areas, and a reusable water bottle, since Paraguay's heat is no joke most of the year.
