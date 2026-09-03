@@ -67,4 +67,4 @@ Start with what you actually want — nature, culture, food, or a mix — and bu
 ### Is Paraguay expensive to visit?
 Generally no, especially compared with its neighbours. See our [cost of living](/cost-of-living-paraguay/) guide for the fuller picture, including where costs vary.
 
-Want the planning done for you? [Talk to our travel planning service](/travel-planner/) and we'll put together an itinerary that matches how much time and energy you actually have.
+Want the planning done for you? [Talk to our travel planning service](/travel-planner/) and we'll put together an itinerary that matches how much time and energy you actually have. If the Jesuit missions made your shortlist, see our [guided Jesuit ruins tour](/jesuit-ruins-tour/) for how we cover Trinidad and Jesús in one trip.

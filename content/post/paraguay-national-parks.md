@@ -115,4 +115,5 @@ they will give you forest, wetland and scrubland that feel genuinely wild, often
 tourist in sight. If you'd like the logistics handled for you, especially for the Chaco or Pantanal,
 [ask about a guided day trip](/day-trips-asuncion/) and we'll match the route to how much time and
 4x4 driving you're up for. For more ideas on where else to explore outdoors, see our roundup of
-[Paraguay's beaches](/paraguay-beaches/) for when you want water instead of trees.
+[Paraguay's beaches](/paraguay-beaches/) for when you want water instead of trees, or
+[ask about a guided bird-watching trip](/bird-watching/) if the wildlife is the real draw for you.

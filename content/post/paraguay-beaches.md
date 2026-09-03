@@ -122,4 +122,5 @@ put together an itinerary around the season you're visiting in.
 
 According to [Wikipedia's overview of Paraguay](https://en.wikipedia.org/wiki/Paraguay), the
 country's river network is central to its geography precisely because it has no sea access — which
-is exactly what makes these beaches worth the detour.
+is exactly what makes these beaches worth the detour. If you'd rather spend the day on the water
+than beside it, [ask about our fishing charters](/fishing-charters/) on the same rivers and lakes.

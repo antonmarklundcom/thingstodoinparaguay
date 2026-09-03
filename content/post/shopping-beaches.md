@@ -60,3 +60,5 @@ Requirements depend on your nationality and change periodically, so check curren
 By long-distance bus or private vehicle along the southern highway route, generally a few hours' drive. Some travelers route back through Asunción instead, depending on onward travel plans.
 
 Between Ciudad del Este's commercial energy and Encarnación's riverside calm, these two [border cities](https://en.wikipedia.org/wiki/Ciudad_del_Este) show a side of Paraguay that Asunción alone doesn't cover. For a closer look at Ciudad del Este on its own, see our guide to [exploring Ciudad del Este](/exploring-ciudad-del-este/), or [ask us about a guided Itaipu Dam day trip](/itaipu-dam-tour/) to pair naturally with either stop.
+If you're after crafts and gifts specifically, our [Paraguay souvenirs tour](/paraguay-souvenirs/)
+covers ñandutí lace and other local pieces worth bringing home.

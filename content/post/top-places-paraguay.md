@@ -128,4 +128,4 @@ situation. Check current border and entry requirements before you cross.
 
 Asunción plus one nearby excursion, either San Bernardino and Caacupé or the Jesuit missions near
 Encarnación if you can stretch to an overnight. Both give a real sense of the country without a
-long drive.
+long drive — see our [San Bernardino trip](/san-bernardino-trip/) if that's the one you pick.

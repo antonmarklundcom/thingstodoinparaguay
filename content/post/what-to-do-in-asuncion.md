@@ -114,4 +114,6 @@ and it has enough of its own character, food and history to be more than a layov
 
 Avoid flashing valuables in crowded market areas like Mercado 4, and don't expect the same tourist
 infrastructure you'd find in Buenos Aires or Rio: signage and English are both more limited, which
-is part of what makes the city feel authentic rather than staged.
+is part of what makes the city feel authentic rather than staged. If markets and malls are the
+focus of your day, see our [guided shopping tour of Asunción](/shopping-asuncion/) for a route
+through both.

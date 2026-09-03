@@ -119,4 +119,6 @@ card for a specific purchase.
 ### How much time should I set aside for shopping in Asunción?
 
 A half day covers a decent visit to Mercado 4 plus one mall. A full day lets you add a craft-focused
-stop for ñandutí or ao po'i, or a side trip to Itauguá, without feeling rushed.
+stop for ñandutí or ao po'i, or a side trip to Itauguá, without feeling rushed. If you'd rather see
+where the yerba mate you'll be drinking all week actually comes from, our
+[yerba mate tour](/yerba-mate-tour/) makes a good pairing with a shopping day.

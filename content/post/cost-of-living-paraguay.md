@@ -67,4 +67,4 @@ The time and paperwork cost of residency and the early months of renting without
 ### Are prices the same everywhere in Paraguay?
 No — Asunción, especially the more established neighbourhoods, runs noticeably higher than smaller interior cities or towns, where local goods and rent both cost less.
 
-Thinking about the move for real? [Talk to our residency service](/paraguay-residency-service/) about what your specific situation — income source, family size, timeline — actually costs to set up here.
+Thinking about the move for real? [Talk to our residency service](/paraguay-residency-service/) about what your specific situation — income source, family size, timeline — actually costs to set up here. If buying rather than renting is on the table, our [real estate tour](/paraguay-real-estate-tour/) is a lower-pressure way to see neighborhoods and price ranges before committing.

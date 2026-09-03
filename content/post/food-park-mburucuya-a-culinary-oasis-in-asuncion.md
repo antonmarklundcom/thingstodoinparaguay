@@ -61,4 +61,4 @@ Both follow the same open-air, multi-vendor format in different parts of Asunci�
 ### What should I bring?
 Cash as backup, since not every stall may reliably take cards, and an appetite ready to try more than one vendor rather than filling up at the first stall you see.
 
-Want a fuller taste of Asunción's food scene beyond one evening? [Ask about our food tour of Paraguay](/food-paraguay-tour/) for a guided route through the city's best casual and sit-down spots alike.
+Want a fuller taste of Asunción's food scene beyond one evening? [Ask about our food tour of Paraguay](/food-paraguay-tour/) for a guided route through the city's best casual and sit-down spots alike, or see our [restaurant guide to Asunción](/restaurants-asuncion-guide/) for sit-down options beyond the food parks.
