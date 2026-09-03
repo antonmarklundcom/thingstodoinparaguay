@@ -10,7 +10,9 @@ focus_keyword: paraguay tourism guide
 source: wp-scan
 ---
 
-## The Paraguay travel guide most sites don't bother writing
+## The Paraguay tourism guide most sites don't bother writing
+
+This Paraguay tourism guide exists because most of what's out there isn't good enough.
 
 If you've tried researching a trip here, you've probably hit the problem already: the
 big travel blogs are years out of date, official tourism sites are often only in Spanish,

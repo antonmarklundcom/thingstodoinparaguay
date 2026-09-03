@@ -6,15 +6,15 @@ published_at: 2025-07-24T00:00:00Z
 excerpt: Straight answers to the questions we get most — safety, language, money, water, the residency process and what actually makes us different.
 meta_title: Paraguay Travel FAQ — Safety, Money & More
 meta_description: Honest answers to the questions travelers ask most about Paraguay — safety, language, cash vs card, tap water, residency and Uber.
-focus_keyword: paraguay travel faq
+focus_keyword: faq
 source: wp-scan
 ---
 
-## You have questions, we have answers
+## Paraguay FAQ: you have questions, we have answers
 
 Paraguay is still an off-the-beaten-path destination, so it's normal to have doubts.
-Whether you're coming for a 3-day trip or a lifetime move, clarity is the first step to a
-good one — here's what people actually ask us before they book.
+This FAQ covers what people actually ask us before they book, whether you're coming for
+a 3-day trip or a lifetime move.
 
 ### Is Paraguay safe for tourists?
 

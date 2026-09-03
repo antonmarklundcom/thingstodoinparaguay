@@ -6,18 +6,18 @@ published_at: 2025-07-24T00:00:00Z
 excerpt: Get in touch with Anton and Yanina to plan a tour, ask about relocating, or get a quote — by WhatsApp, email or the form below.
 meta_title: Contact Things to Do in Paraguay
 meta_description: Reach Anton and Yanina directly for tours, transfers or relocation help in Paraguay — WhatsApp, email or the contact form, usually same-day replies.
-focus_keyword: contact paraguay
+focus_keyword: contact
 source: wp-scan
 ---
 
-## Get closer with us
+## Contact us
 
 Whether you're planning your first trip to Asunción, putting together a longer itinerary
 around the country, or figuring out the practical side of moving here, we'd rather talk
 it through than have you guess. Send us your dates, your questions, or just what you've
 heard and want to check — Anton or Yanina will reply personally, not a call centre.
 
-## How to reach us
+## How to contact us
 
 - **WhatsApp** — the fastest way to reach us, especially once you're already in the
   country. Use the button on this page or message the number below directly.

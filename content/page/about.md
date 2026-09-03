@@ -6,15 +6,16 @@ published_at: 2025-07-24T00:00:00Z
 excerpt: Meet Anton and Yanina — a Swedish marketing strategist and a Paraguayan photographer who built a small, hands-on travel and relocation service in Asunción.
 meta_title: About Things to Do in Paraguay
 meta_description: Meet Anton and Yanina, the Swedish-Paraguayan team behind Things to Do in Paraguay — how we work, and who we're best suited to help.
-focus_keyword: about paraguay travel agency
+focus_keyword: about
 source: wp-scan
 ---
 
-## Discover Paraguay with us
+## About Things to Do in Paraguay
 
 Meet Anton and Yanina — a small travel and relocation agency founded by a Swedish
 marketing strategist and a Paraguayan photographer. We combine Scandinavian organization
-with Latin soul to show you the Paraguay that doesn't make it into the guidebooks.
+with Latin soul to show you the Paraguay that doesn't make it into the guidebooks. This
+page is about how we work and who we're best suited to help.
 
 ## Two worlds, one country
 
