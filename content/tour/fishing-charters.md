@@ -54,28 +54,27 @@ faq:
   - q: Do I need a fishing license?
     a: Yes, Paraguay requires a fishing license. We handle the paperwork for you. We just need your passport details in advance to issue the permit so you are 100% legal on the water.
   - q: Can we keep the fish?
-    a: ""
+    a: Practices vary by species and location — dorado is often catch-and-release among serious anglers to protect the fishery, while pacú and boga are commonly kept for the table. We'll confirm local rules and etiquette for your specific trip when you book.
   - q: Do I need to bring my own equipment?
-    a: ""
+    a: No. We supply rods, reels, lures, and live bait. If you're a fly-fisherman with a preferred setup, feel free to bring it, though we can also point you toward the shallow rapids that suit fly gear.
   - q: Is beer/food included?
-    a: ""
+    a: Cold beers and food to keep you going are part of the full-service charter experience — check the exact inclusions for your specific package when you book.
   - q: How far is the drive?
     a: The best fishing is not in Asunción (where the water is busy with barges). We drive south to Ayolas or Cerrito, which is about 3.5 to 4.5 hours. For this reason, we often recommend an overnight stay in a fishing lodge.
   - q: Is it safe from mosquitoes?
-    a: ""
+    a: Bring repellent and long sleeves for dawn and dusk, when mosquitoes are most active near the river — it's a normal part of fishing this stretch of the Paraná, not a special hazard.
   - q: Can beginners do this?
-    a: ""
+    a: Yes. Our guides are used to coaching first-timers on casting and handling the bigger species, so you don't need prior experience to book a charter.
   - q: What happens if we don't catch anything?
-    a: "[... standard \"Still have a question\" block ...]"
+    a: Fishing is fishing — even with a good guide, some days are slower than others depending on water level and season. Our captains fish these waters constantly and adjust technique and location to give you the best realistic shot.
 closing: |
   ## The River is Calling.
 
-  There is a monster waiting in the dark water, and it wants to test your strength. Don't sit in your hotel room imagining what it's like.
-
-  Grab a rod, open a cold beer, and experience the adrenaline of Paraguayan sport fishing.
+  There is a monster waiting in the dark water, and it wants to test your strength. Don't sit in your hotel room imagining what it's like — grab a rod and go after the golden dorado on the Paraná, one of [Paraguay's](https://en.wikipedia.org/wiki/Paraguay) two great river systems. If you'd rather mix fishing with sightseeing, ask about combining this with our [Jesuit ruins tour](/jesuit-ruins-tour/), since both routes head south toward the same region.
 price_usd: null
-meta_title: ""
-meta_description: ""
+meta_title: "Fishing Charters in Paraguay: Chase the Golden Dorado"
+meta_description: "Full-service fishing charters on the Paraná River for golden dorado and surubí, with boats, guides, tackle, and license paperwork all arranged."
+focus_keyword: "fishing charters"
 source: wp-scan
 ---
 

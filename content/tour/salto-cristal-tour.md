@@ -52,23 +52,23 @@ faq:
   - q: Do I need to be fit to do this tour?
     a: You don't need to be an athlete, but you need reasonable mobility. The staircase down to the falls is steep, and the climb back up is a workout. If you are traveling with very young children or elderly family members, please consult with us first so we can advise you honestly.
   - q: Is the water cold?
-    a: ""
+    a: It's cool and refreshing rather than icy — a welcome contrast to the heat after the hike down. Expect it to feel brisk when you first get in and pleasant once you're swimming.
   - q: Is it safe for children?
-    a: ""
+    a: It can work for older, confident kids, but the staircase down is steep and the rocks near the water get slippery, so it isn't ideal for very young children or anyone unsteady on their feet. Tell us your kids' ages before booking so we can advise you honestly.
   - q: Can I jump from the rocks?
-    a: ""
+    a: We don't encourage it. Water levels and submerged rocks change with the season, so we can't guarantee a spot is safe to jump into on any given day. Swimming in the pool itself is the safer way to enjoy the falls.
   - q: Are there bathrooms/changing rooms?
     a: "There are basic rustic facilities at the entrance (top of the hill) where you can change clothes and use the restroom. Note: There are no facilities at the bottom of the falls."
   - q: What if it rains?
-    a: ""
+    a: Light rain doesn't usually cancel the tour, but heavy rain makes the dirt road genuinely risky and the stairs slippery, so we may reschedule for safety. We check conditions with you the day before and stay in touch the morning of.
   - q: Is lunch included?
-    a: ""
+    a: Not in the base tour price. We can stop at a local rustic restaurant (quincho) near the falls or arrange a picnic — either way, you pay for your own food directly.
   - q: Can I fly my drone?
-    a: ""
+    a: Generally yes for personal photos, but check current rules with us before you go, since access and drone regulations at natural sites can change. Be considerate of other visitors and avoid flying over the pool while people are swimming.
 closing: |
-  ## Ready to Disconnect and Dive In? Don't Let the Map Intimidate You.
+  ## Ready for the Salto Cristal Tour? Don't Let the Map Intimidate You.
 
-  Salto Cristal is one of those places that rewards the effort. It is wild, loud, and incredibly beautiful. But the journey shouldn't be a struggle.
+  Salto Cristal is one of those places that rewards the effort. It is wild, loud, and incredibly beautiful. But the journey shouldn't be a struggle. It's the kind of scenery [Paraguay](https://en.wikipedia.org/wiki/Paraguay) rarely gets credit for internationally.
 
   Don't worry about the mud, the map, or the parking. Let us drive. Let us guide. You just bring your towel and your sense of adventure.
 duration: Full Day (approx. 7-8 hours).
