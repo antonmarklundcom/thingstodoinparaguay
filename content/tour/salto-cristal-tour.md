@@ -21,6 +21,8 @@ solution: |
   Don't risk getting your rental car stuck in the mud or lost in the sugarcane fields. We provide a rugged, capable vehicle driven by a professional who knows every bump in the road.
 
   We are your safety net. We guide you down the steep trails, help carry your gear, and ensure you have the right advice to enjoy the water safely. We take the stress out of the "adventure" so you can focus on the fun.
+
+  If waterfalls are your thing, this pairs well with a trip to [Iguazú Falls](/iguazu-falls-from-asuncion/), or browse more of [Paraguay's waterfalls](/waterfalls-paraguay/) if you want to see beyond Salto Cristal.
 itinerary:
   - title: The Rural Drive
     body: The adventure begins before we see the water. We drive through the scenic landscapes of Paraguarí. It's a bumpy ride, but the views of rural Paraguay—red earth and endless green fields—are authentic and raw.
