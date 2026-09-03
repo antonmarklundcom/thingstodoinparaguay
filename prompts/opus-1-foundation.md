@@ -7,9 +7,9 @@ Phase rules:
 - Branch `phase/o1-foundation` off latest `main`. Re-runnable: check what exists first.
 - Plain PHP 8.2+, no framework, no runtime Composer. Vendor Parsedown as a single file with its licence.
 - Write `db/schema.sql` for the COMPLETE §2 object model now, even tables O1 does not use yet.
-- Run `bin/wp-export.php` against https://thingstodoinparaguay.com/wp-json/wp/v2/ early — the WP
-  site may go away. Commit the exported `content/` and legacy images. Fall back to `docs/wp-scan.md` if
-  the API is closed and say so in the build log.
+- Do NOT build or run any WordPress API export. Use `bin/scan-import.php` over `docs/wp-scan.md` as
+  the only content source. If `bin/wp-export.php` exists on the branch, delete it and remove
+  references (README, build log).
 - Every route emits the full SEO layer (§1.9). Templates may be unstyled; markup must be final-quality
   semantic HTML (one `<h1>`, landmarks, breadcrumbs) because S3 only skins it.
 - `bin/verify.php` is the contract test: it must import `docs/url-map.csv`, boot `php -S`, and assert
