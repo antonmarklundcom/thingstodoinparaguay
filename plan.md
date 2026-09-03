@@ -418,6 +418,69 @@ reason is logged); PR merged; final closing report per the prompt file.
   exactly S4's job (plan §6.2). `templates/partials/card.php` and `templates/tour.php` show you where
   a real `cover_media_id` slots in once content exists.
 
+- 2026-09-03 — **Phase S4 — COMPLETE** (branch `phase/s4-content`). §6.2 built on top of the merged
+  S3. All content work happens in `content/` (Markdown + front matter), imported by `bin/seed.php` —
+  no schema/router/SEO-core changes, per the hard limits. Six Sonnet subagents (one per ~5-6 posts)
+  replaced Lorem Ipsum with real 900-1600 word posts across all 32 `content/post/*.md` files; three
+  more subagents fixed the 18 tours + 7 services (`content/tour/`, `content/service/`) — filling
+  empty FAQ answers, missing `itinerary`/`practical` sections, and rewriting two structurally broken
+  files: `asuncion-city-tour` (a copy-paste bug had "Pillar 3" repeat "Pillar 2" verbatim, including a
+  stray literal "Lorem ipsum dolor sit amet..." sentence one subagent caught and removed) and
+  `yerba-mate-tour` (restructured from a single unstructured Markdown blob — the scan couldn't fit it
+  into the normal hook/solution/itinerary/faq shape because the live page stacked two templates on
+  one URL — into the standard tour shape). I wrote the 6 category pages, 5 static pages
+  (about/contact/faq/services/paraguay-tourism-guide — each had a real-but-messy scan-imported body:
+  fake "0+" stat-counter placeholders, an empty WordPress accordion FAQ, a literally duplicated
+  Format/Pages/Language/Device block — all cleaned up, not just left alone) and did the consolidation
+  pass myself: `bin/seo-audit.php --all --min=80 --strict` now reports 62/62 published items at
+  90-96/100 (average 96), 0 below 80, 0 Lorem Ipsum — every kept URL in `docs/url-map.csv` that has a
+  `content_items` row. `bin/verify.php` (138 rows, 515 assertions) and `bin/test.php` (67/67) both
+  still pass; no `src/`/`templates/`/`db/` file was touched.
+  Decisions/deviations: (1) `focus_keyword` must be a literal substring of the URL slug for
+  `SeoScore`'s slug check to pass (it's a whole-word `str_contains` on the deaccented, lowercased
+  text) — the 4 single-word page slugs (`about`, `contact`, `services`, `faq`) initially got
+  multi-word focus keywords that didn't match, scoring 62-72 until fixed to the bare slug word woven
+  into an opening heading. Worth remembering for any future single-word-slug page. (2) A subagent
+  batch scoped to "fill empty (`a: \"\"`) FAQ answers" correctly left 7 *non-empty* rows alone that
+  actually held a leftover scanner artifact string (`"[... standard \"Still have a question\" block
+  ...]"`) instead of a real answer — caught in the consolidation pass and rewritten; logged in
+  KNOWN-ISSUES as a trap for any future gap-filling pass that trusts "non-empty" as "already good".
+  (3) `bin/seo-audit.php`'s own ≥2-internal-links check is satisfied by any two internal links, so the
+  parallel post-writing batches naturally clustered links onto a handful of popular tours; that isn't
+  what plan §6.2's "every tour is linked from ≥2 posts" actually requires. Audited link counts
+  per tour after all batches finished, found 9 under-linked (one, `paraguay-real-estate-tour`, had
+  zero), and added one topically-relevant inbound link each from a different post. (4) Categories
+  were unassigned before this phase (§KNOWN-ISSUES [o1]); assigned all 32 posts across the 6
+  categories by topic (nature 10, cities 7, tips 4, activities 4, living 4, food 3) — `/category/
+  living/` is no longer an empty archive. (5) No imagery was generated this phase (Higgsfield budget
+  not spent, given the volume of copy work) — every item still scores 96/100 max, capped by the
+  4-point cover-image check; logged as a new `[s4]` KNOWN-ISSUES entry rather than left implicit.
+  (6) `docs/content-gaps.md` is left in place as a historical record (marked resolved at the top)
+  rather than deleted, since `bin/scan-import.php` would regenerate it verbatim from a future scan.
+  Unverified facts flagged by the content-writing agents, for Anton to spot-check (none are load-
+  bearing — each reads fine either way, but check before treating as authoritative): the 1870 date for
+  the Battle of Cerro Corá / end of the War of the Triple Alliance (`cerro-cora-park`,
+  `paraguay-national-parks`, `top-places-paraguay`); Trinidad's UNESCO listing and its bell tower being
+  climbable, and the Jesuit reductions' 1600s-late-1700s span (`jesuit-missions-paraguay`,
+  `jesuit-ruins-tour`); the Panteón Nacional's Les Invalides inspiration and Loma San Jerónimo's
+  dockworker/artisan settlement history (`paraguay-sightseeing`, `asuncion-city-tour`); Itaipu's
+  "Technical Tour" including the turbine hall (`itaipu-dam-tour`); Filadelfia/Fernheim Colony's ~1930
+  founding and ~450km distance from Asunción (`filadelfia-chaco`); San Bernardino's 1881 founding and
+  Santiago Schaerer as founding manager, and Lake Ypacaraí's algae-bloom history (`san-bernardino`,
+  `san-bernardino-trip`); Serranía San Luis's ~10,282 ha size, ~480km distance, and species counts
+  (`serrania-san-luis-national-park`); Mbatoví's exact location and Pantanal Paraguayo's Bahía
+  Negra/Concepción access route (`mbatovi-ecoadventure`, `pantanal-paraguayo`); Atlantic Forest
+  habitat-loss percentages and Caacupé's ~54km distance plus its founding-legend detail
+  (`atlantic-forest-paraguay`, `caacupe`); the bus terminal's Sajonia address (`asuncion-bus-terminal`);
+  ñandutí lace/Itauguá and ao po'i/Yataity associations (`shopping-in-asuncion`); Villa Florida's and
+  Ybycuí's drive times from Asunción (`paraguay-beaches`, `paraguay-national-parks`); real-estate
+  financing/land-invasion risk framing (`paraguay-real-estate-tour`); and Paraguay's drink-driving law
+  applying to drivers not passengers (`private-driver`). **Next session (S5) starts here:** read
+  `docs/cutover-runbook.md` once it exists — it doesn't yet, S5 writes it — and the human-inputs
+  checklist (plan §7) for what Anton needs to provide before a real deploy; imagery is still the
+  biggest visible gap on the live templates, worth flagging to Anton even though it's out of S5's
+  formal scope.
+
 ## 10. Backlog
 
 - Tag archive pages (only if tags get real curation).
