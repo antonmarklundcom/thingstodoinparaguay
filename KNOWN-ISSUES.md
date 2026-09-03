@@ -48,3 +48,34 @@ Build sessions append here (plan §4.3). Format: `- [phase] short description �
 - [o2] `login_attempts` rows are pruned only after a successful sign-in (`Auth::pruneAttempts()`).
   A site nobody signs into keeps its failure rows for as long as the guessing lasts. Impact: table
   growth only, a few kB. Fix: prune from `bin/publish-due.php` if it ever matters.
+- [s3] No real imagery was generated (Higgsfield budget) — every card/cover is the CSS placeholder
+  panel from `templates/partials/card.php` / `templates/tour.php` (a type-tinted gradient + icon),
+  and `public/assets/og-default.png` is a generated brand-coloured default. `public/media/` is still
+  empty, matching the o1 known issue above. Fix: S4's content pass is the natural place to generate
+  and upload real covers through the O2 admin's media pipeline (`src/Uploader.php` already resizes
+  to 400/800/1600 + WebP) — the placeholder system degrades cleanly either way.
+- [s3] `public/forms/contact.php` and `public/forms/subscribe.php` are real files under `public/`,
+  deliberately outside `src/Router.php` (plan §4.7 forbids touching it). `src/Cache.php` excludes
+  `/contact/` from the HTML page cache because the form's time-trap embeds a render-time timestamp
+  that a cached page would freeze; the footer newsletter form (present on every page) is honeypot-only
+  for the same reason — a site-wide time-trap would force every page out of the cache. Fix: none
+  needed unless a future form needs the timing check on a page that must stay cached.
+- [s3] Email delivery + the VenderCRM push run after the redirect is sent via `fastcgi_finish_request()`
+  when the host is PHP-FPM; Hostinger's LiteSpeed (LSAPI) does not implement that function, so on
+  LiteSpeed both calls (up to ~10s each) still block the visitor's redirect. Impact: a slow/unreachable
+  SMTP host or CRM endpoint makes the contact form feel hung, though the lead is already safely in
+  SQLite by then. Fix: if this proves to matter on the live host, move notification to a queued
+  `bin/*.php` cron job instead of doing it inline.
+- [s3] `bin/verify.php`'s per-URL checks (one `<h1>`, title, description, canonical, JSON-LD) still
+  pass with the seed content's Lorem-Ipsum/placeholder copy in the body; the W3C Nu validator flags
+  two *warnings* (not errors) on pages built from that copy — a "written in Lorem ipsum" language hint
+  and one `<section>` with no heading (a tour's leftover raw body copy, `asuncion-city-tour`). Neither
+  blocks this phase's "HTML validates (no errors)" exit criterion. Fix: resolved by S4 writing real
+  content (already its job, plan §6.2).
+- [s3] The design system has no dark-mode toggle control — only `prefers-color-scheme`. Do not
+  reintroduce a `[data-theme]` attribute-based override in `site.css` without wiring something that
+  actually sets the attribute: an earlier draft of this phase added `:root:not([data-theme="light"])`
+  overrides with no code anywhere setting `data-theme`, which made the selector's specificity win
+  unconditionally and silently broke light-mode contrast (footer links, ghost buttons) — caught by
+  the Lighthouse accessibility pass, not by `bin/verify.php` or `bin/test.php`, since neither renders
+  CSS. Fix: none needed now; a note for whoever adds a theme toggle later.
