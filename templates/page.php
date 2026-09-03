@@ -7,14 +7,18 @@
  */
 
 use Ttp\View;
+
+$isContact = (string) $item['slug'] === 'contact';
 ?>
-<article class="page">
+<article class="page container">
     <header>
         <h1><?= View::e((string) $item['title']) ?></h1>
-        <?= View::image($cover, 'page-cover', true) ?>
+        <?php if ($cover !== null): ?>
+            <?= View::image($cover, 'post-cover', true) ?>
+        <?php endif; ?>
     </header>
 
-    <?php if ($toc !== []): ?>
+    <?php if ($toc !== [] && !$isContact): ?>
         <nav class="toc" aria-labelledby="toc-heading">
             <h2 id="toc-heading">On this page</h2>
             <ol>
@@ -25,12 +29,19 @@ use Ttp\View;
         </nav>
     <?php endif; ?>
 
-    <div class="prose">
-        <?= $bodyHtml ?>
-    </div>
+    <?php if ($isContact): ?>
+        <p class="intro">Tell us your dates and what you want to see — we reply within a day, in English, Spanish or Swedish.</p>
+        <?= View::partial('contact') ?>
+    <?php else: ?>
+        <div class="prose">
+            <?= $bodyHtml ?>
+        </div>
+    <?php endif; ?>
 
-    <footer class="page-footer">
-        <h2>Questions?</h2>
-        <p><a href="/contact/">Send us a message</a> and we will get back to you.</p>
-    </footer>
+    <?php if (!$isContact): ?>
+        <footer class="page-footer">
+            <h2>Questions?</h2>
+            <p><a class="button button--primary" href="/contact/">Send us a message</a></p>
+        </footer>
+    <?php endif; ?>
 </article>

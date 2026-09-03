@@ -371,6 +371,53 @@ reason is logged); PR merged; final closing report per the prompt file.
   templates will render, then `templates/layout.php` and `src/View.php::image()` — the `<picture>`
   markup and `Repo/*` are the whole data contract, and `public/assets/admin/*` is off-limits.
 
+- 2026-09-03 — **Phase S3 — COMPLETE** (branch `phase/s3-design`). §6.1 built on top of the merged O2.
+  What now exists: `public/assets/site.css` — the whole design system (Paraguay red/blue + warm
+  neutrals, mobile-first, system font stack, ~28 KB, inlined into every page's `<head>` by
+  `templates/layout.php` rather than linked, so there is no render-blocking stylesheet request) —
+  and `public/assets/site.js` (~1.2 KB: the mobile nav toggle, the only JS the site needs — FAQ
+  accordions are native `<details>`, forms are plain POSTs). Every public template
+  (`layout`/`home`/`blog`/`category`/`post`/`tour`/`type-index`/`attractions`/`page`/`404`/`410`
+  and the `partials/*`) is re-skinned: home gained a hero, a why-us section for Anton and Yanina, and
+  an FAQ; post gained share links; tour gained a sticky mobile "Ask for a quote" bar; cards show a
+  cover image when one exists and a type-tinted gradient placeholder otherwise (`public/media/` is
+  still empty — see KNOWN-ISSUES). New lead-capture stack: `src/Repo/{Lead,Subscriber}Repo.php`,
+  `src/Mailer.php` (a small hand-rolled SMTP client with STARTTLS, falling back to `mail()`),
+  `src/VenderCrm.php` and `src/Mailchimp.php` (both no-op with no env key), `src/Forms/{Contact,
+  Newsletter}Form.php` (honeypot + time-trap, pure `validate()`/`submit()` so `tests/forms.test.php`
+  exercises them without HTTP), and `public/forms/{contact,subscribe}.php` — real files under
+  `public/` so they never go through `src/Router.php` (hard limit). WhatsApp floating button and a
+  footer newsletter form are on every page; `/contact/` (still an ordinary `page` content item) gets
+  a form + WhatsApp link + a Google Maps deep link (no embedded iframe, so no third-party request).
+  Decisions/deviations: (1) `src/Cache.php` gained an exclusion list so `/contact/` is never served
+  from the HTML page cache — its time-trap embeds a render-time timestamp that a cached response
+  would freeze for every later visitor; the site-wide footer newsletter form is honeypot-only for the
+  same reason, so it didn't have to take every page out of the cache. (2) The email + VenderCRM push
+  run after the redirect is already sent, via `fastcgi_finish_request()` where the SAPI supports it
+  (falls back to synchronous under LiteSpeed/CLI — see KNOWN-ISSUES). (3) `SettingsRepo::get()` (a
+  read `layout.php`/`page.php` weren't using before this phase) is now what makes the O2 admin's
+  WhatsApp number/GA4 id/social links/site name actually reach the public site instead of only the
+  `.env` defaults. (4) No real photography: Higgsfield generation was intentionally skipped this
+  phase in favour of the CSS placeholder system, given the volume of other in-scope work; the default
+  OG image was regenerated in the new brand palette with GD (`public/assets/og-default.png`). (5) A
+  first attempt at dark-mode styling used an unwired `[data-theme]` selector pattern that
+  unconditionally beat the light-theme rules on specificity — caught by the Lighthouse accessibility
+  pass (footer links and ghost buttons were unreadable), not by `bin/verify.php`/`bin/test.php`
+  (neither renders CSS); fixed by dropping the dead attribute hook and hardcoding the two sections
+  (hero, footer) that are deliberately theme-independent. Verification: `bin/test.php` 67/67 (11 new
+  in `tests/forms.test.php`); `bin/verify.php` 138/138 URL-map rows, 515 assertions; Lighthouse
+  mobile on `/`, `/blog/`, a post (`/cerro-cora-park/`) and a tour (`/asuncion-city-tour/`) — **100
+  performance / 100 accessibility / 100 best-practices / 100 SEO on all four**; W3C Nu validator
+  (local `vnu-jar`, `validator.w3.org` itself is not reachable from this environment) — zero errors
+  on all four plus `/contact/`, `/tours/`, `/services/`, `/about/`, `/faq/`,
+  `/tourist-attractions-paraguay/`, `/category/nature/` (two content-driven warnings only, see
+  KNOWN-ISSUES); `code-review` skill found three real issues (a `SubscriberRepo` insert race, the
+  blocking-notification problem above, and a duplicated settings-fallback closure) — all three fixed,
+  not just logged. **Next session (S4) starts here:** read `docs/content-gaps.md` and the two new
+  `[s3]` KNOWN-ISSUES entries about imagery and Lorem-Ipsum-driven validator warnings — both are
+  exactly S4's job (plan §6.2). `templates/partials/card.php` and `templates/tour.php` show you where
+  a real `cover_media_id` slots in once content exists.
+
 ## 10. Backlog
 
 - Tag archive pages (only if tags get real curation).

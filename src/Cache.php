@@ -41,12 +41,22 @@ final class Cache
         return self::ttl() > 0;
     }
 
+    /**
+     * Pages that embed a form carry a render-time timing token (plan §6.1's
+     * time-trap); serving them from the page cache would hand every visitor
+     * the same token and defeat it, so they are never cached.
+     */
+    private const UNCACHEABLE_PATHS = ['/contact/'];
+
     public static function cacheable(string $method, string $path, string $query): bool
     {
         if (!self::enabled() || $method !== 'GET' || $query !== '') {
             return false;
         }
-        return !str_starts_with($path, '/admin');
+        if (str_starts_with($path, '/admin') || in_array($path, self::UNCACHEABLE_PATHS, true)) {
+            return false;
+        }
+        return true;
     }
 
     public static function file(string $path): string
