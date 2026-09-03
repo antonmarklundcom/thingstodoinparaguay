@@ -1,0 +1,40 @@
+name: CI
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: pdo_sqlite, sqlite3, gd, mbstring
+      - name: Lint PHP
+        run: |
+          set -e
+          files=$(git ls-files '*.php')
+          if [ -z "$files" ]; then echo "no php files yet"; exit 0; fi
+          for f in $files; do php -l "$f" >/dev/null || exit 1; done
+          echo "lint ok"
+      - name: Verify URL contract
+        run: |
+          if [ -f bin/verify.php ]; then php bin/verify.php; else echo "bin/verify.php not present yet (pre-O1)"; fi
+      - name: Unit/integration tests
+        run: |
+          if [ -f bin/test.php ]; then php bin/test.php; else echo "bin/test.php not present yet"; fi
+      - name: URL map sanity
+        run: |
+          php -r '
+            $rows = array_map("str_getcsv", file("docs/url-map.csv"));
+            $h = array_shift($rows); $seen = [];
+            foreach ($rows as $r) {
+              if (count($r) < 7) { fwrite(STDERR, "bad row: ".implode(",", $r)."\n"); exit(1); }
+              if (isset($seen[$r[0]])) { fwrite(STDERR, "duplicate ".$r[0]."\n"); exit(1); }
+              $seen[$r[0]] = 1;
+              if (!in_array($r[2], ["keep","301","410"])) { fwrite(STDERR, "bad action ".$r[0]."\n"); exit(1); }
+              if ($r[2]==="301" && $r[3]==="") { fwrite(STDERR, "301 without target ".$r[0]."\n"); exit(1); }
+            }
+            echo count($rows)." url-map rows ok\n";'
