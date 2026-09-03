@@ -481,6 +481,42 @@ reason is logged); PR merged; final closing report per the prompt file.
   biggest visible gap on the live templates, worth flagging to Anton even though it's out of S5's
   formal scope.
 
+- 2026-09-03 — **Phase S5 — COMPLETE, no-credentials path** (branch `phase/s5-launch`). §6.3 built on
+  top of the merged S4. **No Hostinger hPanel credentials (or any deploy/SSH/FTP secret) were present
+  in this session's environment** — checked `.env`/`.env.example`, the full process environment, and
+  the filesystem for anything Hostinger-shaped; found nothing. Per plan §6.3/§4.5 that is not a stop
+  condition: everything buildable without live access was built, the reason is logged here, and the
+  phase counts as complete. No `src/`/`templates/`/`db/` file was touched — deployment config and docs
+  only, per the phase's hard limit. What now exists: `deploy/README.md` (how Hostinger's shared-hosting
+  **Git** feature applies to this plain-PHP app — deliberately not the Node.js-Apps flow the
+  `nextjs-deploy-hostinger` skill mostly covers, since there's no Node build here — one-time hPanel
+  setup, what every deploy needs to run, the cron entry for `bin/publish-due.php`, and a LiteSpeed-cache
+  section that says explicitly what to *check* rather than assume, since it couldn't be tested against
+  a live account); `deploy/post-deploy.sh` + `deploy/permissions.sh` (idempotent — migrate, seed, fix
+  writable-dir permissions with a hard-fail if `data/` ever resolves inside the document root,
+  cache-clear; syntax-checked with `sh -n` and exercised against this local checkout, but never against
+  real Hostinger); `deploy/env.staging.example`; `docs/staging-checklist.md` (setup through
+  `bin/verify.php --base=<staging>`, which is the phase's stated gate before writing the runbook's "go"
+  step — still unrun against a real host); `docs/cutover-runbook.md` (numbered: WordPress files+DB
+  backup, document-root cutover, immediate smoke test incl. `verify.php --base=<production>`, Search
+  Console sitemap submission, a 20-URL spot-check table drawn from real `docs/url-map.csv` rows —
+  posts/tours/services/categories/hub page plus two 301s and a 410 — a week of Coverage-report
+  watching, WordPress removal after 30 days, and a rollback section that is one document-root pointer
+  change back). Decisions/deviations: (1) treated "credentials absent" as the operative branch
+  immediately rather than attempting to reach Hostinger first, since no plausible source for such
+  credentials exists in a sandboxed remote-execution container — confirmed by inspection rather than by
+  a failed connection attempt. (2) `deploy/post-deploy.sh` deliberately does **not** run
+  `bin/create-admin.php` — it's interactive/one-time and needs a real password, kept out of any script
+  that could end up logged or re-run unattended; both docs call it out as a manual first-deploy step.
+  (3) The production cutover section reuses the same `deploy/` scripts as staging but a separate `.env`
+  and a separate cron entry, so staging keeps running independently after cutover rather than being
+  repurposed. Verification: `bin/test.php` 67/67 and `bin/verify.php` 138/138 rows unchanged from S4
+  (nothing in `src/`/`templates/`/`db/` was touched, so this was expected, not a target); `bin/verify.php
+  --base=<staging-url>` was **not** run — no staging URL exists to point it at. **What Anton must do
+  manually, in order:** work through `docs/staging-checklist.md` (needs real hPanel access), then
+  `docs/cutover-runbook.md`. **This is the final planned phase — do not spawn another session; post the
+  closing report per the prompt file's instructions.**
+
 ## 10. Backlog
 
 - Tag archive pages (only if tags get real curation).
