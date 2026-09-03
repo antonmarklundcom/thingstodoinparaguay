@@ -96,3 +96,14 @@ Build sessions append here (plan §4.3). Format: `- [phase] short description �
   over the raw front-matter text) and `SeoScore`'s own word count (computed from the rendered
   document) can differ by a small margin — both stayed comfortably inside the 900-1600 word band for
   every post in this phase, but don't assume they're interchangeable when writing tooling against them.
+- [s5] **Nothing in `deploy/` or the two `docs/*.md` runbooks has been run against a real Hostinger
+  account** — no hPanel/SSH/FTP credentials were available in the session that wrote them (plan §6.3's
+  documented fallback). The shell scripts are `sh -n` syntax-checked and were exercised against this
+  local checkout (`deploy/permissions.sh` genuinely creates/chmods `data/`, `cache/`, `public/media/`
+  and confirms `data/` resolves outside `public/` here), but the Hostinger-specific unknowns —
+  `.htaccess` rewrite behaviour on their exact Apache/LiteSpeed build, which PHP extensions are enabled
+  by default on a given PHP profile, whether an account-level LiteSpeed cache layer sits in front of
+  this app's own cache — are exactly what `docs/staging-checklist.md`'s `bin/verify.php --base=`
+  step and its Lighthouse/LiteSpeed checkboxes exist to catch for the first time. Fix: none needed now;
+  whoever runs the staging checklist should expect to hit at least one of these and fix it there, not
+  treat a clean local dry run as proof staging will be clean too.
