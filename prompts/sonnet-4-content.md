@@ -17,6 +17,8 @@ Phase rules:
 - Parallelise with Sonnet subagents (load `fable-cost-guardrail` first): ~6 posts per agent, each
   given the house style + a list of internal-link targets. Review each batch yourself.
 - Run `bin/seo-audit.php` until every published item scores ≥ 80 and Lorem Ipsum count is 0.
+- Where the scan lacks copy (FAQ answers, practical info), write it fresh — do not try to fetch the
+  old site.
 - Minor issues → `KNOWN-ISSUES.md`. Stop only per §4.4.
 
 Exit: CI green; verify passes; seo-audit ≥ 80 everywhere, zero Lorem Ipsum; PR merged; §9 entry

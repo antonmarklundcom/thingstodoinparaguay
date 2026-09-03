@@ -41,8 +41,7 @@ explicitly to exercise it locally.
 | `php bin/verify.php` | The URL contract test — boots a server and asserts every row of `docs/url-map.csv`. |
 | `php bin/test.php [filter]` | Unit and integration tests from `tests/*.test.php`. |
 | `php bin/cache-clear.php [paths…]` | Empties the HTML page cache, or just the paths you name. |
-| `php bin/wp-export.php` | Pulls the live WordPress REST API into `content/`; falls back to `bin/scan-import.php`. |
-| `php bin/scan-import.php --force` | Rebuilds `content/` from `docs/wp-scan.md`. |
+| `php bin/scan-import.php --force` | Rebuilds `content/` from `docs/wp-scan.md` — the only source of old content (plan §1.13). |
 
 All database scripts take `--db=path` so they can run against a throwaway file.
 
@@ -61,7 +60,7 @@ that is how phase S5 checks staging.
 ## Layout
 
 ```
-bin/         command-line scripts (migrate, seed, export, verify, test, cache-clear, wp-export)
+bin/         command-line scripts (migrate, seed, export, verify, test, cache-clear, scan-import)
 config/      config.php — reads .env; environment variables always win
 content/     seed content as Markdown + front matter, one file per URL
 db/          schema.sql (the complete object model) + numbered migrations

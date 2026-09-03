@@ -5,8 +5,8 @@ namespace Ttp;
 
 /**
  * Converts docs/wp-scan.md — the verbatim scan of the live WordPress site — into
- * the content model. This is the fallback path for bin/wp-export.php when the WP
- * REST API is unreachable (plan §5.1); it is deterministic and re-runnable.
+ * the content model. The scan is the only source of old content (plan §1.13);
+ * this importer is deterministic and re-runnable.
  *
  * The scan is prose, so extraction is best-effort by design: every field it cannot
  * establish is left empty rather than invented, and `scan_gaps` records what was
