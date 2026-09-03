@@ -1,0 +1,139 @@
+old_path,type,action,target,new_type,title,notes
+/,homepage,keep,,page,(no title tag) — front page,"true canonical front page, richer content"
+/home/,homepage,301,/,,Home,"duplicate/alt homepage, consolidate to root"
+/about2/,page,301,/about/,,About2,"richer content, merges into /about/; content source"
+/about/,page,keep,,page,About,"content rebuilt from about2 (richer, has team bios)"
+/faq2/,page,301,/faq/,,FAQ2,"byte-identical to /faq/, consolidate"
+/faq/,page,keep,,page,FAQ2,canonical FAQ url
+/service/,page,301,/tours/,,Tours,old tours index folded into new /tours/ hub
+/services/,page,keep,,page,Services,"relocation services index, kept as page"
+/tours/,other,keep,,hub,,"new tours index hub, not in old sitemap"
+/pricing/,page,301,/tours/,,Pricing,"empty page, folded into tours index"
+/team/,page,301,/about/,,Team,"empty page, folded into about"
+/destinations/,page,301,/tourist-attractions-paraguay/,,Destinations,"placeholder demo content, replaced by attractions hub"
+/destination-detail/,page,410,,,Destination Detail2,"placeholder theme-demo content, not real"
+/anton-single-service-test/,page,410,,,anton single service test,"test/junk page, exposed personal email"
+/metform-form/new-form-1770073113/,cpt,410,,,new-form-1770073113,"MetForm plugin auto-registered form stub, not a content page"
+/rent-car/,page,301,/private-driver/,,Rent Car,"thin/broken empty page, consolidated into private driver service"
+/tourist-attractions-paraguay/,page,keep,,hub,Tourist Attractions in Paraguay,was empty & broken nav link; rebuilt as attractions hub
+/blog/,page,keep,,blog-index,Blog,blog index
+/contact/,page,keep,,page,Contact,
+/asuncion-city-tour/,page,keep,,tour,Asuncion City Tour,
+/restaurants-asuncion-guide/,page,keep,,tour,Restaurants Asuncion Guide,
+/bars-asuncion-tour/,page,keep,,tour,Bars Asuncion Tour,
+/food-paraguay-tour/,page,keep,,tour,Food Paraguay Tour,
+/shopping-asuncion/,page,keep,,tour,Shopping Asuncion,
+/paraguay-souvenirs/,page,keep,,tour,Paraguay Souvenirs,
+/paraguay-culture-tour/,page,keep,,tour,Paraguay Culture Tour,
+/jesuit-ruins-tour/,page,keep,,tour,Jesuit Ruins Tour,
+/salto-cristal-tour/,page,keep,,tour,Salto Cristal Tour,
+/itaipu-dam-tour/,page,keep,,tour,Itaipu Dam Tour,
+/yerba-mate-tour/,page,keep,,tour,Yerba Mate Tour,
+/san-bernardino-trip/,page,keep,,tour,San Bernardino Trip,
+/bird-watching/,page,keep,,tour,Bird Watching,
+/fishing-charters/,page,keep,,tour,Fishing Charters,
+/iguazu-falls-from-asuncion/,page,keep,,tour,Iguazu Falls from Asuncion,
+/paraguay-tour/,page,keep,,tour,Paraguay Tour,
+/day-trips-asuncion/,page,keep,,tour,Day Trips from Asunción,
+/paraguay-real-estate-tour/,page,keep,,tour,Paraguay Real Estate Tour,
+/apartment-hunting/,page,keep,,service,Apartment Hunting,
+/school-placement/,page,keep,,service,School Placement,
+/paraguay-residency-service/,page,keep,,service,Paraguay Residency Service,
+/private-driver/,page,keep,,service,Private Driver,
+/airport-transfer/,page,keep,,service,Airport Transfer,
+/healthcare-paraguay/,page,keep,,service,Healthcare Paraguay,
+/travel-planner/,page,keep,,service,Travel Planner,
+/paraguay-tourism-guide/,page,keep,,page,Paraguay Tourism Guide,page wins over shadowed post of same title/slug
+/exploring-ciudad-del-este/,post,keep,,post,Exploring the Soul of Ciudad del Este,
+/paraguayan-cuisine/,post,keep,,post,A food lover's Guide to Paraguayan Cuisine,
+/top-places-paraguay/,post,keep,,post,Top Places to Discover in Paraguay,
+/jesuit-missions-paraguay/,post,keep,,post,The Jesuit Missions of Paraguay,
+/cost-of-living-paraguay/,post,keep,,post,Cost of Living in Paraguay (2025),
+/best-neighborhoods-to-live-in-asuncion-where-should-you-settle-down-in-2025/,post,keep,,post,Best Neighborhoods to Live in Asunción,
+/renting-apartment-asuncion/,post,keep,,post,Renting an Apartment in Asunción,
+/remote-work-life-in-asuncion-cafes-coworking-internet-you-can-rely-on/,post,keep,,post,Remote Work Life in Asunción,
+/cerro-cora-park/,post,keep,,post,Cerro Corá National Park,
+/filadelfia-chaco/,post,keep,,post,"Filadelfia, Chaco",
+/caacupe/,post,keep,,post,Caacupé – Spiritual Soul of Paraguay,
+/san-bernardino/,post,keep,,post,"Discover San Bernardino, Paraguay",
+/is-paraguay-safe/,post,keep,,post,Is Paraguay Safe?,
+/essential-guide-paraguay/,post,keep,,post,Essential Guide to Paraguay,
+/what-to-do-in-asuncion/,post,keep,,post,What to Do in Asunción,
+/airport-transfer-paraguay/,post,keep,,post,Airport Transfer in Paraguay,
+/shopping-in-asuncion/,post,keep,,post,Shopping in Asunción,
+/food-park-mburucuya-a-culinary-oasis-in-asuncion/,post,keep,,post,Food Park Mburucuyá,
+/villa-morra-food-park/,post,keep,,post,Villa Morra Food Park in Asunción,
+/paraguay-travel-advice/,post,keep,,post,Paraguay Travel Advice,
+/paraguay-sightseeing/,post,keep,,post,Paraguay Sightseeing,
+/atlantic-forest-paraguay/,post,keep,,post,Discover Paraguay's hidden jungle: the Atlantic forest,
+/mbatovi-ecoadventure/,post,keep,,post,Explore Eco-Reserva Mbatoví,
+/pantanal-paraguayo/,post,keep,,post,Exploring the Pantanal Paraguayo,
+/shopping-beaches/,post,keep,,post,"Shopping, Culture & Beaches",
+/complejo-ecologico-techapyra/,post,keep,,post,Complejo Ecológico Techapyrã,
+/serrania-san-luis-national-park/,post,keep,,post,Serranía San Luis National Park,
+/paraguay-national-parks/,post,keep,,post,Exploring Paraguay's National Parks,
+/waterfalls-paraguay/,post,keep,,post,The Most Beautiful Waterfalls in Paraguay,
+/iguazu-falls/,post,keep,,post,Iguazú Falls: A Must-See Adventure Near Paraguay,
+/paraguay-beaches/,post,keep,,post,Paraguay's Hidden Beach Paradises,
+/asuncion-bus-terminal/,post,keep,,post,Asunción Bus Terminal Guide,
+/category/uncategorized/,category,301,/blog/,,Uncategorized,"default empty category, thin duplicate archive"
+/category/activities/,category,keep,,category,Activities,archive filter currently broken (renders all posts); to be fixed in rebuild
+/category/tips/,category,keep,,category,Tips,archive filter currently broken (renders all posts); to be fixed in rebuild
+/category/cities/,category,keep,,category,Cities,archive filter currently broken (renders all posts); to be fixed in rebuild
+/category/food/,category,keep,,category,Food,archive filter currently broken (renders all posts); to be fixed in rebuild
+/category/nature/,category,keep,,category,Nature,archive filter currently broken (renders all posts); to be fixed in rebuild
+/category/living/,category,keep,,category,Living,archive filter currently broken (renders all posts); to be fixed in rebuild
+/tag/capital/,tag,301,/blog/,,capital,thin duplicate archive
+/tag/city-guide/,tag,301,/blog/,,city-guide,thin duplicate archive
+/tag/family-dining/,tag,301,/blog/,,family-dining,thin duplicate archive
+/tag/street-food/,tag,301,/blog/,,street-food,thin duplicate archive
+/tag/nightlife/,tag,301,/blog/,,nightlife,thin duplicate archive
+/tag/outdoor/,tag,301,/blog/,,outdoor,thin duplicate archive
+/tag/day-trip/,tag,301,/blog/,,day-trip,thin duplicate archive
+/tag/wonder-of-world/,tag,301,/blog/,,wonder-of-world,thin duplicate archive
+/tag/summer/,tag,301,/blog/,,summer,thin duplicate archive
+/tag/river/,tag,301,/blog/,,river,thin duplicate archive
+/tag/villa-florida/,tag,301,/blog/,,villa-florida,thin duplicate archive
+/tag/monday-falls/,tag,301,/blog/,,monday-falls,thin duplicate archive
+/tag/salto-cristal/,tag,301,/blog/,,salto-cristal,thin duplicate archive
+/tag/ybycui/,tag,301,/blog/,,ybycui,thin duplicate archive
+/tag/hiking/,tag,301,/blog/,,hiking,thin duplicate archive
+/tag/cerrado/,tag,301,/blog/,,cerrado,thin duplicate archive
+/tag/wilderness/,tag,301,/blog/,,wilderness,thin duplicate archive
+/tag/eco-park/,tag,301,/blog/,,eco-park,thin duplicate archive
+/tag/dinosaurs/,tag,301,/blog/,,dinosaurs,thin duplicate archive
+/tag/border-cities/,tag,301,/blog/,,border-cities,thin duplicate archive
+/tag/commerce/,tag,301,/blog/,,commerce,thin duplicate archive
+/tag/wetlands/,tag,301,/blog/,,wetlands,thin duplicate archive
+/tag/wildlife/,tag,301,/blog/,,wildlife,thin duplicate archive
+/tag/adventure-park/,tag,301,/blog/,,adventure-park,thin duplicate archive
+/tag/zipline/,tag,301,/blog/,,zipline,thin duplicate archive
+/tag/biodiversity/,tag,301,/blog/,,biodiversity,thin duplicate archive
+/tag/conservation/,tag,301,/blog/,,conservation,thin duplicate archive
+/tag/planning/,tag,301,/blog/,,planning,thin duplicate archive
+/tag/money/,tag,301,/blog/,,money,thin duplicate archive
+/tag/safety/,tag,301,/blog/,,safety,thin duplicate archive
+/tag/security/,tag,301,/blog/,,security,thin duplicate archive
+/tag/relocation/,tag,301,/blog/,,relocation,thin duplicate archive
+/tag/customs/,tag,301,/blog/,,customs,thin duplicate archive
+/tag/itinerary/,tag,301,/blog/,,itinerary,thin duplicate archive
+/tag/overview/,tag,301,/blog/,,overview,thin duplicate archive
+/tag/logistics/,tag,301,/blog/,,logistics,thin duplicate archive
+/tag/transport/,tag,301,/blog/,,transport,thin duplicate archive
+/tag/malls/,tag,301,/blog/,,malls,thin duplicate archive
+/tag/markets/,tag,301,/blog/,,markets,thin duplicate archive
+/wp-sitemap.xml,sitemap,301,/sitemap.xml,,,"WP sitemap index, replaced by new sitemap.xml"
+/wp-sitemap-posts-post-1.xml,sitemap,301,/sitemap.xml,,,posts sub-sitemap
+/wp-sitemap-posts-page-1.xml,sitemap,301,/sitemap.xml,,,pages sub-sitemap
+/wp-sitemap-taxonomies-category-1.xml,sitemap,301,/sitemap.xml,,,category taxonomy sub-sitemap
+/wp-sitemap-taxonomies-post_tag-1.xml,sitemap,301,/sitemap.xml,,,tag taxonomy sub-sitemap
+/wp-sitemap-posts-metform-form-1.xml,sitemap,301,/sitemap.xml,,,MetForm CPT sub-sitemap
+/wp-sitemap-users-1.xml,sitemap,301,/sitemap.xml,,,"authors sub-sitemap (inferred, not explicitly named in scan)"
+/feed/,feed,301,/feed.xml,,,"WP default RSS feed, replaced by new feed.xml"
+/wp-json/,other,410,,,,"WP REST API root, not applicable to rebuilt site"
+/wp-login.php,other,410,,,,"WP login endpoint, not applicable"
+/xmlrpc.php,other,410,,,,"WP XML-RPC endpoint, not applicable"
+/wp-admin/,other,410,,,,"WP admin area, not applicable"
+/sitemap.xml,sitemap,keep,,other,,new
+/robots.txt,other,keep,,other,,new
+/feed.xml,feed,keep,,other,,new

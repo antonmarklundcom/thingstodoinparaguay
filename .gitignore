@@ -1,0 +1,6 @@
+.env
+data/*.sqlite
+cache/
+public/media/
+!public/media/legacy/
+node_modules/
