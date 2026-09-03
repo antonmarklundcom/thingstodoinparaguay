@@ -24,6 +24,8 @@ form test (`tests/forms.test.php`) passes; PR merged; §9 entry.
 
 ## After this phase — hand off to the next (fresh session)
 Only when the four gates in plan §4.9 pass: call claude-code-remote `create_session` with
-`model` = Sonnet, inherit environment and permission mode (never `plan`),
+`model` = Sonnet (`claude-sonnet-5`), `source_url` = `https://github.com/antonmarklundcom/thingstodoinparaguay`,
+`source_revision` = `main` (REQUIRED — without them the child starts with no repository checked out and
+cannot find the prompt file), inherit environment and permission mode (never `plan`),
 `prompt` = `Read prompts/sonnet-4-content.md in this repo and execute it.` Then end with a phase report.
 Fallback: continue in this window. Never Fable. Never hand off with a red or unmerged PR.
