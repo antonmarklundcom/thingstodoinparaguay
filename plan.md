@@ -139,7 +139,7 @@ Backlog (§10): Spanish version, pricing/booking checkout, PDF guide sales, revi
 Deliverables:
 - Layout: `public/` (index.php, .htaccess, assets/, media/), `src/` (Router, Db, Repo classes,
   Markdown, Seo, Cache, View helpers), `templates/` (layout + one plain template per type, unstyled),
-  `db/schema.sql`, `db/migrations/`, `bin/` (migrate, seed, export, wp-export, verify, cache-clear),
+  `db/schema.sql`, `db/migrations/`, `bin/` (migrate, seed, export, scan-import, verify, cache-clear),
   `content/` (seed Markdown), `config/` (`config.php` reading `.env`), `.env.example`, `tests/`.
 - Router: trailing-slash canonicalisation (301), redirects table lookup first, then content by slug,
   then category, then `/blog/` pagination, `/tours/`, `/services/`, `/sitemap.xml`, `/robots.txt`,
