@@ -1,0 +1,26 @@
+# Root safety net for when this repo is deployed straight into public_html.
+# The real web root is public/ (see public/.htaccess). Ideally the domain's
+# document root points at public/ and this file is never used; if the whole
+# repo sits in public_html, this file keeps everything except public/ private
+# and serves the site from public/.
+
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Private paths: never served over HTTP.
+    RewriteRule ^(\.git|\.github|bin|cache|config|content|data|db|deploy|docs|prompts|src|templates|tests)(/|$) - [F,L]
+    RewriteRule ^\.(env|git|gitignore) - [F,L]
+    RewriteRule ^[^/]*\.(md|csv|sql|sqlite|sh|example|json|lock)$ - [F,L]
+
+    # Everything else is served from public/ (its .htaccess does HTTPS,
+    # front controller and caching).
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+# Fallback if mod_rewrite is unavailable: deny dotfiles and data files outright.
+<FilesMatch "^(\.env.*|\.git.*|.*\.sqlite)$">
+    Require all denied
+</FilesMatch>
