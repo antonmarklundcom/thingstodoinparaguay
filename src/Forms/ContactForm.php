@@ -95,9 +95,9 @@ final class ContactForm
      *
      * @param array{name:string,email:string,phone:string,message:string} $data
      */
-    public static function notify(array $data, string $pagePath): void
+    public static function notify(array $data, string $pagePath): bool
     {
-        Mailer::send(
+        $mailed = Mailer::send(
             (string) ttp_config()['lead_email'],
             'New enquiry — ' . $data['name'],
             self::emailBody($data, $pagePath),
@@ -105,6 +105,8 @@ final class ContactForm
         );
 
         VenderCrm::push($data['name'], $data['email'], $data['phone'], $data['message'], Seo::url($pagePath));
+
+        return $mailed;
     }
 
     /** @param array{name:string,email:string,phone:string,message:string} $data */
