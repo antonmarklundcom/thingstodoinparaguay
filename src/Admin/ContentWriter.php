@@ -5,6 +5,7 @@ namespace Ttp\Admin;
 
 use Ttp\Cache;
 use Ttp\Db;
+use Ttp\IndexNow;
 use Ttp\Markdown;
 use Ttp\Repo\CategoryRepo;
 use Ttp\Repo\ContentRepo;
@@ -305,7 +306,10 @@ final class ContentWriter
     /** @param array<int,string> $paths */
     public static function invalidate(array $paths): int
     {
-        return Cache::forgetPaths(array_values(array_unique($paths)));
+        $paths = array_values(array_unique($paths));
+        $n = Cache::forgetPaths($paths);
+        IndexNow::submitPaths($paths);
+        return $n;
     }
 
     public static function indexPathFor(string $type): string
