@@ -21,20 +21,17 @@ use Ttp\Cache;
 use Ttp\Db;
 use Ttp\Response;
 use Ttp\Router;
+use Ttp\Setup;
 
 $method = strtoupper((string) ($_SERVER['REQUEST_METHOD'] ?? 'GET'));
 $uri    = (string) ($_SERVER['REQUEST_URI'] ?? '/');
 $path   = Router::normalise($uri);
 $query  = (string) ($_SERVER['QUERY_STRING'] ?? '');
 
-// A missing database means the site was deployed without running bin/migrate.php.
+// A missing database means a fresh deploy: offer the browser-based first-run setup
+// (the same work as bin/migrate.php, bin/seed.php and bin/create-admin.php).
 if (!Db::exists()) {
-    http_response_code(503);
-    header('Content-Type: text/plain; charset=UTF-8');
-    header('Retry-After: 120');
-    echo "The site database has not been created yet.\n"
-       . "Run: php bin/migrate.php && php bin/seed.php\n";
-    exit;
+    Setup::handle($method, $path);
 }
 
 $useCache = Cache::cacheable($method, $path, $query);
