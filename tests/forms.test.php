@@ -174,3 +174,22 @@ test('a valid newsletter signup is idempotent by email', function (): void {
         ttp_forms_cleanup($dir);
     }
 });
+
+test('a stored lead is pending until it is marked forwarded', function (): void {
+    $dir = ttp_forms_env();
+    try {
+        $result = ContactForm::submit([
+            'name' => 'Ana', 'phone' => '+595 981 000 000', 'message' => 'Itaipu for four in May', '_ts' => (string) (time() - 10),
+        ], '/contact/');
+        assert_true($result['ok'] && $result['leadId'] !== null);
+
+        $pending = \Ttp\Repo\LeadRepo::pending();
+        assert_same(1, count($pending));
+        assert_same('Ana', (string) $pending[0]['name']);
+
+        \Ttp\Repo\LeadRepo::markForwarded((int) $result['leadId']);
+        assert_same(0, count(\Ttp\Repo\LeadRepo::pending()));
+    } finally {
+        ttp_forms_cleanup($dir);
+    }
+});

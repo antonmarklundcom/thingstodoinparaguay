@@ -93,6 +93,17 @@ $shareTitle = (string) $item['title'];
     </nav>
 <?php endif; ?>
 
+<?php if (!empty($trips)): ?>
+    <section class="related" aria-labelledby="trips-heading">
+        <h2 id="trips-heading">Plan it with us</h2>
+        <div class="grid">
+            <?php foreach ($trips as $other): ?>
+                <?= View::partial('card', ['item' => $other]) ?>
+            <?php endforeach; ?>
+        </div>
+    </section>
+<?php endif; ?>
+
 <?php if ($related !== []): ?>
     <section class="related" aria-labelledby="related-heading">
         <h2 id="related-heading">Related reading</h2>

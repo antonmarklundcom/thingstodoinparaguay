@@ -93,6 +93,47 @@ final class ContentRepo
         return array_map([self::class, 'hydrate'], Db::all($sql, [$item['type'], $item['id'], $item['category_id']]));
     }
 
+    /**
+     * Items that share a curated topic cluster (config/topics.php) with this one,
+     * split into trips (tours and services) and guides (posts). Order follows the
+     * clusters, then the order inside each cluster; unpublished or unknown slugs
+     * are skipped.
+     *
+     * @return array{trips:array<int,array<string,mixed>>,guides:array<int,array<string,mixed>>}
+     */
+    public static function topical(array $item, int $tripLimit = 3, int $guideLimit = 3): array
+    {
+        static $clusters = null;
+        $clusters ??= (array) require ttp_root() . '/config/topics.php';
+
+        $trips  = [];
+        $guides = [];
+        foreach ($clusters as $cluster) {
+            $slugs = (array) $cluster['items'];
+            if (!in_array((string) $item['slug'], $slugs, true)) {
+                continue;
+            }
+            foreach ($slugs as $slug) {
+                if ($slug === $item['slug'] || isset($trips[$slug]) || isset($guides[$slug])) {
+                    continue;
+                }
+                $other = self::findBySlug((string) $slug);
+                if ($other === null) {
+                    continue;
+                }
+                if ($other['type'] === 'post') {
+                    $guides[$slug] = $other;
+                } elseif (in_array($other['type'], ['tour', 'service'], true)) {
+                    $trips[$slug] = $other;
+                }
+            }
+        }
+        return [
+            'trips'  => array_slice(array_values($trips), 0, $tripLimit),
+            'guides' => array_slice(array_values($guides), 0, $guideLimit),
+        ];
+    }
+
     /** @return array{prev:?array<string,mixed>,next:?array<string,mixed>} */
     public static function neighbours(array $item): array
     {

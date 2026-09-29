@@ -19,6 +19,26 @@ final class Media
     private const EXTENSIONS = ['avif', 'webp', 'jpg', 'jpeg', 'png'];
 
     /**
+     * The path to use for og:image / twitter:image. Prefers a 1200x630 JPG named
+     * "<base>-og.jpg" next to the cover (WhatsApp, Facebook and X handle JPG
+     * reliably; the responsive WebP/AVIF set is for the page itself). Falls
+     * back to the media row's own path.
+     *
+     * @param array<string,mixed> $media
+     */
+    public static function socialPath(array $media, ?string $publicDir = null): string
+    {
+        $path = (string) ($media['path'] ?? '');
+        if (preg_match('#^(/media/.+)-\d+\.[a-z0-9]+$#i', $path, $m) === 1) {
+            $publicDir = rtrim($publicDir ?? (ttp_root() . '/public'), '/');
+            if (is_file($publicDir . $m[1] . '-og.jpg')) {
+                return $m[1] . '-og.jpg';
+            }
+        }
+        return $path;
+    }
+
+    /**
      * @return int|null the media id, or null when no file matches the base path
      */
     public static function registerFromFiles(string $base, string $alt = '', ?string $publicDir = null): ?int

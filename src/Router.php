@@ -157,6 +157,8 @@ final class Router
             . 'Plan your visit with people who live here.',
             '/'
         );
+        $seo->ogImage    = '/media/generated/asuncion-plaza-golden-hour-terere-couple-og.jpg';
+        $seo->ogImageAlt = 'Couple sharing tereré on a bench in a palm-lined plaza in Asunción at golden hour';
         $seo->graphs[] = [
             '@type'      => 'WebPage',
             '@id'        => Seo::url('/') . '#webpage',
@@ -366,7 +368,7 @@ final class Router
         $og    = MediaRepo::find($item['og_image_media_id'] === null ? null : (int) $item['og_image_media_id'])
                  ?? $cover;
         if ($og !== null) {
-            $seo->ogImage    = (string) $og['path'];
+            $seo->ogImage    = Media::socialPath($og);
             $seo->ogImageAlt = (string) ($og['alt'] ?: $item['title']);
         }
 
@@ -383,9 +385,32 @@ final class Router
         }
     }
 
+    /**
+     * Curated items first, topped up from the fallback list without repeats.
+     *
+     * @param array<int,array<string,mixed>> $primary
+     * @param array<int,array<string,mixed>> $fallback
+     * @return array<int,array<string,mixed>>
+     */
+    private static function fill(array $primary, array $fallback, int $limit): array
+    {
+        $seen = array_column($primary, 'id');
+        foreach ($fallback as $other) {
+            if (count($primary) >= $limit) {
+                break;
+            }
+            if (!in_array($other['id'], $seen, true)) {
+                $primary[] = $other;
+                $seen[]    = $other['id'];
+            }
+        }
+        return array_slice($primary, 0, $limit);
+    }
+
     private static function post(array $item, Seo $seo, ?array $cover): Response
     {
         $seo->ogType = 'article';
+        $topical     = ContentRepo::topical($item);
         $category    = empty($item['category_slug'])
             ? null
             : CategoryRepo::findBySlug((string) $item['category_slug']);
@@ -425,7 +450,8 @@ final class Router
             'toc'        => count($toc) >= 4 ? $toc : [],
             'category'   => $category,
             'tags'       => ContentRepo::tagsFor((int) $item['id']),
-            'related'    => ContentRepo::related($item, 3),
+            'related'    => self::fill($topical['guides'], ContentRepo::related($item, 3), 3),
+            'trips'      => $topical['trips'],
             'neighbours' => ContentRepo::neighbours($item),
             'cover'      => $cover,
         ], $seo));
@@ -488,12 +514,15 @@ final class Router
             $seo->graphs[] = $faqNode;
         }
 
+        $topical = ContentRepo::topical($item);
+
         return Response::html(View::render('tour', [
             'item'    => $item,
             'details' => $details,
             'cover'   => $cover,
             'isTour'  => $isTour,
-            'related' => ContentRepo::related($item, 3),
+            'related' => self::fill($topical['trips'], ContentRepo::related($item, 3), 3),
+            'guides'  => $topical['guides'],
         ], $seo));
     }
 

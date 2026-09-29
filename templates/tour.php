@@ -135,6 +135,19 @@ $facts['Price'] = $priceLabel;
     </footer>
 </article>
 
+<?php if (!empty($guides)): ?>
+    <div class="container">
+        <section class="related" aria-labelledby="guides-heading">
+            <h2 id="guides-heading">Read before you go</h2>
+            <div class="grid">
+                <?php foreach ($guides as $other): ?>
+                    <?= View::partial('card', ['item' => $other, 'meta' => true]) ?>
+                <?php endforeach; ?>
+            </div>
+        </section>
+    </div>
+<?php endif; ?>
+
 <?php if ($related !== []): ?>
     <div class="container">
         <section class="related" aria-labelledby="related-heading">

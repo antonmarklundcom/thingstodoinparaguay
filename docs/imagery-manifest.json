@@ -2,10 +2,11 @@
   "_notes": {
     "generated_on": "2026-09-29",
     "model": "gpt_image_2_5 / sunburst / medium",
-    "credits": "12 x 2k at 1.0 + 23 x 1k at 0.5 = 23.5 (ledger checked: all 'GPT Image 2.5 Sunburst', equal to preflight)",
+    "credits": "12 x 2k at 1.0 + 23 x 1k at 0.5 = 23.5 (ledger checked: all 'GPT Image 2.5 Sunburst', equal to preflight) + home hero 2.75 (high 2k) = 26.25",
     "convert": "webimg convert --widths 640,1280,1920 (2k) or 640,1280 (1k) -> AVIF + WebP",
     "wiring": "content/*/*.md front matter: cover + cover_alt (size-less base path); bin/seed.php registers the files via src/Media.php",
-    "harvested": "34 real photos from the old WordPress site (wp-content/uploads), converted 2026-09-05; reused where the subject matches"
+    "harvested": "34 real photos from the old WordPress site (wp-content/uploads), converted 2026-09-05; reused where the subject matches",
+    "og": "Every cover base also has <base>-og.jpg, 1200x630 JPG (sharp, cover crop, q78), used for og:image via Media::socialPath()"
   },
   "generated": [
     {
@@ -336,6 +337,18 @@
       "ratio": "3:2",
       "used_by": [
         "post/waterfalls-paraguay"
+      ]
+    },
+    {
+      "file": "asuncion-plaza-golden-hour-terere-couple",
+      "base": "/media/generated/asuncion-plaza-golden-hour-terere-couple",
+      "alt_en": "Couple sharing tereré on a bench in a palm-lined plaza in Asunción with the cathedral glowing at golden hour",
+      "resolution": "2k",
+      "quality": "high",
+      "ratio": "16:9",
+      "used_by": [
+        "home hero (templates/home.php)",
+        "home og:image"
       ]
     }
   ],

@@ -17,7 +17,12 @@ $homeFaq = [
     ['q' => 'What languages do you work in?', 'a' => 'English, Spanish and Swedish, both on tours and by email or WhatsApp.'],
 ];
 ?>
-<section class="hero">
+<section class="hero hero--photo">
+    <picture>
+        <source type="image/avif" srcset="/media/generated/asuncion-plaza-golden-hour-terere-couple-640.avif 640w, /media/generated/asuncion-plaza-golden-hour-terere-couple-1280.avif 1280w, /media/generated/asuncion-plaza-golden-hour-terere-couple-1920.avif 1920w" sizes="100vw">
+        <source type="image/webp" srcset="/media/generated/asuncion-plaza-golden-hour-terere-couple-640.webp 640w, /media/generated/asuncion-plaza-golden-hour-terere-couple-1280.webp 1280w, /media/generated/asuncion-plaza-golden-hour-terere-couple-1920.webp 1920w" sizes="100vw">
+        <img class="hero__photo" src="/media/generated/asuncion-plaza-golden-hour-terere-couple-1280.webp" srcset="/media/generated/asuncion-plaza-golden-hour-terere-couple-640.webp 640w, /media/generated/asuncion-plaza-golden-hour-terere-couple-1280.webp 1280w, /media/generated/asuncion-plaza-golden-hour-terere-couple-1920.webp 1920w" sizes="100vw" width="1920" height="1086" alt="Couple sharing tereré on a bench in a palm-lined plaza in Asunción with the cathedral glowing at golden hour" fetchpriority="high" decoding="async">
+    </picture>
     <div class="hero__inner">
         <p class="hero__eyebrow">Asunción, Paraguay</p>
         <h1>See Paraguay the way people who live here see it</h1>

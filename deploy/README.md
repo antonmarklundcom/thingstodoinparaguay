@@ -98,3 +98,26 @@ known-good commit in that checkout (hPanel Git → Deploy history, or SSH) follo
 holds the live domain or DNS (plan §6.3 hard limit). Production rollback is a different,
 higher-stakes operation — see `docs/cutover-runbook.md`'s own rollback section, which rolls
 back the *document root pointer*, not the code.
+
+## Cron: lead notifications (optional, recommended on LiteSpeed)
+
+`bin/notify-leads.php` sends the notification email and the VenderCRM push for every lead that has
+not been forwarded yet. On Hostinger's LiteSpeed the contact form cannot hand that work off after the
+redirect (no `fastcgi_finish_request()`), so a slow SMTP host makes the form hang. To avoid that:
+
+1. Set `NOTIFY_QUEUE=1` in `.env`. The form then only stores the lead.
+2. hPanel → **Advanced → Cron Jobs**, every 5 minutes:
+   `php /home/<user>/<app-dir>/bin/notify-leads.php --quiet` (absolute path, as for `publish-due.php`).
+
+Leads are always safe in SQLite (`/admin/` → Leads). Without `NOTIFY_QUEUE=1` nothing changes: the form
+sends inline and marks the lead forwarded when the email goes out, and the cron job (if present) only
+retries leads whose email failed.
+
+## Checks to run against staging
+
+- `php bin/verify.php --base=https://staging.<domain>`: redirects, one H1, title, canonical, JSON-LD,
+  sitemap, feed for every row of `docs/url-map.csv`.
+- `php bin/schema-audit.php --base=https://staging.<domain>`: structured data for every sitemap URL
+  (needs the `curl` PHP extension, same as verify).
+- Lighthouse (mobile) on `/`, one post, one tour: run it from Chrome DevTools (Lighthouse tab), or
+  `npx lighthouse https://staging.<domain>/ --preset=perf --form-factor=mobile --view`.

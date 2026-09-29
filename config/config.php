@@ -73,6 +73,9 @@ function ttp_config(): array
         'content_dir' => $root . '/content',
         'media_dir'   => $root . '/public/media',
         'lead_email'  => $get('LEAD_EMAIL_TO', 'hello@thingstodoinparaguay.com'),
+        // NOTIFY_QUEUE=1: the contact form only stores the lead and bin/notify-leads.php
+        // (cron) sends the email and CRM push. Use it on hosts without fastcgi_finish_request().
+        'notify_queue' => $get('NOTIFY_QUEUE') === '1',
         'smtp'        => [
             'host' => $get('SMTP_HOST'),
             'port' => (int) $get('SMTP_PORT', '587'),

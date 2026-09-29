@@ -127,3 +127,19 @@ Build sessions append here (plan ยง4.3). Format: `- [phase] short description โ€
   cutover and check the top URLs against the map.
 - [launch] `config/config.php` treated a Windows drive path (`C:/...`) in `DB_PATH` as relative.
   Fixed: drive-letter paths are now absolute.
+- [launch] The home hero is now a photo (`asuncion-plaza-golden-hour-terere-couple`, GPT Image 2.5
+  Sunburst high 2k, AVIF/WebP 640/1280/1920, `fetchpriority=high`); it is the LCP element, so check
+  it in Lighthouse on staging. Every cover also has a 1200x630 `<base>-og.jpg` for og:image
+  (`Media::socialPath()`); regenerate with the same crop when a cover changes (the admin uploader
+  does not make these, so an admin-uploaded cover falls back to its WebP).
+- [launch] Internal linking: `config/topics.php` lists curated topic clusters; posts show "Plan it
+  with us" (tours/services) and tours/services show "Read before you go" (guides), then fall back to
+  the old same-category/same-type lists. Add new content to a cluster there.
+- [launch] `bin/schema-audit.php` checks JSON-LD on every page (0 errors). Remaining warning: the
+  Organization has no `logo`. Add one when a real logo file exists. Google shows FAQ rich results
+  only for government/health sites, so the FAQPage markup is valid but will not produce a rich
+  result here; TouristTrip has no Google rich result either (it is still useful to other consumers).
+- [launch] `NOTIFY_QUEUE=1` + `bin/notify-leads.php` (cron) resolves the s3 LiteSpeed note about the
+  contact form blocking on SMTP/CRM; see `deploy/README.md`. Opt-in, so nothing changes until set.
+- [launch] `docs/facts-to-verify.md` lists the business facts (contact details, team, prices,
+  policies) that only the owner can confirm before the cutover.

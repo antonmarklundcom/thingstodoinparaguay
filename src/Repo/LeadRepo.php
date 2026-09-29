@@ -18,6 +18,16 @@ final class LeadRepo
         return Db::lastId();
     }
 
+    /**
+     * Leads whose notification (email + VenderCRM) has not gone out yet, oldest first.
+     *
+     * @return array<int,array<string,mixed>>
+     */
+    public static function pending(int $limit = 50): array
+    {
+        return Db::all('SELECT * FROM leads WHERE forwarded = 0 ORDER BY id ASC LIMIT ' . max(1, $limit));
+    }
+
     public static function markForwarded(int $id): void
     {
         Db::run('UPDATE leads SET forwarded = 1 WHERE id = ?', [$id]);
