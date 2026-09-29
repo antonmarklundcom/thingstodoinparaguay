@@ -53,7 +53,8 @@ function ttp_config(): array
         if ($path === '') {
             return $path;
         }
-        return str_starts_with($path, '/') ? $path : $root . '/' . $path;
+        $isAbsolute = str_starts_with($path, '/') || preg_match('#^[A-Za-z]:[\\/]#', $path) === 1;
+        return $isAbsolute ? $path : $root . '/' . $path;
     };
 
     // The HTML page cache is off in dev unless CACHE_TTL is set explicitly, so a

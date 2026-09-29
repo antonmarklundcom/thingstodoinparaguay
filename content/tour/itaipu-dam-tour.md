@@ -2,6 +2,8 @@
 type: tour
 title: Itaipu Dam Tour
 status: published
+cover: /media/harvested/itaipu-dam-viewpoint-rainbow
+cover_alt: "Tourists in hard hats watch water rushing over Itaipu Dam with a rainbow forming"
 published_at: 2025-07-24T00:00:00Z
 tagline: Itaipu Dam Tour – A Modern Engineering Wonder
 excerpt: Visit the Itaipu Hydroelectric Dam, one of the Seven Modern Wonders of the World. A guided tour of the massive structure on the Paraná River. Private transport and tickets included.

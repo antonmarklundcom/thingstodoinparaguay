@@ -2,6 +2,8 @@
 type: post
 title: "Essential Guide to Paraguay: Regions, Climate, Customs & Services"
 status: published
+cover: /media/generated/red-dirt-road-farmland-paraguay
+cover_alt: "Red dirt road crossing green farmland and hills in rural Paraguay"
 published_at: 2025-07-24T00:00:00Z
 category: tips
 tags:

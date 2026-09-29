@@ -2,6 +2,8 @@
 type: page
 title: Frequently Asked Questions
 status: published
+cover: /media/generated/terere-guampa-thermos-garden-paraguay
+cover_alt: "Guampa cup of yerba mate with a bombilla beside a thermos on a garden table in Paraguay"
 published_at: 2025-07-24T00:00:00Z
 excerpt: Straight answers to the questions we get most — safety, language, money, water, the residency process and what actually makes us different.
 meta_title: Paraguay Travel FAQ — Safety, Money & More

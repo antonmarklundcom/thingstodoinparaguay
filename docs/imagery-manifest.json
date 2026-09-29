@@ -1,0 +1,674 @@
+{
+  "_notes": {
+    "generated_on": "2026-09-29",
+    "model": "gpt_image_2_5 / sunburst / medium",
+    "credits": "12 x 2k at 1.0 + 23 x 1k at 0.5 = 23.5 (ledger checked: all 'GPT Image 2.5 Sunburst', equal to preflight)",
+    "convert": "webimg convert --widths 640,1280,1920 (2k) or 640,1280 (1k) -> AVIF + WebP",
+    "wiring": "content/*/*.md front matter: cover + cover_alt (size-less base path); bin/seed.php registers the files via src/Media.php",
+    "harvested": "34 real photos from the old WordPress site (wp-content/uploads), converted 2026-09-05; reused where the subject matches"
+  },
+  "generated": [
+    {
+      "file": "apartment-towers-villa-morra-asuncion",
+      "base": "/media/generated/apartment-towers-villa-morra-asuncion",
+      "alt_en": "Modern apartment towers along a tree-lined street in Villa Morra, Asunción at sunset",
+      "resolution": "2k",
+      "ratio": "3:2",
+      "used_by": [
+        "tour/paraguay-real-estate-tour"
+      ]
+    },
+    {
+      "file": "shopping-mall-atrium-asuncion",
+      "base": "/media/generated/shopping-mall-atrium-asuncion",
+      "alt_en": "Shoppers with bags walking through a bright mall atrium in Asunción",
+      "resolution": "2k",
+      "ratio": "3:2",
+      "used_by": [
+        "tour/shopping-asuncion"
+      ]
+    },
+    {
+      "file": "apartment-living-room-balcony-asuncion",
+      "base": "/media/generated/apartment-living-room-balcony-asuncion",
+      "alt_en": "Sunlit apartment living room with a sofa and a balcony overlooking green treetops",
+      "resolution": "2k",
+      "ratio": "3:2",
+      "used_by": [
+        "service/apartment-hunting"
+      ]
+    },
+    {
+      "file": "clinic-reception-area-paraguay",
+      "base": "/media/generated/clinic-reception-area-paraguay",
+      "alt_en": "Calm modern clinic reception with a wooden desk, plants and waiting chairs",
+      "resolution": "2k",
+      "ratio": "3:2",
+      "used_by": [
+        "service/healthcare-paraguay"
+      ]
+    },
+    {
+      "file": "passport-documents-residency-desk-paraguay",
+      "base": "/media/generated/passport-documents-residency-desk-paraguay",
+      "alt_en": "Desk with a passport, folder of documents, pen and coffee beside a small Paraguayan flag",
+      "resolution": "2k",
+      "ratio": "3:2",
+      "used_by": [
+        "service/paraguay-residency-service"
+      ]
+    },
+    {
+      "file": "travel-planning-desk-map-south-america",
+      "base": "/media/generated/travel-planning-desk-map-south-america",
+      "alt_en": "Travel planning desk with a notebook, map of South America, phone and mate cup",
+      "resolution": "2k",
+      "ratio": "3:2",
+      "used_by": [
+        "service/travel-planner"
+      ]
+    },
+    {
+      "file": "asuncion-skyline-paraguay-river-sunset",
+      "base": "/media/generated/asuncion-skyline-paraguay-river-sunset",
+      "alt_en": "Asunción skyline seen across the Paraguay River at golden hour",
+      "resolution": "2k",
+      "ratio": "3:2",
+      "used_by": [
+        "page/about"
+      ]
+    },
+    {
+      "file": "cafe-table-terere-coffee-notebook-paraguay",
+      "base": "/media/generated/cafe-table-terere-coffee-notebook-paraguay",
+      "alt_en": "Cafe table in a sunny courtyard with coffee, a phone, a notebook and a terere thermos",
+      "resolution": "2k",
+      "ratio": "3:2",
+      "used_by": [
+        "page/contact"
+      ]
+    },
+    {
+      "file": "terere-guampa-thermos-garden-paraguay",
+      "base": "/media/generated/terere-guampa-thermos-garden-paraguay",
+      "alt_en": "Guampa cup of yerba mate with a bombilla beside a thermos on a garden table in Paraguay",
+      "resolution": "2k",
+      "ratio": "3:2",
+      "used_by": [
+        "page/faq"
+      ]
+    },
+    {
+      "file": "travel-guidebook-open-map-sunglasses",
+      "base": "/media/generated/travel-guidebook-open-map-sunglasses",
+      "alt_en": "Open printed travel guidebook on a wooden table with a map, sunglasses and coffee",
+      "resolution": "2k",
+      "ratio": "3:2",
+      "used_by": [
+        "page/paraguay-tourism-guide"
+      ]
+    },
+    {
+      "file": "moving-boxes-keys-colonial-house-asuncion",
+      "base": "/media/generated/moving-boxes-keys-colonial-house-asuncion",
+      "alt_en": "Moving boxes and house keys on the doorstep of a colonial house in Asunción",
+      "resolution": "2k",
+      "ratio": "3:2",
+      "used_by": [
+        "page/services"
+      ]
+    },
+    {
+      "file": "colonial-street-asuncion-pastel-houses",
+      "base": "/media/generated/colonial-street-asuncion-pastel-houses",
+      "alt_en": "Cobblestone street of pastel colonial houses in Asunción with a church dome in the distance",
+      "resolution": "2k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/what-to-do-in-asuncion"
+      ]
+    },
+    {
+      "file": "airport-arrivals-hall-travelers-paraguay",
+      "base": "/media/generated/airport-arrivals-hall-travelers-paraguay",
+      "alt_en": "Travelers with suitcases walking through a bright airport arrivals hall",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/airport-transfer-paraguay"
+      ]
+    },
+    {
+      "file": "intercity-bus-terminal-platforms-paraguay",
+      "base": "/media/generated/intercity-bus-terminal-platforms-paraguay",
+      "alt_en": "Intercity coaches and waiting passengers with luggage at a covered bus terminal platform",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/asuncion-bus-terminal"
+      ]
+    },
+    {
+      "file": "atlantic-forest-trail-paraguay",
+      "base": "/media/generated/atlantic-forest-trail-paraguay",
+      "alt_en": "Sunlit hiking trail through dense Atlantic rainforest with giant ferns",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/atlantic-forest-paraguay"
+      ]
+    },
+    {
+      "file": "villa-morra-tree-lined-street-asuncion",
+      "base": "/media/generated/villa-morra-tree-lined-street-asuncion",
+      "alt_en": "Tree-lined street with cafes and low-rise apartment buildings in Villa Morra, Asunción",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/best-neighborhoods-to-live-in-asuncion-where-should-you-settle-down-in-2025"
+      ]
+    },
+    {
+      "file": "waterfall-footbridge-eco-park-paraguay",
+      "base": "/media/generated/waterfall-footbridge-eco-park-paraguay",
+      "alt_en": "Small waterfall and wooden footbridge in a lush green eco park",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/complejo-ecologico-techapyra"
+      ]
+    },
+    {
+      "file": "fruit-vegetable-market-stall-paraguay",
+      "base": "/media/generated/fruit-vegetable-market-stall-paraguay",
+      "alt_en": "Vendor arranging mangoes, cassava, tomatoes and oranges at a Paraguayan market stall",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/cost-of-living-paraguay"
+      ]
+    },
+    {
+      "file": "red-dirt-road-farmland-paraguay",
+      "base": "/media/generated/red-dirt-road-farmland-paraguay",
+      "alt_en": "Red dirt road crossing green farmland and hills in rural Paraguay",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/essential-guide-paraguay"
+      ]
+    },
+    {
+      "file": "ciudad-del-este-shopping-street-crowd",
+      "base": "/media/generated/ciudad-del-este-shopping-street-crowd",
+      "alt_en": "Crowded shopping street with electronics stalls in Ciudad del Este",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/exploring-ciudad-del-este"
+      ]
+    },
+    {
+      "file": "food-park-string-lights-dusk-asuncion",
+      "base": "/media/generated/food-park-string-lights-dusk-asuncion",
+      "alt_en": "People eating at communal tables under string lights at an Asunción food park at dusk",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/food-park-mburucuya-a-culinary-oasis-in-asuncion"
+      ]
+    },
+    {
+      "file": "asuncion-plaza-palms-daytime-strollers",
+      "base": "/media/generated/asuncion-plaza-palms-daytime-strollers",
+      "alt_en": "Locals and visitors strolling through a sunny palm-lined plaza in Asunción",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/is-paraguay-safe"
+      ]
+    },
+    {
+      "file": "forest-canopy-suspension-bridge-eco-reserve",
+      "base": "/media/generated/forest-canopy-suspension-bridge-eco-reserve",
+      "alt_en": "Suspension bridge and hiking trail above a misty forest canopy in an eco reserve",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/mbatovi-ecoadventure"
+      ]
+    },
+    {
+      "file": "pantanal-wetland-sunset-caiman-egrets",
+      "base": "/media/generated/pantanal-wetland-sunset-caiman-egrets",
+      "alt_en": "Caiman resting on the bank of a Pantanal wetland at sunset with egrets wading",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/pantanal-paraguayo"
+      ]
+    },
+    {
+      "file": "national-park-viewpoint-green-hills-paraguay",
+      "base": "/media/generated/national-park-viewpoint-green-hills-paraguay",
+      "alt_en": "Wooden lookout railing over forested green hills in a Paraguayan national park",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/paraguay-national-parks"
+      ]
+    },
+    {
+      "file": "palace-plaza-dusk-asuncion-riverfront",
+      "base": "/media/generated/palace-plaza-dusk-asuncion-riverfront",
+      "alt_en": "Illuminated neoclassical palace and palm-lined plaza at dusk on the Asunción riverfront",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/paraguay-sightseeing"
+      ]
+    },
+    {
+      "file": "backpacker-colonial-street-asuncion",
+      "base": "/media/generated/backpacker-colonial-street-asuncion",
+      "alt_en": "Traveler with a backpack checking a phone on a sunny colonial street in Asunción",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/paraguay-travel-advice"
+      ]
+    },
+    {
+      "file": "remote-worker-laptop-cafe-asuncion",
+      "base": "/media/generated/remote-worker-laptop-cafe-asuncion",
+      "alt_en": "Remote worker with a laptop and coffee in a bright cafe with plants",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/remote-work-life-in-asuncion-cafes-coworking-internet-you-can-rely-on"
+      ]
+    },
+    {
+      "file": "handing-over-apartment-keys-balcony",
+      "base": "/media/generated/handing-over-apartment-keys-balcony",
+      "alt_en": "Hand passing apartment keys to another hand in a bright empty apartment",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/renting-apartment-asuncion"
+      ]
+    },
+    {
+      "file": "red-sandstone-cliffs-national-park-paraguay",
+      "base": "/media/generated/red-sandstone-cliffs-national-park-paraguay",
+      "alt_en": "Red sandstone cliffs above green forest and grassland at golden hour",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/serrania-san-luis-national-park"
+      ]
+    },
+    {
+      "file": "shopping-street-boutiques-asuncion",
+      "base": "/media/generated/shopping-street-boutiques-asuncion",
+      "alt_en": "Shoppers walking past boutiques on a sunny tree-lined street in Asunción",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/shopping-in-asuncion"
+      ]
+    },
+    {
+      "file": "gourmet-burger-food-truck-park-asuncion",
+      "base": "/media/generated/gourmet-burger-food-truck-park-asuncion",
+      "alt_en": "Gourmet burger and fries on a wooden tray at an evening food truck park",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/villa-morra-food-park"
+      ]
+    },
+    {
+      "file": "tiered-waterfall-rainforest-mist",
+      "base": "/media/generated/tiered-waterfall-rainforest-mist",
+      "alt_en": "Wide tiered waterfall tumbling into a pool in misty tropical forest",
+      "resolution": "1k",
+      "ratio": "3:2",
+      "used_by": [
+        "post/waterfalls-paraguay"
+      ]
+    }
+  ],
+  "harvested": [
+    {
+      "file": "cerro-cora-national-park-view",
+      "base": "/media/harvested/cerro-cora-national-park-view",
+      "alt_en": "Rolling green hills and rock formations at Cerro Cora National Park in Paraguay",
+      "ratio": "21:9",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/07/cerro-cora.jpg",
+      "used_by": [
+        "post/cerro-cora-park"
+      ]
+    },
+    {
+      "file": "chaco-wetlands-aerial-view",
+      "base": "/media/harvested/chaco-wetlands-aerial-view",
+      "alt_en": "Aerial view of winding rivers and dense wetland forest in the Paraguayan Chaco",
+      "ratio": "21:9",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/07/chaco.jpg",
+      "used_by": [
+        "post/filadelfia-chaco"
+      ]
+    },
+    {
+      "file": "jesuit-ruins-trinidad-courtyard",
+      "base": "/media/harvested/jesuit-ruins-trinidad-courtyard",
+      "alt_en": "Brick columns and grass courtyard of the Jesuit ruins of Trinidad in Paraguay",
+      "ratio": "21:9",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/07/jesuit-misions-scaled.jpg",
+      "used_by": [
+        "tour/jesuit-ruins-tour"
+      ]
+    },
+    {
+      "file": "aregua-church-aerial-view",
+      "base": "/media/harvested/aregua-church-aerial-view",
+      "alt_en": "Aerial view of the white church and town of Aregua surrounded by hills and trees",
+      "ratio": "3:2",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/07/aregua.jpg",
+      "used_by": [
+        "tour/day-trips-asuncion"
+      ]
+    },
+    {
+      "file": "encarnacion-riverfront-skyline",
+      "base": "/media/harvested/encarnacion-riverfront-skyline",
+      "alt_en": "Skyline of Encarnacion city seen across the water at golden hour",
+      "ratio": "21:9",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/07/encarnacion.jpg",
+      "used_by": [
+        "post/shopping-beaches"
+      ]
+    },
+    {
+      "file": "san-bernardino-lakefront-sign",
+      "base": "/media/harvested/san-bernardino-lakefront-sign",
+      "alt_en": "Colorful Yo Amo San Ber sign on the lakefront promenade of San Bernardino",
+      "ratio": "3:2",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2026/01/sanber-paraguay-1.jpg",
+      "used_by": [
+        "post/san-bernardino"
+      ]
+    },
+    {
+      "file": "asuncion-historic-building-street",
+      "base": "/media/harvested/asuncion-historic-building-street",
+      "alt_en": "Tourists gather in front of a restored historic building on a downtown Asuncion street",
+      "ratio": "3:2",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/07/asu-2.jpg",
+      "used_by": [
+        "tour/asuncion-city-tour"
+      ]
+    },
+    {
+      "file": "asado-paraguayo-carne-a-la-parrilla",
+      "base": "/media/harvested/asado-paraguayo-carne-a-la-parrilla",
+      "alt_en": "Sliced grilled steak served with garlic and herbs on a dark plate Paraguayan asado style",
+      "ratio": "3:2",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/12/carne-paraguay-scaled.jpg",
+      "used_by": [
+        "post/paraguayan-cuisine"
+      ]
+    },
+    {
+      "file": "rooftop-bar-asuncion-skyline-night",
+      "base": "/media/harvested/rooftop-bar-asuncion-skyline-night",
+      "alt_en": "Crowded rooftop bar with string lights overlooking the illuminated Asuncion skyline at night",
+      "ratio": "21:9",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/12/bar-asuncion.jpg",
+      "used_by": [
+        "tour/bars-asuncion-tour"
+      ]
+    },
+    {
+      "file": "paraguay-souvenir-market-crafts",
+      "base": "/media/harvested/paraguay-souvenir-market-crafts",
+      "alt_en": "Market stall displaying traditional Paraguayan crafts including mate gourds lace and ceramics",
+      "ratio": "3:2",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/12/paraguay-souvenir.jpg",
+      "used_by": [
+        "tour/paraguay-souvenirs"
+      ]
+    },
+    {
+      "file": "itaipu-dam-viewpoint-rainbow",
+      "base": "/media/harvested/itaipu-dam-viewpoint-rainbow",
+      "alt_en": "Tourists in hard hats watch water rushing over Itaipu Dam with a rainbow forming",
+      "ratio": "21:9",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/12/itaipu-dam-paraguay.jpg",
+      "used_by": [
+        "tour/itaipu-dam-tour"
+      ]
+    },
+    {
+      "file": "itaipu-dam-family-viewpoint",
+      "base": "/media/harvested/itaipu-dam-family-viewpoint",
+      "alt_en": "Family looks out over the Itaipu Binacional dam spillway from an observation deck",
+      "ratio": "21:9",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2026/01/itaipu-paraguay.jpg",
+      "used_by": []
+    },
+    {
+      "file": "itaipu-dam-spillway-closeup",
+      "base": "/media/harvested/itaipu-dam-spillway-closeup",
+      "alt_en": "Close up of powerful water release at Itaipu Dam spillway with a bright rainbow",
+      "ratio": "21:9",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2026/01/itaipu-tour.jpg",
+      "used_by": []
+    },
+    {
+      "file": "salto-cristal-waterfall-swimming",
+      "base": "/media/harvested/salto-cristal-waterfall-swimming",
+      "alt_en": "People swim in a turquoise pool beneath the Salto Cristal waterfall while another rappels down",
+      "ratio": "3:2",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/12/salto-cristal-paraguay.jpg",
+      "used_by": [
+        "tour/salto-cristal-tour"
+      ]
+    },
+    {
+      "file": "san-bernardino-sunset-promenade",
+      "base": "/media/harvested/san-bernardino-sunset-promenade",
+      "alt_en": "Families stroll along the palm lined lakefront promenade of San Bernardino at sunset",
+      "ratio": "21:9",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/12/san-bernardino-paraguay.jpg",
+      "used_by": [
+        "tour/san-bernardino-trip"
+      ]
+    },
+    {
+      "file": "yerba-mate-farmer-harvest",
+      "base": "/media/harvested/yerba-mate-farmer-harvest",
+      "alt_en": "Smiling farmer in a straw hat harvests yerba mate leaves on a rural plantation",
+      "ratio": "3:2",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/12/yerba-mate-tour-paraguay.jpg",
+      "used_by": [
+        "tour/yerba-mate-tour"
+      ]
+    },
+    {
+      "file": "birdwatching-toco-toucan-paraguay",
+      "base": "/media/harvested/birdwatching-toco-toucan-paraguay",
+      "alt_en": "Birdwatcher with binoculars observes a toco toucan perched on a branch",
+      "ratio": "3:2",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/12/birdwatching-paraguay.jpg",
+      "used_by": [
+        "tour/bird-watching"
+      ]
+    },
+    {
+      "file": "dorado-fishing-river-sunset",
+      "base": "/media/harvested/dorado-fishing-river-sunset",
+      "alt_en": "Two fishermen reel in a leaping dorado fish from a boat at sunset",
+      "ratio": "21:9",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/12/fishing-paraguay.jpg",
+      "used_by": [
+        "tour/fishing-charters"
+      ]
+    },
+    {
+      "file": "iguazu-falls-aerial-panorama",
+      "base": "/media/harvested/iguazu-falls-aerial-panorama",
+      "alt_en": "Aerial panorama of the wide cascading Iguazu Falls surrounded by rainforest",
+      "ratio": "21:9",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/12/iguazu-falls.jpg",
+      "used_by": [
+        "post/iguazu-falls"
+      ]
+    },
+    {
+      "file": "iguazu-falls-rainbow-panorama",
+      "base": "/media/harvested/iguazu-falls-rainbow-panorama",
+      "alt_en": "Wide panorama of Iguazu Falls with a full rainbow arching over the cascades",
+      "ratio": "21:9",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2026/01/cataratas-yguazu.jpg",
+      "used_by": [
+        "tour/iguazu-falls-from-asuncion"
+      ]
+    },
+    {
+      "file": "iguazu-falls-cascade-closeup",
+      "base": "/media/harvested/iguazu-falls-cascade-closeup",
+      "alt_en": "Close up view looking down into the powerful misty cascade of Iguazu Falls",
+      "ratio": "21:9",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2026/01/cataratas-iguacu.jpg",
+      "used_by": []
+    },
+    {
+      "file": "lido-bar-asuncion-interior",
+      "base": "/media/harvested/lido-bar-asuncion-interior",
+      "alt_en": "Diners at the counter of the historic Lido Bar restaurant in downtown Asuncion since 1953",
+      "ratio": "3:2",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/12/restaurant-asuncion-paraguay.jpg",
+      "used_by": [
+        "tour/restaurants-asuncion-guide"
+      ]
+    },
+    {
+      "file": "pantheon-heroes-tour-group",
+      "base": "/media/harvested/pantheon-heroes-tour-group",
+      "alt_en": "Tour guide talks to a group of tourists in front of the Pantheon of Heroes in Asuncion",
+      "ratio": "3:2",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/12/paraguay-tourism-guide.jpg",
+      "used_by": [
+        "tour/paraguay-culture-tour"
+      ]
+    },
+    {
+      "file": "american-school-asuncion-entrance",
+      "base": "/media/harvested/american-school-asuncion-entrance",
+      "alt_en": "A family is greeted by staff in front of the American School of Asuncion building",
+      "ratio": "3:2",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/12/school-paraguay.jpg",
+      "used_by": [
+        "service/school-placement"
+      ]
+    },
+    {
+      "file": "private-driver-gran-hotel-paraguay",
+      "base": "/media/harvested/private-driver-gran-hotel-paraguay",
+      "alt_en": "Uniformed driver opens a car door for a guest outside the Gran Hotel del Paraguay",
+      "ratio": "3:2",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/12/private-driver-paraguay.jpg",
+      "used_by": [
+        "service/private-driver"
+      ]
+    },
+    {
+      "file": "airport-transfer-silvio-pettirossi",
+      "base": "/media/harvested/airport-transfer-silvio-pettirossi",
+      "alt_en": "Driver holds a welcome sign for arriving tourists outside Silvio Pettirossi International Airport",
+      "ratio": "3:2",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/12/airoport-transfer-paraguay.jpg",
+      "used_by": [
+        "service/airport-transfer"
+      ]
+    },
+    {
+      "file": "jesuit-ruins-stone-archway",
+      "base": "/media/harvested/jesuit-ruins-stone-archway",
+      "alt_en": "Stone archway leading into the moss covered walls of a Jesuit mission ruin",
+      "ratio": "3:2",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/07/ruinas.jpg",
+      "used_by": [
+        "post/jesuit-missions-paraguay"
+      ]
+    },
+    {
+      "file": "jesuit-ruins-night-milky-way",
+      "base": "/media/harvested/jesuit-ruins-night-milky-way",
+      "alt_en": "Illuminated Jesuit mission ruins at night beneath a sky full of stars and the Milky Way",
+      "ratio": "21:9",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/12/ruins-paraguay.jpg",
+      "used_by": [
+        "post/top-places-paraguay"
+      ]
+    },
+    {
+      "file": "chipa-mate-paraguay-flag",
+      "base": "/media/harvested/chipa-mate-paraguay-flag",
+      "alt_en": "Traditional chipa bread rings next to a mate cup and a Paraguayan flag ribbon",
+      "ratio": "3:2",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/07/ZFFSH3PJQRGG5FWNDOHJA3Z3IM-Mediana.jpg",
+      "used_by": [
+        "tour/paraguay-tour"
+      ]
+    },
+    {
+      "file": "lomiteria-el-gaucho-street-food",
+      "base": "/media/harvested/lomiteria-el-gaucho-street-food",
+      "alt_en": "Diners eat at outdoor tables next to a smoking grill at Lomiteria El Gaucho at night",
+      "ratio": "21:9",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/12/food-park-paraguay.jpg",
+      "used_by": []
+    },
+    {
+      "file": "street-vendor-cooking-flatbread",
+      "base": "/media/harvested/street-vendor-cooking-flatbread",
+      "alt_en": "Black and white photo of a street vendor cooking traditional flatbread over an open grill",
+      "ratio": "3:2",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/12/paraguay-food-tour.jpg",
+      "used_by": []
+    },
+    {
+      "file": "sopa-paraguaya-cornbread-slices",
+      "base": "/media/harvested/sopa-paraguaya-cornbread-slices",
+      "alt_en": "Slices of traditional Paraguayan sopa paraguaya cornbread served on a plate",
+      "ratio": "3:2",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-1.31.54-PM.jpeg",
+      "used_by": [
+        "tour/food-paraguay-tour"
+      ]
+    },
+    {
+      "file": "basilica-caacupe-facade",
+      "base": "/media/harvested/basilica-caacupe-facade",
+      "alt_en": "Front facade and dome of the Basilica of Caacupe pilgrimage site in Paraguay",
+      "ratio": "3:2",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/07/caacupe-scaled-e1767364235412.jpg",
+      "used_by": [
+        "post/caacupe"
+      ]
+    },
+    {
+      "file": "riverside-sunset-swim-paraguay",
+      "base": "/media/harvested/riverside-sunset-swim-paraguay",
+      "alt_en": "People swim in calm river water at dusk near a historic riverside building",
+      "ratio": "1:1",
+      "source": "https://thingstodoinparaguay.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-15-at-11.20.53-AM.jpeg",
+      "used_by": [
+        "post/paraguay-beaches"
+      ]
+    }
+  ]
+}

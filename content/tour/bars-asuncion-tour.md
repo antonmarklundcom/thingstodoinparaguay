@@ -2,6 +2,8 @@
 type: tour
 title: Bars Asuncion Tour
 status: published
+cover: /media/harvested/rooftop-bar-asuncion-skyline-night
+cover_alt: "Crowded rooftop bar with string lights overlooking the illuminated Asuncion skyline at night"
 published_at: 2025-07-24T00:00:00Z
 tagline: "Asunción After Dark: The Ultimate Nightlife Experience"
 excerpt: Discover the city's hidden speakeasies, trendy rooftops, and craft beer scene. No stress, no language barriers, just a legendary night out.

@@ -2,6 +2,8 @@
 type: page
 title: Contact
 status: published
+cover: /media/generated/cafe-table-terere-coffee-notebook-paraguay
+cover_alt: "Cafe table in a sunny courtyard with coffee, a phone, a notebook and a terere thermos"
 published_at: 2025-07-24T00:00:00Z
 excerpt: Get in touch with Anton and Yanina to plan a tour, ask about relocating, or get a quote — by WhatsApp, email or the form below.
 meta_title: Contact Things to Do in Paraguay

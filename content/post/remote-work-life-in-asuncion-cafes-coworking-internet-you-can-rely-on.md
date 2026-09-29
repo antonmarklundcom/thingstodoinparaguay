@@ -2,6 +2,8 @@
 type: post
 title: "Remote Work Life in Asunción: Cafés, Coworking & Internet You Can Rely On"
 status: published
+cover: /media/generated/remote-worker-laptop-cafe-asuncion
+cover_alt: "Remote worker with a laptop and coffee in a bright cafe with plants"
 published_at: 2025-07-24T00:00:00Z
 category: living
 tags: [remote-work, coworking, asuncion, digital-nomad]

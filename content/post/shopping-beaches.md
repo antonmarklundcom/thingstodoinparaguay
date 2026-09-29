@@ -2,6 +2,8 @@
 type: post
 title: "Shopping, Culture & Beaches: Two essential Paraguayan cities for visitors"
 status: published
+cover: /media/harvested/encarnacion-riverfront-skyline
+cover_alt: "Skyline of Encarnacion city seen across the water at golden hour"
 published_at: 2025-07-30T06:07:22Z
 category: cities
 tags:

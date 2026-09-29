@@ -69,6 +69,23 @@ final class Exporter
         return ['files' => $written, 'items' => count($items)];
     }
 
+    /**
+     * The cover as a size-less base path ("/media/generated/foo", no "-1280.webp"),
+     * the form bin/seed.php reads back. Null when there is no cover or its file
+     * does not follow the "<base>-<width>.<ext>" naming both webimg and the
+     * admin uploader use.
+     *
+     * @return array{base:string,alt:string}|null
+     */
+    private static function coverBase(array $item): ?array
+    {
+        $media = Repo\MediaRepo::find(empty($item['cover_media_id']) ? null : (int) $item['cover_media_id']);
+        if ($media === null || preg_match('#^(/media/.+)-\d+\.[a-z0-9]+$#i', (string) $media['path'], $m) !== 1) {
+            return null;
+        }
+        return ['base' => $m[1], 'alt' => (string) $media['alt']];
+    }
+
     /** @return array<string,mixed> the front matter bin/seed.php reads back */
     private static function frontMatter(array $item): array
     {
@@ -117,6 +134,12 @@ final class Exporter
                     }
                 }
             }
+        }
+
+        $cover = self::coverBase($item);
+        if ($cover !== null) {
+            $data['cover']     = $cover['base'];
+            $data['cover_alt'] = $cover['alt'];
         }
 
         $data['excerpt']          = (string) $item['excerpt'];

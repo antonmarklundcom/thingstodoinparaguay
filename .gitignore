@@ -4,4 +4,6 @@ cache/
 public/media/*
 !public/media/.htaccess
 !public/media/legacy/
+!public/media/harvested/
+!public/media/generated/
 node_modules/

@@ -2,6 +2,8 @@
 type: service
 title: Apartment Hunting
 status: published
+cover: /media/generated/apartment-living-room-balcony-asuncion
+cover_alt: "Sunlit apartment living room with a sofa and a balcony overlooking green treetops"
 published_at: 2025-07-24T00:00:00Z
 tagline: Apartment Hunting Service – Find Your Home in Paraguay
 excerpt: Relocating to Paraguay? We help foreigners find the perfect apartment in Asunción. We handle the search, viewings, contract negotiation, and translation. Avoid the "foreigner tax" and rent with confidence.

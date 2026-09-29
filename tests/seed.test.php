@@ -114,7 +114,8 @@ test('export writes content/ back and seeding that output round-trips', function
     [$out, $code] = ttp_run_script('seed.php', ['--db=' . $db2, '--quiet', '--content=' . $dir . '/content']);
     assert_same(0, $code, $out);
 
-    $query = 'SELECT slug, type, title, status, excerpt, body_md, word_count FROM content_items ORDER BY slug';
+    $query = 'SELECT i.slug, i.type, i.title, i.status, i.excerpt, i.body_md, i.word_count, m.path AS cover, m.alt AS cover_alt
+              FROM content_items i LEFT JOIN media m ON m.id = i.cover_media_id ORDER BY i.slug';
     $a = (new PDO('sqlite:' . $db))->query($query)->fetchAll(PDO::FETCH_ASSOC);
     $b = (new PDO('sqlite:' . $db2))->query($query)->fetchAll(PDO::FETCH_ASSOC);
     assert_equals($a, $b, 'export → seed must round-trip every item');

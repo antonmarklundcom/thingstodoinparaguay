@@ -2,6 +2,8 @@
 type: post
 title: "What to Do in Asunción: Discover the Soul of Paraguay"
 status: published
+cover: /media/generated/colonial-street-asuncion-pastel-houses
+cover_alt: "Cobblestone street of pastel colonial houses in Asunción with a church dome in the distance"
 published_at: 2025-07-24T00:00:00Z
 category: cities
 tags:

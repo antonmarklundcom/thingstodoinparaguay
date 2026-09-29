@@ -2,6 +2,8 @@
 type: post
 title: "Cost of Living in Paraguay: What It's Really Like for Foreigners in 2025"
 status: published
+cover: /media/generated/fruit-vegetable-market-stall-paraguay
+cover_alt: "Vendor arranging mangoes, cassava, tomatoes and oranges at a Paraguayan market stall"
 published_at: 2025-07-24T07:07:00Z
 category: living
 tags:

@@ -2,6 +2,8 @@
 type: post
 title: Villa Morra Food Park in Asunción
 status: published
+cover: /media/generated/gourmet-burger-food-truck-park-asuncion
+cover_alt: "Gourmet burger and fries on a wooden tray at an evening food truck park"
 published_at: 2025-07-29T08:07:56Z
 category: food
 tags:

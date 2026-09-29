@@ -2,6 +2,8 @@
 type: post
 title: "Paraguay Sightseeing: Explore the unexpected in South America's hidden gem"
 status: published
+cover: /media/generated/palace-plaza-dusk-asuncion-riverfront
+cover_alt: "Illuminated neoclassical palace and palm-lined plaza at dusk on the Asunción riverfront"
 published_at: 2025-07-30T01:07:11Z
 category: activities
 tags:

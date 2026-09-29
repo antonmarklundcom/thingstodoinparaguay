@@ -2,6 +2,8 @@
 type: service
 title: Healthcare Paraguay
 status: published
+cover: /media/generated/clinic-reception-area-paraguay
+cover_alt: "Calm modern clinic reception with a wooden desk, plants and waiting chairs"
 published_at: 2025-07-24T00:00:00Z
 tagline: Healthcare Concierge & Medical Tourism
 excerpt: Navigate the Paraguayan healthcare system with confidence. We connect expats and medical tourists with top-tier private doctors, dentists, and clinics. Translation and appointment scheduling included.

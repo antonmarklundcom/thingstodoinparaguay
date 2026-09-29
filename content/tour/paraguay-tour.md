@@ -2,6 +2,8 @@
 type: tour
 title: Paraguay Tour
 status: published
+cover: /media/harvested/chipa-mate-paraguay-flag
+cover_alt: "Traditional chipa bread rings next to a mate cup and a Paraguayan flag ribbon"
 published_at: 2025-07-24T00:00:00Z
 tagline: Custom Paraguay Itineraries – Build Your Own Journey
 excerpt: Design your perfect trip to Paraguay. Whether you want ancestry research, specific nature expeditions, or business scouting, we build a private itinerary just for you.

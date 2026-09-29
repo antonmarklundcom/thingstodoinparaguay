@@ -2,6 +2,8 @@
 type: post
 title: "The Most Beautiful Waterfalls in Paraguay: A Nature Lover's Guide"
 status: published
+cover: /media/generated/tiered-waterfall-rainforest-mist
+cover_alt: "Wide tiered waterfall tumbling into a pool in misty tropical forest"
 published_at: 2025-08-09T07:08:57Z
 category: nature
 tags:

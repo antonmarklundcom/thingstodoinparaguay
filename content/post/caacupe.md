@@ -2,6 +2,8 @@
 type: post
 title: Caacupé – Spiritual Soul of Paraguay
 status: published
+cover: /media/harvested/basilica-caacupe-facade
+cover_alt: "Front facade and dome of the Basilica of Caacupe pilgrimage site in Paraguay"
 published_at: 2025-07-24T00:00:00Z
 category: cities
 tags: [pilgrimage, day-trip, culture]

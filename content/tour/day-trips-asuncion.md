@@ -2,6 +2,8 @@
 type: tour
 title: Day Trips from Asunción
 status: published
+cover: /media/harvested/aregua-church-aerial-view
+cover_alt: "Aerial view of the white church and town of Aregua surrounded by hills and trees"
 published_at: 2025-07-24T00:00:00Z
 legacy_cover: 35446966705_a61c6dbf77_b.jpg
 legacy_cover_alt: ""

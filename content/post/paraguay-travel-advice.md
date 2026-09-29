@@ -2,6 +2,8 @@
 type: post
 title: "Paraguay Travel Advice: Essential tips for a smooth trip"
 status: published
+cover: /media/generated/backpacker-colonial-street-asuncion
+cover_alt: "Traveler with a backpack checking a phone on a sunny colonial street in Asunción"
 published_at: 2025-07-30T01:07:24Z
 category: tips
 tags:

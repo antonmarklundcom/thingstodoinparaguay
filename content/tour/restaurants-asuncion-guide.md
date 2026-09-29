@@ -2,6 +2,8 @@
 type: tour
 title: Restaurants Asuncion Guide
 status: published
+cover: /media/harvested/lido-bar-asuncion-interior
+cover_alt: "Diners at the counter of the historic Lido Bar restaurant in downtown Asuncion since 1953"
 published_at: 2025-07-24T00:00:00Z
 tagline: Asunción Dining Concierge – The Ultimate Culinary Experience
 excerpt: Discover the best restaurants in Asunción with a personal dining concierge. From world-class Paraguayan steakhouses to high-end fusion cuisine. Reservations, transport, and translation included.

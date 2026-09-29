@@ -2,6 +2,8 @@
 type: post
 title: "Exploring Paraguay's National Parks: A journey through diversity & wilderness"
 status: published
+cover: /media/generated/national-park-viewpoint-green-hills-paraguay
+cover_alt: "Wooden lookout railing over forested green hills in a Paraguayan national park"
 published_at: 2025-07-30T08:07:40Z
 category: nature
 tags:

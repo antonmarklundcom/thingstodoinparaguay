@@ -107,3 +107,23 @@ Build sessions append here (plan ยง4.3). Format: `- [phase] short description โ€
   step and its Lighthouse/LiteSpeed checkboxes exist to catch for the first time. Fix: none needed now;
   whoever runs the staging checklist should expect to hit at least one of these and fix it there, not
   treat a clean local dry run as proof staging will be clean too.
+- [launch] **Imagery resolved (2026-09-29).** Every published item now has a cover: 34 real photos
+  from the old site (`public/media/harvested/`) where the subject matches, 33 new GPT Image 2.5
+  Sunburst images (`public/media/generated/`) for the rest. Covers are declared in front matter
+  (`cover` + `cover_alt`, a size-less base path) and registered by `bin/seed.php` through
+  `src/Media.php`; `bin/export.php` writes them back. Record of prompts/alt/usage:
+  `docs/imagery-manifest.json`. The older "no real imagery" entries above (o1, s3, s4) are obsolete.
+  Every SEO score is now 100/100. The home hero is still the CSS gradient (fast LCP, no image).
+- [launch] The generated images are illustrative (people, streets, interiors), not photos of the
+  business or of specific named premises. Nothing on the site captions them as a real place or
+  team. Keep it that way; swap in real photos through the admin when they exist.
+- [launch] `og:image` for an item is the largest WebP (about 1920 px, 100-300 KB). Fine for most
+  scrapers; if a platform refuses WebP, upload a JPG cover through the admin for that item.
+- [launch] Old-site SEO: `docs/old-site/` holds the live WordPress sitemaps (fetched 2026-09-29),
+  a URL list, and `seo-snapshot.csv` (title, meta description, canonical, H1, H2s of all 74 live
+  pages/posts). The old site had no meta descriptions and default titles, so there is little to
+  preserve beyond the URLs; all 121+ old URLs keep their path or 301 (`docs/url-map.csv`, 140 rows).
+  No Search Console / ranking data exists in the repo; export it from Search Console before the
+  cutover and check the top URLs against the map.
+- [launch] `config/config.php` treated a Windows drive path (`C:/...`) in `DB_PATH` as relative.
+  Fixed: drive-letter paths are now absolute.

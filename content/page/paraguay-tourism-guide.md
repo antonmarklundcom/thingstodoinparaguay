@@ -2,6 +2,8 @@
 type: page
 title: Paraguay Tourism Guide
 status: published
+cover: /media/generated/travel-guidebook-open-map-sunglasses
+cover_alt: "Open printed travel guidebook on a wooden table with a map, sunglasses and coffee"
 published_at: 2025-07-24T00:00:00Z
 excerpt: A digital travel guide to Paraguay covering logistics, destinations and culture — written by locals, for readers planning a trip or a move.
 meta_title: Paraguay Tourism Guide — Digital Travel Guide

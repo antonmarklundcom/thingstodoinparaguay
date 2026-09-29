@@ -20,6 +20,7 @@ require_once dirname(__DIR__) . '/src/bootstrap.php';
 use Ttp\Db;
 use Ttp\FrontMatter;
 use Ttp\Markdown;
+use Ttp\Media;
 use Ttp\Repo\RedirectRepo;
 use Ttp\SeoScore;
 use Ttp\Str;
@@ -206,6 +207,13 @@ foreach (['post', 'page', 'tour', 'service'] as $type) {
             Db::run("UPDATE content_items SET {$set} WHERE id = ?", array_merge(array_values($fields), [(int) $existing['id']]));
             $itemId = (int) $existing['id'];
         }
+
+        // Cover image: front matter carries a size-less base path
+        // ("/media/generated/foo"); the variants are whatever
+        // "<base>-<width>.<ext>" files exist under public/.
+        $coverBase = trim((string) ($fm['cover'] ?? ''));
+        $coverId   = $coverBase !== '' ? Media::registerFromFiles($coverBase, (string) ($fm['cover_alt'] ?? '')) : null;
+        Db::run('UPDATE content_items SET cover_media_id = ? WHERE id = ?', [$coverId, $itemId]);
 
         // Tags
         Db::run('DELETE FROM item_tags WHERE item_id = ?', [$itemId]);

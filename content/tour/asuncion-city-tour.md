@@ -2,6 +2,8 @@
 type: tour
 title: Asuncion City Tour
 status: published
+cover: /media/harvested/asuncion-historic-building-street
+cover_alt: "Tourists gather in front of a restored historic building on a downtown Asuncion street"
 published_at: 2025-07-24T00:00:00Z
 tagline: The "Mother of Cities" Unveiled.
 excerpt: Explore the colonial heart, the neoclassical masterpieces, and the vibrant hidden corners of South America's most underrated capital. Experience it safely, comfortably, and with deep historical context from a fluent English-speaking expert.

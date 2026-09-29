@@ -128,7 +128,7 @@ old_path,type,action,target,new_type,title,notes
 /wp-sitemap-taxonomies-category-1.xml,sitemap,301,/sitemap.xml,,,category taxonomy sub-sitemap
 /wp-sitemap-taxonomies-post_tag-1.xml,sitemap,301,/sitemap.xml,,,tag taxonomy sub-sitemap
 /wp-sitemap-posts-metform-form-1.xml,sitemap,301,/sitemap.xml,,,MetForm CPT sub-sitemap
-/wp-sitemap-users-1.xml,sitemap,301,/sitemap.xml,,,"authors sub-sitemap (inferred, not explicitly named in scan)"
+/wp-sitemap-users-1.xml,sitemap,301,/sitemap.xml,,,"authors sub-sitemap (confirmed live 2026-09-29)"
 /feed/,feed,301,/feed.xml,,,"WP default RSS feed, replaced by new feed.xml"
 /wp-json/,other,410,,,,"WP REST API root, not applicable to rebuilt site"
 /wp-login.php,other,410,,,,"WP login endpoint, not applicable"
@@ -137,3 +137,5 @@ old_path,type,action,target,new_type,title,notes
 /sitemap.xml,sitemap,keep,,other,,new
 /robots.txt,other,keep,,other,,new
 /feed.xml,feed,keep,,other,,new
+/author/yanina/,other,301,/about/,,Author archive,"in the live WP sitemap (users sub-sitemap); no author pages in the rebuild"
+/author/marklundmailgmail-com/,other,301,/about/,,Author archive,"in the live WP sitemap (users sub-sitemap); no author pages in the rebuild"

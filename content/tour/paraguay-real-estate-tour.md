@@ -2,6 +2,8 @@
 type: tour
 title: Paraguay Real Estate Tour
 status: published
+cover: /media/generated/apartment-towers-villa-morra-asuncion
+cover_alt: "Modern apartment towers along a tree-lined street in Villa Morra, Asunción at sunset"
 published_at: 2025-07-24T00:00:00Z
 legacy_cover: pexels-maggi-paraguay-1595606129-27397344-Mediana.jpg
 legacy_cover_alt: vori vori paraguayan food

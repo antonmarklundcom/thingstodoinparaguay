@@ -2,6 +2,8 @@
 type: service
 title: Paraguay Residency Service
 status: published
+cover: /media/generated/passport-documents-residency-desk-paraguay
+cover_alt: "Desk with a passport, folder of documents, pen and coffee beside a small Paraguayan flag"
 published_at: 2025-07-24T00:00:00Z
 tagline: Paraguay Residency & Immigration Assistance
 excerpt: Obtain your Paraguayan Residency and Cedula ID. Expert guidance for expats, investors, and digital nomads. We handle the paperwork, translations, and immigration filings.

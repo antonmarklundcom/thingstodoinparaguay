@@ -164,6 +164,7 @@ final class Uploader
         $paths = [(string) $media['path']];
         foreach (self::sizes($media) as $size) {
             $paths[] = (string) ($size['webp'] ?? '');
+            $paths[] = (string) ($size['avif'] ?? '');
             $paths[] = (string) ($size['original'] ?? '');
         }
 

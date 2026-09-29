@@ -2,6 +2,8 @@
 type: post
 title: "Food Park Mburucuyá: a culinary oasis in Asunción"
 status: published
+cover: /media/generated/food-park-string-lights-dusk-asuncion
+cover_alt: "People eating at communal tables under string lights at an Asunción food park at dusk"
 published_at: 2025-07-29T08:07:47Z
 category: food
 tags:

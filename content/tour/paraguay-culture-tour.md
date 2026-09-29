@@ -2,6 +2,8 @@
 type: tour
 title: Paraguay Culture Tour
 status: published
+cover: /media/harvested/pantheon-heroes-tour-group
+cover_alt: "Tour guide talks to a group of tourists in front of the Pantheon of Heroes in Asuncion"
 published_at: 2025-07-24T00:00:00Z
 tagline: The Golden Circuit – Art, History & Spirituality
 excerpt: The ultimate day trip from Asunción. Visit the artisan towns of Itauguá (Lace) and Areguá (Pottery), and the spiritual capital Caacupé. Private transport and English guide included.

@@ -2,6 +2,8 @@
 type: post
 title: Is Paraguay Safe?
 status: published
+cover: /media/generated/asuncion-plaza-palms-daytime-strollers
+cover_alt: "Locals and visitors strolling through a sunny palm-lined plaza in Asunción"
 published_at: 2025-07-24T00:00:00Z
 category: tips
 tags:
