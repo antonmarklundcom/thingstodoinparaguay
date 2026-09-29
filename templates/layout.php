@@ -63,6 +63,14 @@ $jsVer   = is_file($jsFile) ? (string) filemtime($jsFile) : '1';
         <link rel="stylesheet" href="/assets/site.css">
     <?php endif; ?>
 
+    <?php if ($config['bing_verify'] !== ''): ?>
+        <meta name="msvalidate.01" content="<?= View::e($config['bing_verify']) ?>">
+    <?php endif; ?>
+
+    <?php $an = $config['analytics']; if ($an['src'] !== ''): ?>
+        <script defer src="<?= View::e($an['src']) ?>"<?= $an['domain'] !== '' ? ' data-domain="' . View::e($an['domain']) . '"' : '' ?><?= $an['website_id'] !== '' ? ' data-website-id="' . View::e($an['website_id']) . '"' : '' ?>></script>
+    <?php endif; ?>
+
     <?php if ($ga4Id !== ''): ?>
         <script async src="https://www.googletagmanager.com/gtag/js?id=<?= View::e($ga4Id) ?>"></script>
         <script>

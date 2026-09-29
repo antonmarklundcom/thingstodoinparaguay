@@ -57,6 +57,12 @@ final class Router
             return Response::redirect($to, 301);
         }
 
+        // IndexNow ownership file: /<INDEXNOW_KEY>.txt must answer with the key itself.
+        $inKey = IndexNow::key();
+        if ($inKey !== '' && $path === '/' . $inKey . '.txt') {
+            return Response::text($inKey, 'text/plain; charset=UTF-8');
+        }
+
         // 3. Machine-readable routes.
         switch ($path) {
             case '/sitemap.xml':
@@ -439,6 +445,27 @@ final class Router
         }
         if ($category !== null) {
             $node['articleSection'] = (string) $category['name'];
+        }
+
+        // Posts that are about one place also describe it as a TouristAttraction.
+        $attractions = (array) require ttp_root() . '/config/attractions.php';
+        $place = $attractions[(string) $item['slug']] ?? null;
+        if ($place !== null) {
+            $placeId = $seo->canonicalUrl() . '#place';
+            $node['about'] = ['@id' => $placeId];
+            $attraction = [
+                '@type'               => 'TouristAttraction',
+                '@id'                 => $placeId,
+                'name'                => (string) $place,
+                'description'         => $seo->description,
+                'url'                 => $seo->canonicalUrl(),
+                'touristType'         => 'Travellers',
+                'containedInPlace'    => ['@type' => 'Country', 'name' => 'Paraguay'],
+            ];
+            if ($cover !== null) {
+                $attraction['image'] = Seo::url((string) $cover['path']);
+            }
+            $seo->graphs[] = $attraction;
         }
         $seo->graphs[] = $node;
 

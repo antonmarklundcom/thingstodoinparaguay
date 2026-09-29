@@ -91,6 +91,14 @@ function ttp_config(): array
             'list_id' => $get('MAILCHIMP_LIST_ID'),
         ],
         'ga4_id'      => $get('GA4_ID'),
+        // Privacy-friendly analytics (Plausible/Umami style), off unless ANALYTICS_SRC is set.
+        'analytics'   => [
+            'src'        => $get('ANALYTICS_SRC'),
+            'domain'     => $get('ANALYTICS_DOMAIN'),
+            'website_id' => $get('ANALYTICS_WEBSITE_ID'),
+        ],
+        'bing_verify' => $get('BING_VERIFY'),
+        'indexnow_key' => $get('INDEXNOW_KEY'),
         'whatsapp'    => $get('WHATSAPP_NUMBER', '595995628862'),
         // Brand constants (plan §1.10). Overridable per-install via the settings table.
         'site_name'   => 'Things to do in Paraguay',
