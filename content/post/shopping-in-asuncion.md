@@ -2,6 +2,8 @@
 type: post
 title: Shopping in Asunción
 status: published
+cover: /media/generated/shopping-street-boutiques-asuncion
+cover_alt: "Shoppers walking past boutiques on a sunny tree-lined street in Asunción"
 published_at: 2025-07-29T08:07:37Z
 category: activities
 tags:

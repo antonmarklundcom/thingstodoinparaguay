@@ -2,6 +2,8 @@
 type: service
 title: Travel Planner
 status: published
+cover: /media/generated/travel-planning-desk-map-south-america
+cover_alt: "Travel planning desk with a notebook, map of South America, phone and mate cup"
 published_at: 2025-07-24T00:00:00Z
 tagline: Custom Travel Planning & Itinerary Design
 excerpt: Let local experts design your perfect Paraguay itinerary. We build custom day-by-day plans, route maps, and hotel recommendations based on your interests and budget.

@@ -2,6 +2,8 @@
 type: tour
 title: Bird Watching
 status: published
+cover: /media/harvested/birdwatching-toco-toucan-paraguay
+cover_alt: "Birdwatcher with binoculars observes a toco toucan perched on a branch"
 published_at: 2025-07-24T00:00:00Z
 tagline: Bird Watching in Paraguay – The Undiscovered Paradise
 excerpt: Discover over 700 bird species in Paraguay. From the Bare-throated Bellbird in the Atlantic Forest to the Jabiru in the Chaco. Expert guides for serious birders and nature lovers.

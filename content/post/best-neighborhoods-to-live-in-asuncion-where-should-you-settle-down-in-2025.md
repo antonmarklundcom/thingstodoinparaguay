@@ -2,6 +2,8 @@
 type: post
 title: "Best Neighborhoods to Live in Asunción: Where Should You Settle Down in 2025?"
 status: published
+cover: /media/generated/villa-morra-tree-lined-street-asuncion
+cover_alt: "Tree-lined street with cafes and low-rise apartment buildings in Villa Morra, Asunción"
 published_at: 2025-07-24T08:07:26Z
 category: living
 tags: [relocation, neighborhoods, expat-life, housing]

@@ -2,6 +2,8 @@
 type: post
 title: Top Places to Discover in Paraguay
 status: published
+cover: /media/harvested/jesuit-ruins-night-milky-way
+cover_alt: "Illuminated Jesuit mission ruins at night beneath a sky full of stars and the Milky Way"
 published_at: 2025-07-24T04:07:34Z
 category: activities
 tags:

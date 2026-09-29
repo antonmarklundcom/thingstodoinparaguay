@@ -2,6 +2,8 @@
 type: post
 title: Exploring the Soul of Ciudad del Este
 status: published
+cover: /media/generated/ciudad-del-este-shopping-street-crowd
+cover_alt: "Crowded shopping street with electronics stalls in Ciudad del Este"
 published_at: 2025-07-24T03:07:50Z
 category: cities
 tags:

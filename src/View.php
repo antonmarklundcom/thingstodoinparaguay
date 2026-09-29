@@ -147,11 +147,18 @@ final class View
             : ' loading="lazy" decoding="async">';
 
         $webp = self::srcset($variants, 'webp');
-        if ($webp === '') {
+        $avif = self::srcset($variants, 'avif');
+        if ($webp === '' && $avif === '') {
             return $img;
         }
-        return '<picture><source type="image/webp" srcset="' . Str::e($webp) . '"'
-             . ' sizes="' . Str::e($sizes) . '">' . $img . '</picture>';
+        $sources = '';
+        foreach (['avif' => $avif, 'webp' => $webp] as $type => $srcset) {
+            if ($srcset !== '') {
+                $sources .= '<source type="image/' . $type . '" srcset="' . Str::e($srcset) . '"'
+                          . ' sizes="' . Str::e($sizes) . '">';
+            }
+        }
+        return '<picture>' . $sources . $img . '</picture>';
     }
 
     /**

@@ -2,6 +2,8 @@
 type: post
 title: "Discover Paraguay's hidden jungle: the Atlantic forest"
 status: published
+cover: /media/generated/atlantic-forest-trail-paraguay
+cover_alt: "Sunlit hiking trail through dense Atlantic rainforest with giant ferns"
 published_at: 2025-07-30T03:07:21Z
 category: nature
 tags: [biodiversity, conservation, hiking]

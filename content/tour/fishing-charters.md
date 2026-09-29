@@ -2,6 +2,8 @@
 type: tour
 title: Fishing Charters
 status: published
+cover: /media/harvested/dorado-fishing-river-sunset
+cover_alt: "Two fishermen reel in a leaping dorado fish from a boat at sunset"
 published_at: 2025-07-24T00:00:00Z
 tagline: Fishing in Paraguay – Chase the Golden Dorado
 excerpt: World-class sport fishing on the Paraná and Paraguay Rivers. Catch the legendary Golden Dorado, Surubí, and Pacú. Full-service fishing charters with boats, guides, and gear included.

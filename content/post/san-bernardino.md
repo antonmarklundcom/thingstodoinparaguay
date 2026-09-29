@@ -2,6 +2,8 @@
 type: post
 title: Discover San Bernardino, Paraguay – A Chic Lakefront Getaway for Relaxation and Fun
 status: published
+cover: /media/harvested/san-bernardino-lakefront-sign
+cover_alt: "Colorful Yo Amo San Ber sign on the lakefront promenade of San Bernardino"
 published_at: 2025-07-24T00:00:00Z
 category: cities
 tags: [lake-ypacarai, cordillera, day-trip, summer-resort]

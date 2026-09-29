@@ -2,6 +2,8 @@
 type: post
 title: Filadelfia, Chaco – A Journey into the Mennonite Heart of Paraguay
 status: published
+cover: /media/harvested/chaco-wetlands-aerial-view
+cover_alt: "Aerial view of winding rivers and dense wetland forest in the Paraguayan Chaco"
 published_at: 2025-07-24T00:00:00Z
 category: cities
 tags:

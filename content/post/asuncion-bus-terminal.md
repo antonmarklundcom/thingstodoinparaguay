@@ -2,6 +2,8 @@
 type: post
 title: "Your Gateway to Paraguay: A Complete Guide to the Asunción Bus Terminal"
 status: published
+cover: /media/generated/intercity-bus-terminal-platforms-paraguay
+cover_alt: "Intercity coaches and waiting passengers with luggage at a covered bus terminal platform"
 published_at: 2025-12-08T10:12:35Z
 category: cities
 tags: [asuncion, bus, transport, travel-tips]

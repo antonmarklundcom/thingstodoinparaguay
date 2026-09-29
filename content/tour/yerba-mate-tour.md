@@ -2,6 +2,8 @@
 type: tour
 title: Yerba Mate Tour
 status: published
+cover: /media/harvested/yerba-mate-farmer-harvest
+cover_alt: "Smiling farmer in a straw hat harvests yerba mate leaves on a rural plantation"
 published_at: 2025-07-24T00:00:00Z
 tagline: The Yerba Mate Route – Origins of the Green Gold
 excerpt: Journey to the heart of Yerba Mate production in Paraguay. Visit the plantations and drying houses of Bella Vista and learn the seeding, drying, and tasting process of Paraguay's national drink.

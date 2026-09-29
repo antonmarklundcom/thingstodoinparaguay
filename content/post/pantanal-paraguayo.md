@@ -2,6 +2,8 @@
 type: post
 title: Exploring the Pantanal Paraguayo
 status: published
+cover: /media/generated/pantanal-wetland-sunset-caiman-egrets
+cover_alt: "Caiman resting on the bank of a Pantanal wetland at sunset with egrets wading"
 published_at: 2025-07-30T06:07:22Z
 category: nature
 tags:

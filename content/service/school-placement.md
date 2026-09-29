@@ -2,6 +2,8 @@
 type: service
 title: School Placement
 status: published
+cover: /media/harvested/american-school-asuncion-entrance
+cover_alt: "A family is greeted by staff in front of the American School of Asuncion building"
 published_at: 2025-07-24T00:00:00Z
 tagline: School Search & Placement Service
 excerpt: Expert assistance for expat families finding schools in Paraguay. We guide you through the best international schools (American, British, German), admissions, and enrollment.

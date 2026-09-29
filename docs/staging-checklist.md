@@ -25,7 +25,7 @@ referenced here live in `deploy/`; `deploy/README.md` explains each one in full.
 - [ ] **Cron job added** for `php bin/publish-due.php` (hPanel → Advanced → Cron Jobs;
       absolute path, see `deploy/README.md`).
 - [ ] **`php bin/verify.php --base=https://staging.thingstodoinparaguay.com` passes.** Run
-      it from a machine that can reach the staging URL — this is the same 138-row,
+      it from a machine that can reach the staging URL — this is the same 140-row,
       515-assertion check CI runs locally, pointed at the real deploy instead of a booted
       `php -S`. Fix anything Hostinger-specific it turns up (`.htaccess` rewrite behaviour
       differing from local Apache, a missing PHP extension, file permissions) before

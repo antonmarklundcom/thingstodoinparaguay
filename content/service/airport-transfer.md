@@ -2,6 +2,8 @@
 type: service
 title: Airport Transfer
 status: published
+cover: /media/harvested/airport-transfer-silvio-pettirossi
+cover_alt: "Driver holds a welcome sign for arriving tourists outside Silvio Pettirossi International Airport"
 published_at: 2025-07-24T00:00:00Z
 tagline: Asunción Airport Transfer (ASU) – Safe & Reliable
 excerpt: Private airport transfer from Silvio Pettirossi (ASU) to your hotel in Asunción. Meet & Greet service, flight tracking, and fixed prices. Safe, English-friendly transport.

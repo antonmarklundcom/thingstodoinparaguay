@@ -2,6 +2,8 @@
 type: post
 title: "Paraguay's Hidden Beach Paradises: More Than Just a Landlocked Country"
 status: published
+cover: /media/harvested/riverside-sunset-swim-paraguay
+cover_alt: "People swim in calm river water at dusk near a historic riverside building"
 published_at: 2025-08-09T10:08:40Z
 category: nature
 tags:

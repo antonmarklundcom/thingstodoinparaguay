@@ -2,6 +2,8 @@
 type: tour
 title: Jesuit Ruins Tour
 status: published
+cover: /media/harvested/jesuit-ruins-trinidad-courtyard
+cover_alt: "Brick columns and grass courtyard of the Jesuit ruins of Trinidad in Paraguay"
 published_at: 2025-07-24T00:00:00Z
 tagline: Jesuit Ruins Tour – A UNESCO World Heritage Journey
 excerpt: Visit the UNESCO Jesuit Missions of Trinidad and Jesús de Tavarangue. A private historical tour through the heart of Paraguay's "Red South." English guide and transport included.

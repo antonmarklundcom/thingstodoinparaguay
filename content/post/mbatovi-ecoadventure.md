@@ -2,6 +2,8 @@
 type: post
 title: "Explore Eco‑Reserva Mbatoví: Paraguay's premier eco‑adventure destination"
 status: published
+cover: /media/generated/forest-canopy-suspension-bridge-eco-reserve
+cover_alt: "Suspension bridge and hiking trail above a misty forest canopy in an eco reserve"
 published_at: 2025-07-30T05:07:48Z
 category: nature
 tags:

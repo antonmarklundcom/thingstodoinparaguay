@@ -2,6 +2,8 @@
 type: page
 title: About
 status: published
+cover: /media/generated/asuncion-skyline-paraguay-river-sunset
+cover_alt: "Asunción skyline seen across the Paraguay River at golden hour"
 published_at: 2025-07-24T00:00:00Z
 excerpt: Meet Anton and Yanina — a Swedish marketing strategist and a Paraguayan photographer who built a small, hands-on travel and relocation service in Asunción.
 meta_title: About Things to Do in Paraguay

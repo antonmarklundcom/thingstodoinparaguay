@@ -2,6 +2,8 @@
 type: tour
 title: Salto Cristal Tour
 status: published
+cover: /media/harvested/salto-cristal-waterfall-swimming
+cover_alt: "People swim in a turquoise pool beneath the Salto Cristal waterfall while another rappels down"
 published_at: 2025-07-24T00:00:00Z
 legacy_cover: pexels-maggi-paraguay-1595606129-27397344-Mediana.jpg
 legacy_cover_alt: vori vori paraguayan food

@@ -2,6 +2,8 @@
 type: tour
 title: Iguazu Falls from Asuncion
 status: published
+cover: /media/harvested/iguazu-falls-rainbow-panorama
+cover_alt: "Wide panorama of Iguazu Falls with a full rainbow arching over the cascades"
 published_at: 2025-07-24T00:00:00Z
 tagline: Iguazu Falls Private Tour – From Asuncion
 excerpt: The ultimate day trip or overnight adventure to Iguazu Falls from Asuncion. Private transport, border crossing assistance, and guided tour of the Brazilian or Argentine falls.

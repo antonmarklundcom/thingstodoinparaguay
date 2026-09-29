@@ -2,6 +2,8 @@
 type: post
 title: "Cerro Corá National Park: Hiking, Wildlife & History in Paraguay"
 status: published
+cover: /media/harvested/cerro-cora-national-park-view
+cover_alt: "Rolling green hills and rock formations at Cerro Cora National Park in Paraguay"
 published_at: 2025-07-24T00:00:00Z
 category: nature
 tags: [national-park, hiking, history]

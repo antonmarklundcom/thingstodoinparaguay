@@ -2,6 +2,8 @@
 type: service
 title: Private Driver
 status: published
+cover: /media/harvested/private-driver-gran-hotel-paraguay
+cover_alt: "Uniformed driver opens a car door for a guest outside the Gran Hotel del Paraguay"
 published_at: 2025-07-24T00:00:00Z
 tagline: Private Driver Service in Asunción & Paraguay
 excerpt: Hire a professional, English-speaking private driver in Paraguay. Safe transport for business meetings, city tours, or cross-country trips. Daily and hourly rates available.

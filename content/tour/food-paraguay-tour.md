@@ -2,6 +2,8 @@
 type: tour
 title: Food Paraguay Tour
 status: published
+cover: /media/harvested/sopa-paraguaya-cornbread-slices
+cover_alt: "Slices of traditional Paraguayan sopa paraguaya cornbread served on a plate"
 published_at: 2025-07-24T00:00:00Z
 tagline: "Taste the Real Paraguay: A Culinary Journey Beyond the Guidebooks"
 excerpt: Discover the unique flavors of the "Heart of South America." From the cheesy crunch of hot Chipa to the legendary street-side Lomito, we take you to the places locals love, ensuring authentic flavors and total peace of mind.

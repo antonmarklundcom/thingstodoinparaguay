@@ -2,6 +2,8 @@
 type: post
 title: "The Jesuit Missions of Paraguay: Why You Should Add Them to Your Life-Changing Itinerary"
 status: published
+cover: /media/harvested/jesuit-ruins-stone-archway
+cover_alt: "Stone archway leading into the moss covered walls of a Jesuit mission ruin"
 published_at: 2025-07-24T07:07:37Z
 category: activities
 tags:

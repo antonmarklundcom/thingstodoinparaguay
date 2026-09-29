@@ -2,6 +2,8 @@
 type: post
 title: "Discover the Hidden wonder of Caaguazú: Complejo Ecológico Techapyrã"
 status: published
+cover: /media/generated/waterfall-footbridge-eco-park-paraguay
+cover_alt: "Small waterfall and wooden footbridge in a lush green eco park"
 published_at: 2025-07-30T08:07:51Z
 category: nature
 tags:

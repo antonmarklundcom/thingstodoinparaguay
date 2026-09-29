@@ -2,6 +2,8 @@
 type: page
 title: Services
 status: published
+cover: /media/generated/moving-boxes-keys-colonial-house-asuncion
+cover_alt: "Moving boxes and house keys on the doorstep of a colonial house in Asunción"
 published_at: 2025-07-24T00:00:00Z
 excerpt: Airport pickups, private drivers, real estate tours, residency guidance and other practical services for visiting or moving to Paraguay.
 meta_title: Paraguay Travel & Relocation Services

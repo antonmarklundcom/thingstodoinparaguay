@@ -2,6 +2,8 @@
 type: post
 title: "Serranía San Luis National Park: Paraguay's Hidden Wildscape"
 status: published
+cover: /media/generated/red-sandstone-cliffs-national-park-paraguay
+cover_alt: "Red sandstone cliffs above green forest and grassland at golden hour"
 published_at: 2025-07-30T08:07:32Z
 category: nature
 tags:

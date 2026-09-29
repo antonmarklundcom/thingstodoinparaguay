@@ -2,6 +2,8 @@
 type: tour
 title: Shopping Asuncion
 status: published
+cover: /media/generated/shopping-mall-atrium-asuncion
+cover_alt: "Shoppers with bags walking through a bright mall atrium in Asunción"
 published_at: 2025-07-24T00:00:00Z
 tagline: Personal Shopper & Guide
 excerpt: The ultimate shopping guide for Asunción. Find the best deals on electronics, leather, and fashion. Avoid tourist traps and shop with a local expert.

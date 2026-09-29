@@ -56,7 +56,7 @@ only what it serves changes.
 
 - [ ] Load `https://thingstodoinparaguay.com/` in a real browser, no cache, and check it is
       this app (not WordPress, not a 500).
-- [ ] `php bin/verify.php --base=https://thingstodoinparaguay.com` — the same 138-row check,
+- [ ] `php bin/verify.php --base=https://thingstodoinparaguay.com` — the same 140-row check,
       now against production. Every row must pass before you tell anyone the cutover is done.
 - [ ] Submit a real lead through `/contact/` and confirm it appears in `/admin/` → Leads.
 

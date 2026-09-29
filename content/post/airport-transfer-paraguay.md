@@ -2,6 +2,8 @@
 type: post
 title: "Airport Transfer in Paraguay: Stress-free travel from the moment you land"
 status: published
+cover: /media/generated/airport-arrivals-hall-travelers-paraguay
+cover_alt: "Travelers with suitcases walking through a bright airport arrivals hall"
 published_at: 2025-07-24T00:00:00Z
 category: tips
 tags: [airport, transport, asuncion]

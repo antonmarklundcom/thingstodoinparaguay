@@ -2,6 +2,8 @@
 type: post
 title: A food lover's Guide to Paraguayan Cuisine
 status: published
+cover: /media/harvested/asado-paraguayo-carne-a-la-parrilla
+cover_alt: "Sliced grilled steak served with garlic and herbs on a dark plate Paraguayan asado style"
 published_at: 2025-07-24T04:07:27Z
 category: food
 tags:

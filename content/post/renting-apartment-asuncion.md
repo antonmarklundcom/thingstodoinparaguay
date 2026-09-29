@@ -2,6 +2,8 @@
 type: post
 title: "Renting an Apartment in Asunción: What You Need to Know"
 status: published
+cover: /media/generated/handing-over-apartment-keys-balcony
+cover_alt: "Hand passing apartment keys to another hand in a bright empty apartment"
 published_at: 2025-07-24T00:00:00Z
 category: living
 tags: [renting, apartments, asuncion, housing]

@@ -2,6 +2,8 @@
 type: tour
 title: San Bernardino Trip
 status: published
+cover: /media/harvested/san-bernardino-sunset-promenade
+cover_alt: "Families stroll along the palm lined lakefront promenade of San Bernardino at sunset"
 published_at: 2025-07-24T00:00:00Z
 tagline: San Bernardino – The Summer Capital
 excerpt: Visit San Bernardino, Paraguay's historic summer town. Explore German colonial history, taste the famous "Bollos," and enjoy a sunset over Lake Ypacaraí.

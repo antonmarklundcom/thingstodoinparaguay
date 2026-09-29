@@ -2,6 +2,8 @@
 type: post
 title: "Iguazú Falls: A Must-See Adventure Near Paraguay"
 status: published
+cover: /media/harvested/iguazu-falls-aerial-panorama
+cover_alt: "Aerial panorama of the wide cascading Iguazu Falls surrounded by rainforest"
 published_at: 2025-08-09T09:08:37Z
 category: nature
 tags:

@@ -2,6 +2,8 @@
 type: tour
 title: Paraguay Souvenirs
 status: published
+cover: /media/harvested/paraguay-souvenir-market-crafts
+cover_alt: "Market stall displaying traditional Paraguayan crafts including mate gourds lace and ceramics"
 published_at: 2025-07-24T00:00:00Z
 tagline: Authentic Paraguay Souvenirs Tour
 excerpt: Buy authentic Paraguayan handicrafts. Guided tour to artisan markets for Ñandutí lace, Filigree jewelry, and Leather goods. Support local artists and avoid tourist traps.
